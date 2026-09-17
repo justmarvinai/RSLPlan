@@ -1,5 +1,14 @@
 # 04 — Gear, Masteries & Account Economy
 
+> **⚠️ SECONDARY SOURCE.** This file predates the research pack and was compiled from **web
+> search synthesis**, not direct source access. **Where it disagrees with
+> `docs/research/claude-web/`, the pack wins** (`CLAUDE.md §2.7`).
+>
+> **Superseded sections are marked inline.** Everything still standing is tagged
+> `unverified (search synthesis, 2026-09-17)` and is listed in
+> `docs/research/DATA_CONFLICTS.md §C`. It is kept because the pack is silent on it — not
+> because it is confirmed.
+
 **Compiled:** 2026-09-17 · Confidence tags per `docs/research/00-methodology-and-sources.md`
 
 This document covers the systems that actually determine how fast a fresh account moves.
@@ -206,17 +215,20 @@ Both are **Tier 6 Offense**. You can only have one. `[CONFIRMED]`
 
 `[LIKELY — consistently reported, not verified against Plarium's own text]`
 
-### The decision rule — and a correction
-**Hit count is the decision axis. Boss vs non-boss is NOT.** `[LIKELY]`
+### The decision rule — **use the pack's version**
 
-Boss content halves *both* equally (10%→4%, 5%→2%), so it does not flip the choice. What flips
-it is how many times a skill hits:
+> **✅ SUPERSEDED BY THE PACK, which states it more precisely:**
+> **HellHades' Clan Boss guide — if the champion's A1 hits once or twice, take Warmaster; if it
+> hits three or four times, take Giant Slayer.**
+>
+> **The axis is the A1's hit count, not the skill's.** That distinction matters: **Kael takes
+> Warmaster**, because his 4-hit skill is the **A3**, not the A1. My earlier framing said
+> "multi-hit skills" and would have led you to Giant Slayer on him.
+>
+> **Applied to this roster: Giant Slayer for Apothecary, Alure and Gnishak. Warmaster for
+> everyone else.** See `docs/research/02-champion-dossiers.md`.
 
-- **Single-hit skills → Warmaster.** One hit means Giant Slayer gets exactly one 30% roll
-  against Warmaster's 60% roll at double damage. Warmaster wins decisively
-- **Multi-hit skills → Giant Slayer.** A **3-hit** skill gives ~66% chance of at least one proc
-  (beating Warmaster's 60%); a **4-hit** skill ~76% `[LIKELY]`
-- **Practical threshold: ~3+ hits per skill**
+Boss content halves *both* procs equally (10%→4%, 5%→2%), so it does not flip the choice.
 
 **Clan Boss caveat:** Clan Bosses cap damage taken per hit. At the cap, **Warmaster and Giant
 Slayer deal identical damage** because both proc values exceed it. `[LIKELY in principle; the
@@ -410,11 +422,18 @@ needs two copies of the same champion**. Bonuses are **global and always-on** `[
 
 - Three rarities: Rare, Epic, Legendary `[CONFIRMED]`
 - **You must use a tome matching the champion's rarity** `[CONFIRMED]`
-- **🚨 Each tome adds one level to ONE skill, and WHICH skill is upgraded is RANDOM among
-  skills still needing improvement** `[CONFIRMED]`
+- ~~Each tome upgrades a **RANDOM** skill~~ — **❌ SUPERSEDED AND ALMOST CERTAINLY WRONG.**
 
-**That randomness is the whole problem.** You cannot target the skill you want. If a champion
-has one skill worth booking and three that are not, you will waste tomes on the three.
+> **🚨 This claim has been withdrawn.** It came from search synthesis and was wrongly tagged
+> `[CONFIRMED]`. The research pack's tome plan spends **2 tomes on UDK's A3 specifically**,
+> which is only coherent if **you choose the skill**. The current plan
+> (`docs/plan/13-tome-allocation.md`) is built on targeting.
+>
+> **This is flagged for in-game verification** — `DATA_CONFLICTS.md §A1`. It takes ten seconds
+> and the tome plan depends on it.
+>
+> **One rule does survive:** tome rarity does not cross upward. **Legendary tomes cannot be
+> used on a Mythical** — Galathir needs **Mythical Tomes**, of which you own zero.
 
 **Sources** `[CONFIRMED]`: Missions, login rewards, **Clan Boss chests**, clan activity,
 **Live Arena (1 Legendary tome/month regardless of tier)**, **Faction Wars star track**, events.

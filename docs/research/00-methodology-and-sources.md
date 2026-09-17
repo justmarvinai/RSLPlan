@@ -1,5 +1,16 @@
 # 00 — Research Methodology, Source Quality & Confidence Grading
 
+> **⚠️ SUPERSEDED AS THE SOURCE OF RECORD.** This file documents the **first** research pass,
+> which had no direct access to hellhades.com or ayumilove.net and worked from web-search
+> synthesis instead.
+>
+> **The primary source is now `docs/research/claude-web/`** — a pack compiled with direct
+> access on 2026-09-17. See **`docs/research/SOURCES.md`** for provenance and
+> **`docs/research/DATA_CONFLICTS.md`** for what changed.
+>
+> This file is kept because the **confidence-grading scheme below is still in force**, and
+> because the access constraint it describes still applies to this environment.
+
 **Compiled:** 2026-09-17
 **Game version context:** RAID: Shadow Legends, patch line **11.7x** (11.50 → 11.75, 2026)
 **Account context:** Fresh starter account, zero content cleared

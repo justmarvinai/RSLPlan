@@ -62,8 +62,36 @@ export interface Skill {
   bookPriority?: 'critical' | 'useful' | 'skippable' | 'unknown';
 }
 
+/** Every rating block carries its provenance. A value with no provenance is unusable. */
+export interface RatingSet<T> {
+  source: 'hellhades.com' | 'ayumilove.net';
+  scale: '0-10' | '1-5 stars';
+  retrieved: string;                       // ISO date
+  overall?: T;
+  /** Standard case: one rating per content type. */
+  byContent?: Partial<Record<ContentType, T>>;
+  /** Mythical dual-form champions (Starsage Galathir) rate PER FORM. */
+  byForm?: Record<'base' | 'alternate', Partial<Record<ContentType, T>>>;
+}
+
 export interface Champion {
   id: string;                    // 'starsage-galathir'
+  /** Rarity determines starting rank, which determines food cost to 6-star.
+   *  Mythical starts at 6 (zero feeders); Rare starts at 3 (three rank-ups).
+   *  This is the single most important field for build ordering. */
+  startRank: 3 | 4 | 5 | 6;
+  feedersTo6Star: string;
+  /** Mythicals cannot use Legendary tomes. The tome planner must respect this. */
+  tomes: {
+    tomeRarity: Rarity;
+    toMaxAllSkills: number;
+    ayumiloveHeaderSays?: number;   // present only when it conflicts with the skill list
+    conflictNote?: string;
+    hellhadesBookValue: number;     // 0-10
+    hellhadesBookPriority: string[];
+    source: string;
+    retrieved: string;
+  };
   name: string;
   rarity: Rarity;
   faction: Value<string>;
@@ -73,12 +101,15 @@ export interface Champion {
   skills?: Skill[];
   capabilities: Capability[];    // derived from skills; the team solver reads this
 
-  /** Per-content verdicts. Absent = not evaluated. NEVER default-fill this. */
-  contentRatings?: Partial<Record<ContentType, {
-    grade: 'S' | 'A' | 'B' | 'C' | 'D' | 'unusable';
-    reasoning: string;           // required — a grade without reasoning is not allowed
-    confidence: Confidence;
-  }>>;
+  /**
+   * Ratings, stored PER SOURCE. Never merged, never averaged.
+   * HellHades is 0-10; Ayumilove is 1-5 stars. A UI that needs one sort order
+   * computes it at render time and labels it derived.
+   */
+  ratings: {
+    hellhades?: RatingSet<number>;   // 0-10
+    ayumilove?: RatingSet<number>;   // 1-5
+  };
 
   /** Verdict for THIS account specifically — not a generic tier list. */
   accountVerdict?: {

@@ -1,332 +1,207 @@
 # 14 — The 30-Day Plan
 
-**Day 1 = 2026-09-17** · Assumes account level <20, Campaign Normal partially cleared,
-low gems, no meaningful gear. If that is wrong, see `USER_QUESTION.md` Q1 and tell me — the
-schedule shifts but the order does not.
+> **🔄 TIER 3 — ANALYSIS, NOT SOURCE DATA.**
+> **Regenerate wholesale when the roster changes.** Framework from HellHades' new-player guide
+> and Ayumilove's beginner and levelling guides via the research pack; sequencing and champion
+> choices are reasoning on top of `docs/research/`.
+
+**Regenerated:** 2026-09-17 from the research pack. **Day 1 = 2026-09-17.**
 
 ---
 
 ## The one-sentence version
 
-> **Build a resource engine (Kael), join a clan, then spend the engine's output on exactly five
-> more champions — and ignore everything else.**
-
-Everything below is that sentence, expanded.
+> **Build Starsage Galathir first because he costs no food, get Artak farming Brutal 12-3, and
+> let the core five carry four game modes on one gear investment.**
 
 ---
 
-## What "success at day 30" looks like
+# ⏰ Do these before anything else
 
-| Metric | Target | Stretch |
+## 1. 🚨 The new-player promo code — time-limited
+
+**Only one can be redeemed per account.** HellHades' promo page states it must be used
+**before level 15 and within 24 hours of account creation**. *(Their new-player guide says 72
+hours; the pack advises assuming the tighter 24-hour window.)*
+
+**Active new-player codes as of 2026-09-13** — one champion each, plus brews, potions and
+300k silver:
+
+`TREEHUGGER` Greenwarden Ruarc · `DESERTQUEEN` Tuhanarak · `GOFAST` Razelvarg ·
+`KITTYCUT` Cheshire Cat · `FIRESTORM` Sicia Flametongue · `MADBOMBER` Gaius the Gleeful ·
+`UNBROKEN` Giath the Truthshield · `GETGRANDOAK` Grand Oak Padraig ·
+`SUPERVICTORY` Pelops the Victor · `UDKING` Ultimate Deathknight · `FORTRESS` Walking Tomb Dreng ·
+`HEARTBREAKER` Cupidus · `GETALICE` Alice the Wanderer · `BIGDAWG` Turvold ·
+`STONECOLD` Thylessia · `STAGSLAYER` Stag Knight · `FINALSPITE` Uugo · `NEMESIS` Akemtum ·
+`HEARTOFCOLD` Coldheart
+
+**Recommendation for your roster:**
+- **`HEARTOFCOLD` (Coldheart)** — the strongest general-purpose Rare for **Fire Knight, Spider
+  and boss damage**, and Fire Knight is your weakest area; **or**
+- **`FIRESTORM` (Sicia Flametongue)** — an **HP Burn activator** that slots straight into the
+  Artak / Ninja / Rathalos burn loop
+
+**Skip `UDKING` and `FINALSPITE` — you already own those champions.**
+
+**Time-limited codes active 2026-09-13:** `PP500` (Plarium Play only), `EPYRE`, `DOROTHY`.
+**One code per day.**
+
+> **→ If the account is older than 24 hours or past level 15, this window is gone.** Tell me and
+> I will drop it from the plan (`USER_QUESTION.md` Q1).
+
+## 2. Join a clan **at your progression level**
+Clan Boss keys, **Chimera (level 33)** and **Hydra (level 45)** are all clan content.
+**Joining a clan far above you means worse chest rewards for you, not better.**
+
+## 3. Gems
+- **Unlock the Gem Mine — 500 gems.** It repays itself in roughly **100 days**
+- **Spend your first 800 gems on masteries for your first rank-6 champion** (that is **Artak**)
+- **Do not buy shards with gems**
+
+---
+
+# Days 1–3 — Setup
+
+- [ ] **Redeem the promo code** (see above — the window may already be closed)
+- [ ] **Join a clan** at your level
+- [ ] **Start the Arbiter progress missions.** They double as a checklist of what the game
+      expects next, and hand out shards, silver and gems along the way
+- [ ] **Push Normal campaign** using your rank-5 Legendaries as they level
+- [ ] **Fill every Sparring Pit slot and keep it full from now on.** A fully upgraded pit tops a
+      champion up in roughly the time it takes to feed a 1★ champion in the Tavern
+- [ ] **Fight your daily Classic Arena battles even if you lose.** Medals upgrade the Great
+      Hall, which buffs every champion you will ever own
+- [ ] **📖 Book Ultimate Deathknight's A3 — 2 Legendary tomes — on day one.** Cooldown **5 → 3**
+      on the team Shield + Continuous Heal. The cheapest large upgrade you own
+- [ ] **Start levelling Starsage Galathir.** He is already **rank 6 — zero food, only XP**
+
+---
+
+# Days 4–14 — Farmer online
+
+**Goal: Artak at 6★ level 60, farming Brutal 12-3.**
+
+- [ ] Move **Normal → Hard → Brutal** as your clear speed allows
+- [ ] **Gear Artak** in whatever **Speed, Perception and Lifesteal** you find, prioritising
+      **HP% and SPD**. His damage scales off HP, so cheap gear works
+- [ ] Get **Artak to 6★ and level 60** (5 rank-5 feeders)
+- [ ] Copy HellHades' **"Solo Farm Build"** mastery preset for him
+- [ ] **Level feeders in batches** — the Multi-Battle training queue holds **60 champions**
+      (July 2026), and **Auto-Equip** (May 2026) gears fodder fast
+- [ ] **Get UDK to level 50** — HellHades notes supports do their job at 50 — and **apply his A2
+      books (4 Legendary tomes)**: Decrease ATK **80% → 100%**, cooldown **4 → 3**
+- [ ] **Start daily Clan Boss** on whatever difficulty you can survive
+
+**Energy per run:** Normal 4 · Hard 6 · **Brutal 8** · Nightmare 16.
+**XP targets:** 963,806 for a rank-5 to level 50 · 2,010,669 for a rank-6 to 60.
+
+---
+
+# Days 15–21 — Dungeons open up
+
+- [ ] **Clan Boss every day**, climbing Normal → Hard → Brutal.
+      **Killing the boss doubles everyone's chest**, so clear a lower difficulty rather than
+      scratch a higher one
+- [ ] Take **Dragon, Ice Golem and Spider to stage 10** with the core five
+- [ ] **Run Minotaur for mastery scrolls** — **Super Raids are permanent there**
+- [ ] **Run the Potion Keeps for ascension materials** — **Super Raids became permanent in the
+      Keeps in April 2026**, roughly halving the farming time
+- [ ] **Ninja to 60**
+- [ ] Aim to **finish Arbiter missions part 1**
+- [ ] 📖 **Book Artak's A3 (4 Legendary tomes)** — HP Burn **75% → 100%**, cooldown **4 → 3**
+
+---
+
+# Days 22–30 — Settle the loop
+
+- [ ] **Farm Brutal 12-3** for XP and silver
+- [ ] **Rathalos to 60** — completes the burn core
+- [ ] **Push dungeons toward stage 13–16.** **Stage 16 is where Mystery Shards stop dropping**,
+      a useful milestone marker
+- [ ] **Start Chimera weekly chests once you hit level 33** — **ignore Trials entirely for now**,
+      they make the Ultimate form stronger
+- [ ] **Start Fire Knight low stages** with High Khatun, Apothecary and Alure as they come
+      online. The shield is only **5 hits at stages 1–6** and **7 at 7–9**
+- [ ] **Hold shards for boosted summon events.** Regular Summon Boosts were raised to **15×** and
+      Progressive Chance events to **20×/25×/30×** in the September 2026 patch, and a
+      **Void ×2 event started 2026-09-18**
+
+---
+
+# The daily loop, from week 2
+
+- [ ] **Clan Boss keys** — all of them, on the highest difficulty you can **actually beat**
+- [ ] **Classic Arena battles** — medals for the Great Hall
+- [ ] **Faction Wars** in whatever factions you can field
+- [ ] **Daily and weekly missions**
+- [ ] **Free daily shop items**
+- [ ] **All remaining energy** into campaign farming or the dungeon you are pushing
+- [ ] Log in for the **3-hour bonus collection** when convenient
+
+---
+
+# Build order inside the 30 days
+
+| Days | Champion | Target |
 |---|---|---|
-| Account level | 45+ | 50 |
-| **Campaign farmer** | **Kael 60/6★ soloing Brutal 12-3 on auto** | Sub-40-second clears |
-| Champions at 60 | 3–5 | 6 |
-| Dragon's Lair | Stage 10–13 farmable | 15+ |
-| Ice Golem | Stage 10–15 | 18 |
-| Clan Boss | **Hard chests consistently** | Brutal |
-| Arena | **Silver** | Gold |
-| Great Hall | ACC investment started | Several levels in |
-| Masteries | Kael complete (gems) | +1 more |
-| Faction Wars | Unlocked (lvl 30), started | Several crypts progressing |
-
-**These are calibrated for a fresh account.** If you beat them you are ahead. **Do not measure
-yourself against content-creator showcases** — those represent years of farming plus Mythical
-gear that literally cannot drop below Hard Stage 26.
+| 1–7 | **Starsage Galathir** | Level 60 — **zero food** |
+| 4–14 | **Artak** | **6★**, level 60 — the farmer |
+| 7–14 | **Ultimate Deathknight** | **50 fast**, then 60 |
+| 15–21 | **Ninja** | Level 60 |
+| 22–30 | **Rathalos Blademaster** | Level 60 |
+| 22–30+ | **Uugo** | 50–60 |
+| as they fit | **High Khatun · Apothecary · Alure** | 50+ — the Fire Knight kit |
 
 ---
 
-# PHASE 0 — Foundation · Days 1–3
+# Login rewards worth knowing about
 
-**Goal: stop bleeding value and start the engine.** Everything here is cheap and permanent.
-
-### Day 1
-- [ ] **🔑 Join an active clan.** Free, and it is worth more than any single champion build.
-      It unlocks **Clan Boss** (your main early source of Shards, Books and Gems), and it is a
-      hard gate on **Chimera** (which needs 10+ clanmates at level 33 with 50 weekly activity
-      stars) and therefore on the entire **Relic** system
-- [ ] **Redeem every active promo code.** They expire and are constantly missed `[CONFIRMED]`
-- [ ] **Set Kael as your build target.** Start levelling him immediately
-- [ ] **Stop opening shards.** Never open Ancient/Void/Sacred/Primal outside a 2× Summon Boost
-      `[CONFIRMED as consensus]`. Hoard from today
-- [ ] **Check every reward menu manually.** Several tracks only pay out if you open them and
-      claim `[CONFIRMED]`
-
-### Day 2
-- [ ] **Push Campaign as hard as energy allows.** Campaign is the whole game in week one
-- [ ] **Buy Common/Uncommon champions from the Market for food.** **Never feed duplicate
-      Rares** — Faction Guardians need **two copies of the same champion** per Chamber, and
-      that bonus is permanent, global and always-on `[CONFIRMED]`
-- [ ] **Save your Mystery Shards** for Champion Chase / Fusion events `[CONFIRMED]`
-
-### Day 3
-- [ ] **Spend 10 Rare Tomes on Apothecary** — full max. Cheapest large power gain you will get
-- [ ] Start levelling **Apothecary** alongside Kael
-- [ ] **Set your daily routine** (below) and actually follow it
-
-**✅ Exit criteria:** in a clan · Kael levelling · Apothecary booked · daily routine running.
+| Day | Reward |
+|---|---|
+| **30** | **High Khatun** — a **duplicate** for you. **Use it for Faction Guardians or as skill-up material, not fodder** |
+| 60 | Yaga the Insatiable |
+| **61–90** | **A Sacred Shard and a Legendary Skill Tome** — relevant, since Legendary tomes are your bottleneck |
+| 90 | Dark Athel |
+| 120 | Dark Elhain |
+| 150 | Lordly Legionary |
+| 180 | Scyl of the Drakes |
 
 ---
 
-# PHASE 1 — The Farmer · Days 1–10
-
-**Goal: Kael at level 60, 6★, soloing Brutal 12-3 on auto at 100% reliability.**
-
-**This is the single highest-leverage objective on a fresh account.** Every downstream
-system — ascension, mastery farming, gear upgrading, rank-ups — is bottlenecked by XP and
-silver, and Kael is how you produce both.
-
-### The work
-- [ ] Push Campaign to **Brutal 12-3**
-- [ ] Level Kael to 60, rank him to **6★** (Market fodder, never duplicate Rares)
-- [ ] **Gear: Lifesteal + Speed.** Stats **HP, DEF, SPD, ACC** — *survivability, not damage*
-- [ ] **🔑 Spend your first 800 Gems buying his masteries outright** `[CONFIRMED]` — described
-      by multiple 2026 guides as one of the highest-value gem expenditures in the game. It
-      skips the entire Minotaur bootstrap problem
-- [ ] **⚠️ 6★ him BEFORE masteries** — Tier 6 masteries are locked behind Rank 6 `[CONFIRMED]`
-- [ ] Verify he clears Brutal 12-3 **solo, on auto, 100% of the time**
-- [ ] Turn on **Multi-Battle** and let it run unattended
-
-### Why reliability, not speed
-Under **Super Raids** (2× energy for 2× rewards) **a failed run costs you the doubled runs**
-`[CONFIRMED]`. A 95%-reliable farmer is actively expensive. **Boring and bulletproof beats fast
-and flaky.**
-
-**✅ Exit criteria:** Kael 60/6★, full masteries, Brutal 12-3 solo on auto, Multi-Battle running.
-
----
-
-# PHASE 2 — The Core Five · Days 5–20
-
-**Goal: a functioning PvE core that covers the universal requirements** — Decrease DEF,
-cleanse/Block Debuffs, Increase SPD, sustained damage, survivability.
-
-Build **in this order**. Finish one before starting the next.
-
-### Days 3–10 — **Apothecary** (started in Phase 0)
-Level 60 · 6★ · **triple Speed sets** · **100% C.RATE** (Critical Heals take his heal from 35%
-→ 52.5%) · **Giant Slayer, not Warmaster** (3-hit A1, and Giant Slayer procs per hit)
-`[CONFIRMED]` · Lore of Steel · Lasting Gifts.
-
-### Days 7–14 — **Ultimate Deathknight**
-Level 60 · 6★ · HP/DEF gear · high RES · **Defence primary, Support secondary** masteries.
-**No Warmaster/Giant Slayer** — he is not a damage mastery champion.
-
-**He is the reason your under-geared team stops dying:** +30% ally DEF aura, AoE 50% Decrease
-ATK at 80% chance, team Shield + Continuous Heal, and he **redirects a full hit off any ally**.
-
-### Days 12–18 — **Uugo**
-Level 60 · 6★ · **Perception/Speed** · **200+ SPD** · as much ACC as you can find ·
-**book her A2 first** (→ 100% chance, 3-turn cooldown) `[CONFIRMED]` · **Warmaster**.
-
-**60% AoE Decrease DEF is the largest damage increase available to you.**
-Push **Ascension** — Stage 3 gives +10 ACC, Stage 6 gives +10% HP `[LIKELY]`.
-
-### Days 16–22 — **Artak**
-Level 60 · 6★ · **HP/SPD/ACC** · Regeneration or Perception · **Warmaster**.
-
-He scales off **MAX HP**, so he performs on the cheap gear you actually have. **He is your only
-AoE HP Burn** — which makes him the win condition at Spider, the enabler for Rathalos's passive,
-and your DoT pressure at Ice Golem.
-
-### Days 20–26 — **Tagoar**
-Level 60 · 6★ · **HP/SPD/DEF**, Speed boots · Regeneration/Immortal/Guardian · Defence + Support
-masteries with **Shield Bearer**.
-
-**His AoE Increase SPD on a 3-turn cooldown is what unlocks 2:1 Clan Boss speed tunes** —
-one of the biggest early-account power spikes available.
-
-> **Keep High Khatun at a low level purely as an aura leader.** An unlevelled champion still
-> provides their aura, and hers is **+19% ally SPD in all battles**. That is nearly free stats.
-
-**✅ Exit criteria:** five champions at 60 · Decrease DEF and Decrease ATK covered · ACC climbing.
-
----
-
-# PHASE 3 — Dungeon Entry · Days 15–30
-
-**Goal: farmable stages in the gear dungeons.** Start once your core has 3 champions at 60.
-
-### Order — and why
-1. **Dragon's Lair first.** The most forgiving of the four — no shield-break check, no revive
-   mechanic, no summon spam — and it drops **Speed and Lifesteal**, the two sets your farmer and
-   supports need most
-2. **Ice Golem second.** Your Force champions are advantaged at stage 25, and **Poison + HP Burn
-   pressure skips the revive mechanic entirely** `[CONFIRMED]`
-3. **Spider third.** The **accessories** dungeon — a large, often-ignored share of your stats
-4. **Fire Knight last.** It is a mechanics check, not a stat check, and it needs Alure and
-   Gnishak geared. **Do not bang your head against it in month one**
-
-### Targets by day 30
-| Dungeon | Target | Team (see `12-teams-by-content.md`) |
-|---|---|---|
-| **Dragon** | Stage 10–13 | High Khatun ⭐ · Uugo · Apothecary · UDK · Artak |
-| **Ice Golem** | Stage 10–15 | UDK ⭐ · Uugo · Tagoar · Artak · Kael |
-| **Spider** | Stage 8–15 | Tagoar ⭐ · Artak · Uugo · UDK · Apothecary |
-| **Fire Knight** | Stage 6–13 | Apothecary ⭐ · Uugo · UDK · Artak · Kael |
-
-### Gear rules while you farm
-- **🚨 Do not upgrade anything past level 8 unless it is 5★ with good substats** `[CONFIRMED]`.
-  This is the single biggest silver leak for new players
-- **Do not roll gear to 16 on a random day.** Bank upgrades for an **Artifact Enhancement
-  event**, ideally overlapping a Clan vs Clan tournament so you score in both `[CONFIRMED]`
-- **Accuracy is the gate.** More PvE failures come from resisted debuffs than from low damage
-
-**✅ Exit criteria:** Dragon 10+ farmable on auto · Ice Golem started · gear quality rising.
-
----
-
-# PHASE 4 — Clan Boss & Arena · Days 10–30 (parallel)
-
-These run **alongside** everything above. They are not a separate phase in time, only in topic.
-
-### Clan Boss — from day 10, or as soon as you have 3 champions at 60
-- **1 key per 6 hours, max 2 stored** `[CONFIRMED]` → **~4 keys/day if you log in regularly.**
-  Missing logins literally burns rewards
-- **Damage accumulates across keys within the week** — chests are by damage threshold
-- **Beating a difficulty unlocks the next**
-- **Target by day 30: Hard chests consistently, Brutal as a stretch**
-
-**Team:** High Khatun ⭐ · UDK · Uugo · Apothecary · Kael
-**Priority: survive the whole fight.** Damage is irrelevant if you die at turn 30.
-
-> **🚨 Before you assign masteries to anyone in this team:** **Rapid Response, Arcane Celerity
-> and Cycle of Magic BREAK speed tunes** `[CONFIRMED]`. Decide whether a champion is a tuned CB
-> champion *first* — undoing it costs a full 1,650-scroll re-farm.
-
-### Arena — from day 15, daily
-- **Do your free battles every day.** Two reasons: **Great Hall Medals**, and **Daily Quest
-  completion** (which grants the energy refills that fund everything else)
-- **Target: Silver by day 30.** Gold is a stretch; **Platinum is not happening** — do not chase it
-- **Team:** High Khatun ⭐ (three Speed sets, +12% SPD each) · Kael · Uugo · Artak
-
-### 🔑 Great Hall — the irreversible decision
-- **Priority: ACC → C.DMG → RESIST → DEF → HP → ATK** `[CONFIRMED as consensus]`
-- **C.DMG, RESIST and ACC give more stat per Medal** than HP/ATK/DEF `[CONFIRMED]`
-- **🚨 Upgrades cannot be undone.** New players dump medals into ATK% and regret it
-
-**Put your first medals into ACC.** It is both the most efficient per medal and the direct fix
-for your most common failure mode.
-
----
-
-# PHASE 5 — Unlocks · Days 25–30
-
-| Unlock | Level | What to do |
-|---|---|---|
-| **Faction Wars** | **30** | Start it. Primary **Glyph** source. Long-term: 3-star all Normal stages → **Lydia the Deathsiren** |
-| **Chimera** | **33** | Unlocks, but needs a capable clan. **Do not expect to contribute yet** |
-| **Doom Tower** | **40** | Clear the first 20–30 Normal floors for one-time rewards. **Do not farm Secret Rooms early** `[CONFIRMED]` |
-
-**On Faction Wars:** it requires fielding a full team from **one faction**, and your roster is
-spread thin — Orcs (Artak, Tagoar), Dwarves (Hurndig, Morag), Barbarians (Turvold, High Khatun)
-are your only doubled factions. **It will be slow. That is expected, and it is a reason to keep
-off-faction Rares rather than feed them.**
-
----
-
-# The Daily Routine
-
-**Short, frequent logins beat one long session.** Energy caps at 130 and stops regenerating
-`[LIKELY]` — **overcapping is the #1 silent energy loss for new players.**
-
-### Every login (2–4× daily, ~10 minutes)
-- [ ] **Spend energy** — Campaign farming on Multi-Battle, or dungeons
-- [ ] **Clan Boss key** if one is available (1 per 6h, max 2 stored)
-- [ ] Claim anything claimable
-
-### Once daily (~20 minutes)
-- [ ] **Arena battles** — Great Hall Medals + Daily Quest progress
-- [ ] **Complete Daily Quests** — they grant **energy refills**, worth ~260 extra energy/day
-- [ ] **Advanced Quests** — small but steady payouts
-- [ ] Check **Progress Missions** for anything close to completion
-- [ ] Clan activity (for Clan Activity Stars — these gate Chimera)
-
-### Weekly
-- [ ] Weekly quests
-- [ ] Check for **2× Summon Boost events** — the only time to open shards
-- [ ] Check for **Artifact Enhancement events** — the only time to roll gear to 16
-- [ ] Review progress against this plan
-
-### Energy budget `[LIKELY, derived]`
-**~480/day natural regen** (1 per 3 min) **+ ~260 from two free daily refills ≈ 740/day** — *if*
-you log in often enough not to overcap.
-
-**Rough allocation while in phases 1–2:** 70% Campaign (XP + silver + food) · 20% dungeons ·
-10% Minotaur once you can clear stage 13+.
-
----
-
-# Your north star: the Progress Missions chain
-
-| Part | Missions | Reward |
-|---|---|---|
-| 1 | 76 | **300 Gems** |
-| 2 | 75 | **1 Sacred Shard** |
-| 3 | 75 | **2 Legendary Skill Tomes** |
-| 4 | 60 | **🏆 Arbiter** |
-
-**Arbiter is a Void Legendary whose aura is +30% SPD in all areas** — the single best F2P
-champion reward in the game, and a permanent upgrade to every team you will ever build
-`[CONFIRMED]`.
-
-**This is the correct answer to "what am I working toward?" for the next several months.**
-Check the mission list regularly — many complete passively while you follow this plan.
-
----
-
-# 🚫 What NOT to do in the first 30 days
+# 🚫 What not to do
 
 | Don't | Why |
 |---|---|
-| **Build Starsage Galathir yet** | Most expensive champion to level; his kit is insurance, not acceleration; his data is unverified. **Day 45–60** |
-| **Build Turvold yet** | **Explicitly gated behind having a buff-support team** you do not have |
-| **Spend Legendary Tomes** | You cannot gear a Legendary properly yet, and your stock grows passively |
-| **Push Fire Knight hard** | Gear-gated on Alure and Gnishak. Month 2–4 |
-| **Chase Chimera or Hydra** | Level 33 / 45 gates plus clan requirements |
-| **Chase Fusion events to completion** | They demand deep roster and gear. **Take the milestone rewards, do not wreck your economy** |
-| **Open shards off-event** | Summon Boosts do **not** raise Legendary odds — they bias *which* Legendary. Still hoard for events |
-| **Feed Epics, Legendaries or duplicate Rares** | Irreversible. Duplicates are Faction Guardian fuel |
-| **Upgrade 3★ gear past level 8** | Biggest silver leak in the early game |
-| **Give masteries to a champion below 6★** | Locks out Tier 6 — the only masteries that matter |
-| **Build all 18 champions** | The single most likely way to waste this roster |
+| **Build Kael or Apothecary first** | **They are the most expensive champions on your account to 6★** — three rank-ups each. Galathir costs none |
+| **Chase a Clan Boss speed tune** | HellHades recommends an **untuned speed team** for early accounts. A 2:1 or 4:3 tune needs the DeadwoodJedi calculator and the right cooldowns |
+| **Do Chimera Trials** | They make the Ultimate form **significantly stronger**. Farm the weekly chest |
+| **Rush past dungeon stage 20** | Stages 21–25 change the rules — Enemy Max HP damage capped, TM reduction halved |
+| **Use turn-meter tricks at Dragon** | **Dragon bosses are immune to all turn-meter and speed manipulation** |
+| **Push Fire Knight hard early** | The core five is weak there (**UDK rated 5**). It needs Alure, High Khatun and Apothecary |
+| **Spend Legendary tomes on Galathir** | **Impossible** — Mythicals need Mythical tomes |
+| **Open shards off-event** | Hold for boosted summons |
+| **Feed the day-30 High Khatun duplicate** | Faction Guardians or skill-up material |
 
 ---
 
-# Week-by-week summary
+# Day-30 targets
 
-### Week 1 — Days 1–7
-Join a clan · redeem codes · push Campaign · **Kael to 60/6★ on Lifesteal** · book Apothecary
-(10 Rare Tomes) · start Apothecary · **800 Gems → Kael masteries** · stop opening shards.
+| Metric | Target |
+|---|---|
+| **Campaign** | **Artak 6★/60 farming Brutal 12-3** |
+| Champions at 60 | **4–5** (Galathir, Artak, UDK, Ninja, Rathalos) |
+| Dragon / Ice Golem / Spider | **Stage 13–16** |
+| Fire Knight | **Low stages started** |
+| Clan Boss | **Hard, climbing to Brutal** |
+| Arena | Daily battles done, medals accumulating |
+| Chimera | **Weekly chest** if level 33 reached |
+| Arbiter missions | **Part 1 complete** |
+| Legendary tomes spent | **10 of 12** (UDK A3, UDK A2, Artak A3) |
 
-### Week 2 — Days 8–14
-**Brutal 12-3 solo running on Multi-Battle** · Apothecary to 60/6★ · start **Ultimate
-Deathknight** · **begin Clan Boss keys — every 6 hours** · start Arena dailies · **first Great
-Hall medals into ACC**.
-
-### Week 3 — Days 15–21
-UDK to 60/6★ · **Uugo to 60/6★ and book her A2** · **start Dragon's Lair** · push Ascension ·
-Arena to Silver · Clan Boss to Hard · **Faction Wars at level 30**.
-
-### Week 4 — Days 22–30
-**Artak to 60/6★** · start **Tagoar** · **Dragon stage 10–13 farmable** · start Ice Golem and
-Spider · Clan Boss Hard consistently · **Minotaur once you can auto stage 13+** · Doom Tower at
-level 40 · review and re-plan.
+**These are calibrated for a fresh account.** Do not measure yourself against showcase builds —
+Savage, Cruel, Merciless, Relentless, Protection and Stoneskin all come from **dungeon stage
+16+ or Hydra** and are month 2–4 targets.
 
 ---
 
-# If things go wrong
-
-| Symptom | Diagnosis | Fix |
-|---|---|---|
-| Kael cannot solo Brutal 12-3 | Not 60/6★ yet, or gear too weak | Finish the level/rank first. Lifesteal + HP/DEF, not damage |
-| Debuffs keep resisting | **ACC too low** — the #1 new-player failure | Perception sets · ACC substats · **Great Hall ACC** |
-| Team dies in dungeons | Under-geared, or wrong leader | Lead with **UDK (+30% DEF)** or **Tagoar (+25% HP)**. Survive first |
-| Out of silver | Upgrading bad gear | Nothing past level 8 unless 5★ with good substats |
-| Out of energy | Overcapping | More frequent, shorter logins. Complete Daily Quests for refills |
-| Progress feels slow | Building too many champions | **Finish one. Then the next.** Six, not eighteen |
-| Nothing works at Dragon 25 | **Affinity** — stage 25 is Force | Field Force/Void champions; leave the Magic crowd home |
-
----
-
-**Next:** `docs/plan/15-day-31-plus.md` — Day 31 to 180.
+**Next:** `docs/plan/15-day-31-plus.md`

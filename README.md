@@ -3,120 +3,126 @@
 A researched, prioritised progression plan for one specific account, plus (later) a tracker
 website to keep it current as the roster changes.
 
-**Account:** fresh starter · 1 Mythical · 7 Legendary · 8 Epic · 2 Rare · 26/110/12 tomes
-**Compiled:** 2026-09-17 · **Game version:** patch line 11.7x
+**Account:** fresh starter · 1 Mythical · 7 Legendary · 8 Epic · 2 Rare · 26/110/12/**0** tomes
+**Primary source:** `docs/research/claude-web/` — retrieved **2026-09-17** with direct access
+to hellhades.com and ayumilove.net
 
 ---
 
 ## ⚡ Start here
 
-**If you read three files, read these:**
-
-1. **[`docs/plan/14-day-1-30-plan.md`](docs/plan/14-day-1-30-plan.md)** — what to do, starting today
-2. **[`docs/plan/11-build-priority.md`](docs/plan/11-build-priority.md)** — which six champions to build, and in what order
-3. **[`docs/plan/12-teams-by-content.md`](docs/plan/12-teams-by-content.md)** — teams for all nine content types
-
-Then answer **[`USER_QUESTION.md`](USER_QUESTION.md)** — 14 questions, none of them blocking,
-each with a stated default assumption.
+1. **[`USER_QUESTION.md`](USER_QUESTION.md) — Q1 first.** The new-player promo code expires
+   **24 hours after account creation and before level 15**. If that window is open, redeem now
+2. **[`docs/plan/14-day-1-30-plan.md`](docs/plan/14-day-1-30-plan.md)** — what to do, starting today
+3. **[`docs/plan/11-build-priority.md`](docs/plan/11-build-priority.md)** — who to build, in order
+4. **[`docs/plan/12-teams-by-content.md`](docs/plan/12-teams-by-content.md)** — teams for all nine content types
+5. **[`docs/research/DATA_CONFLICTS.md`](docs/research/DATA_CONFLICTS.md)** — **4 decisions I need from you**
 
 ---
 
-## The headline finding
+## The finding that drives everything
 
-> **You are not champion-limited. You are resource-limited.**
+> **Rarity sets starting rank, and starting rank sets how much food a champion eats.**
 
-Eight of the nine content types you asked about are already *roster-solved* — you own the
-mechanical answers. What you lack is gear, levels, silver, mastery scrolls and account level.
+| Start rank | Feeders to 6★ |
+|---|---|
+| **6 — Mythical** | **none** |
+| 5 — Legendary | 5 rank-5 |
+| 4 — Epic | 4 rank-4, then 5 rank-5 |
+| 3 — Rare | 3 rank-3, 4 rank-4, then 5 rank-5 |
 
-**So the plan is: build a resource engine first, then spend its output on exactly six
-champions.** Not eighteen.
+**Kael and Apothecary are the most expensive champions on this account to six-star. Starsage
+Galathir is free — he arrives at rank 6.**
 
-| # | Champion | Role | Start |
+This is the opposite of standard new-account advice, and it is entirely a consequence of this
+roster's rarity mix. **It is also why an earlier version of this plan was wrong** — see
+`docs/research/DATA_CONFLICTS.md §B1`.
+
+### The core five
+**Starsage Galathir · Ultimate Deathknight · Artak · Ninja · Rathalos Blademaster**
+
+They carry **Clan Boss, Spider, Dragon and Ice Golem simultaneously**, so one gear investment
+serves four modes — and they are the cheapest champions on the roster to rank.
+
+| # | Champion | Target | Why |
 |---|---|---|---|
-| 1 | **Kael** | Campaign farmer — generates resources | Day 1 |
-| 2 | **Apothecary** | Healer / speed — 10 Rare Tomes for a full max | Day 3 |
-| 3 | **Ultimate Deathknight** | Survivability anchor | Day 7 |
-| 4 | **Uugo** | 60% AoE Decrease DEF — your damage multiplier | Day 12 |
-| 5 | **Artak** | Damage + your only AoE HP Burn | Day 16 |
-| 6 | **Tagoar** | AoE Increase SPD — unlocks Clan Boss speed tunes | Day 22 |
+| 1 | **Starsage Galathir** | Level 60 | **Zero food.** Ayumilove SS · HellHades 10 overall |
+| 2 | **Artak** | 6★, 60 | **Campaign farmer** — HP-scaling, 3 AoE skills, dedicated HellHades preset |
+| 3 | **Ultimate Deathknight** | 50 → 60 | **AoE 50% Decrease ATK at 80%** + team shields |
+| 4 | **Ninja** | 60 | Demon Lord **10** · Chimera **10** · Hydra **10** |
+| 5 | **Rathalos Blademaster** | 60 | Completes the burn core; **ignores 100% of boss DEF** |
+| 6 | **Uugo** | 50–60 | **Hydra MVP** — removes all Heal Reduction |
 
 ---
 
 ## Repository layout
 
 ```
-docs/research/    Facts about the game. Changes only when the game changes.
-  00-methodology-and-sources.md    How this was researched, and what that costs you
-  01-game-state-2026.md            Patch 11.7x, Mythical rarity, Primal Shards, Relics
-  02-champion-dossiers.md          All 18 champions: kits, builds, verdicts
-  03-content-mechanics.md          What each of the 9 fights actually demands
-  04-gear-masteries-economy.md     Sets, masteries, energy/silver/shards, Great Hall
-
-docs/plan/        Applies the research to THIS roster. Changes when the roster changes.
-  10-roster-analysis.md            Strengths, gaps, affinity problems, aura selection
-  11-build-priority.md             The build queue, with reasoning
-  12-teams-by-content.md           Teams for all 9 content types, now → endgame
-  13-tome-allocation.md            26 Rare / 110 Epic / 12 Legendary — where they go
-  14-day-1-30-plan.md              The 30-day plan
-  15-day-31-plus.md                Day 31 → 180
-
-docs/website/     Spec for the tracker app (not built yet)
-data/roster.json  Machine-readable roster — single source of truth
+docs/research/claude-web/        PRIMARY SOURCE — the research pack. Refresh, do not edit.
+docs/research/SOURCES.md         Every URL, retrieval date, staleness stamp, refresh recipes.
+docs/research/DATA_CONFLICTS.md  Pack vs earlier research. 4 open decisions.
+docs/research/02, 03             Tier 1 + 2 working index over the pack.
+docs/research/00, 01, 04         SECONDARY — earlier search-synthesis pass, marked inline.
+docs/plan/                       TIER 3 — regenerated wholesale when the roster changes.
+docs/website/                    Spec, data model, tech stack for the tracker.
+data/roster.json                 Tier-1 data. Every rating carries source, scale and date.
 ```
 
-**The research/plan split is deliberate.** Research describes *requirements* ("Fire Knight needs
-multi-hit A1 attacks"). Plan describes *assignments* ("these four champions supply 11 of the 12
-hits"). When you pull a new champion, only the plan layer gets re-derived.
+### The tier rule
+| Tier | What | How it changes |
+|---|---|---|
+| **1 — data** | Identity, auras, skills, tome costs, ratings | **Only via a data refresh** |
+| **2 — mechanics** | Boss mechanics | **Only via a data refresh** |
+| **3 — analysis** | Teams, build order, tome plan, 30-day plan | **Regenerated wholesale — never patched** |
 
 ---
 
-## Three corrections to the roster as supplied
+## Two rating scales, never merged
 
-Research contradicted three things in the champion list. Two of them change team building:
+**HellHades 0–10** and **Ayumilove 1–5 stars** are independent judgements that genuinely
+disagree — Alure is HellHades **10** for Fire Knight and Ayumilove **1/5** for Hydra.
 
-| You said | Actually |
+**Both are stored with their source, scale and retrieval date. Never average them.** If a UI
+needs one sort order, compute it at render time and label it derived.
+
+---
+
+## Corrections to the roster as originally supplied
+
+| Supplied | Actually |
 |---|---|
-| **Ninja** = Nintendo Switch collab | **Tyler "Ninja" Blevins** collab. **Shadowkin · Magic · Attack** |
-| **Artak** = Banner Lords | **Orcs · Magic · HP.** The Banner Lord you own is **Rathalos Blademaster** |
-| **High Kathun** | **High Khatun**, faction **Barbarians** |
-
-Also: **Alure is Demonspawn**, not Dark Elves.
-
----
-
-## Known limitations — read before acting
-
-**Source access:** `hellhades.com` and `ayumilove.net` — the two sources you named — are
-**blocked by network egress policy** in this environment, as are all other RAID data sites
-tested. Research was done via **search synthesis**, which aggregates those same sites
-indirectly. Mechanics and evaluations came through well. **Exact skill multipliers and base
-stats are the weak spot** and are tagged accordingly.
-
-**Confidence grading** is applied throughout:
-`[CONFIRMED]` · `[LIKELY]` · `[UNCERTAIN]` · `[NOT CONFIRMED]`
-
-> **🚨 Before any irreversible spend** — a Legendary Tome, a 1,650-scroll mastery set, feeding a
-> champion — **open the champion in-game and read the actual skill text.** Patches 10.00 and
-> 10.60 both re-balanced champions. The in-game client is always correct; every website,
-> **including this one**, is a lagging indicator.
-
-**The biggest open gap:** **Fenax** is unresearched, and **Starsage Galathir** — your best
-champion — has the thinnest data on the roster. Both are flagged rather than guessed at.
+| Ninja = Nintendo Switch collab | **Tyler "Ninja" Blevins** collab · Shadowkin · Magic · Attack |
+| Artak = Banner Lords | **Orcs · Magic · HP.** The Banner Lord is **Rathalos Blademaster** |
+| High Kathun | **High Khatun** · Barbarians · Spirit |
+| Alure = Dark Elves | **Demonspawn** |
+| Fenax = unknown | **Epic · Spirit · Sacred Order · Attack** — and **HellHades Ice Golem 10** |
 
 ---
 
-## Keeping it current
+## 🚨 Before you spend anything irreversible
 
-Tell me when you pull a champion, hit a milestone, or verify something in-game. I will:
-1. Research the champion properly rather than relying on memory
-2. Check it against the known gaps in `docs/plan/10-roster-analysis.md`
-3. Re-derive only the affected sections
-4. **Tell you plainly whether it changes the plan — most pulls do not**
-5. Log it in `CHANGELOG.md`
+**Open the champion in-game and read the skill text.** The pack's HellHades champion pages are
+stamped **2026-04-06** (Skullcrown 2026-08-24); its Ayumilove pages **2026-09-16**. Every
+website, **including this one**, is a lagging indicator.
+
+Three things are irreversible and worth ten seconds of checking first: **Legendary tome
+spends**, **feeding a champion**, and **Great Hall upgrades**.
+
+---
+
+## Attribution
+
+Champion data, ratings, mastery presets and boss mechanics come from
+**[HellHades](https://hellhades.com/)** and **[Ayumilove](https://ayumilove.net/)**.
+
+**The refresh recipes in `SOURCES.md` are for private use only.** Any public site built from
+this repository **must not scrape or hotlink their endpoints**, must ship cached values
+**clearly attributed and dated**, and **must credit both sources**.
 
 ---
 
 ## Website status
 
-**Not built.** Spec is in `docs/website/`; stack is Next.js + TypeScript + Tailwind on Vercel.
-**Waiting on your go-ahead**, per your instruction to research first and code second.
+**Not built.** Spec in `docs/website/`; stack is Next.js + TypeScript + Tailwind on Vercel.
+**Waiting on your go-ahead** — scope is research and documentation until you say
+*"start coding"*.

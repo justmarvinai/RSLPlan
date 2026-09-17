@@ -1,137 +1,1773 @@
 {
+  "$comment": "Tier-1 source data. Values come from docs/research/claude-web/ (retrieved 2026-09-17, direct access to hellhades.com and ayumilove.net). Ratings are stored per source with scale and retrieval date and MUST NEVER be averaged or merged. If a UI needs one sort order, compute it at render time and label it as derived. Tier-3 analysis (teams, build order, tome plan, 30-day plan) lives in docs/plan/ and must be regenerated wholesale when the roster changes, never edited piecemeal.",
+  "schemaVersion": 2,
   "lastUpdated": "2026-09-17",
-  "accountName": "Fresh Starter Account",
-  "accountNotes": "Fresh account, no content cleared as of 2026-09-17. Unusually strong champion pool for a new account (1 Mythical + 7 Legendary), but zero gear, levels, or mastery scrolls. Bottleneck is resources, not champions.",
-  "resources": {
-    "tomes": { "rare": 26, "epic": 110, "legendary": 12 },
-    "gems": null,
-    "shards": { "ancient": null, "void": null, "sacred": null, "primal": null, "mystery": null },
-    "masteryScrolls": { "basic": null, "advanced": null, "divine": null }
+  "primarySource": {
+    "pack": "docs/research/claude-web/",
+    "retrieved": "2026-09-17",
+    "sources": [
+      "hellhades.com",
+      "ayumilove.net"
+    ],
+    "attributionRequired": true,
+    "scrapingPolicy": "Refresh recipes in docs/research/SOURCES.md are for private use only. The public site must not scrape or hotlink HellHades endpoints and must credit HellHades and Ayumilove."
   },
+  "accountName": "Fresh Starter Account",
   "accountLevel": null,
+  "resources": {
+    "tomes": {
+      "rare": 26,
+      "epic": 110,
+      "legendary": 12,
+      "mythical": 0
+    },
+    "tomesNeededToMaxAllOwned": {
+      "rare": 24,
+      "epic": "~100",
+      "legendary": 85,
+      "mythical": 10
+    },
+    "gems": null,
+    "shards": {
+      "ancient": null,
+      "void": null,
+      "sacred": null,
+      "primal": null,
+      "mystery": null
+    }
+  },
+  "rankUpFoodRule": {
+    "note": "Rarity sets starting rank; starting rank sets food cost to 6 stars. Kael and Apothecary are the MOST expensive champions on this account to six-star; Starsage Galathir costs no feeders at all.",
+    "byStartRank": {
+      "6": "none",
+      "5": "5x rank-5",
+      "4": "4x rank-4, then 5x rank-5",
+      "3": "3x rank-3, 4x rank-4, then 5x rank-5"
+    },
+    "source": "claude-web pack",
+    "retrieved": "2026-09-17"
+  },
   "champions": [
     {
-      "id": "starsage-galathir", "name": "Starsage Galathir", "rarity": "Mythical",
-      "faction": "High Elves", "affinity": "Force", "type": "Support",
-      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "partial",
-      "notes": "Best champion owned. Deferred to day 45-60: most expensive to level, kit is insurance not acceleration, and data is thin. Build for RESISTANCE not Accuracy - passive converts RES to ACC."
+      "id": "starsage-galathir",
+      "name": "Starsage Galathir",
+      "rarity": "Mythical",
+      "affinity": "Force",
+      "faction": "High Elves",
+      "role": "Support",
+      "startRank": 6,
+      "feedersTo6Star": "none",
+      "aura": {
+        "effect": "+80 Ally RES",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Mythical",
+        "toMaxAllSkills": 10,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 10,
+          "byForm": {
+            "base": {
+              "demonLord": 8,
+              "chimera": 10,
+              "hydra": 9,
+              "spider": 10,
+              "dragon": 10,
+              "fireKnight": 8,
+              "iceGolem": 10,
+              "arena": 10,
+              "spiderHard": 6,
+              "dragonHard": 10,
+              "fireKnightHard": 7,
+              "iceGolemHard": 9
+            },
+            "alternate": {
+              "demonLord": 4,
+              "chimera": 8,
+              "hydra": 6,
+              "spider": 10,
+              "dragon": 10,
+              "fireKnight": 8,
+              "iceGolem": 8,
+              "arena": 10,
+              "spiderHard": 6,
+              "dragonHard": 6,
+              "fireKnightHard": 4,
+              "iceGolemHard": 6
+            }
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "SS",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 3,
+            "chimera": 5,
+            "hydra": 4,
+            "spider": 5,
+            "dragon": 5,
+            "fireKnight": 3,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 4,
+            "arenaDefense": 4,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "RES",
+          "SPD",
+          "HP%",
+          "DEF%"
+        ],
+        "pveSets": [
+          "Speed",
+          "Protection",
+          "Relentless"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Base Form",
+        "tier6Capstone": null,
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "ninja", "name": "Ninja", "rarity": "Legendary",
-      "faction": "Shadowkin", "affinity": "Magic", "type": "Attack",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "Tyler 'Ninja' Blevins collab, NOT Nintendo Switch. Self-sufficient boss killer - nearly every skill has a 'vs Boss' clause. Applies HP Burn, so feeds Rathalos's passive."
+      "id": "ninja",
+      "name": "Ninja",
+      "rarity": "Legendary",
+      "affinity": "Magic",
+      "faction": "Shadowkin",
+      "role": "Attack",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 13,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 10,
+            "chimera": 10,
+            "hydra": 10,
+            "spider": 8,
+            "dragon": 9,
+            "fireKnight": 9,
+            "iceGolem": 9,
+            "arena": 7,
+            "spiderHard": 3,
+            "dragonHard": 9,
+            "fireKnightHard": 7,
+            "iceGolemHard": 10
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 5,
+            "chimera": 5,
+            "hydra": 5,
+            "spider": 2,
+            "dragon": 5,
+            "fireKnight": 4,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 4,
+            "arenaDefense": 3,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "ACC",
+          "C.RATE",
+          "C.DMG",
+          "ATK%"
+        ],
+        "pveSets": [
+          "Savage/Lethal",
+          "Merciless",
+          "Perception",
+          "Speed",
+          "Cruel"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Standard PvE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "artak", "name": "Artak", "rarity": "Legendary",
-      "faction": "Orcs", "affinity": "Magic", "type": "HP",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "NOT Banner Lords. HP-scaling so forgiving with bad gear. ONLY source of AoE HP Burn - the win condition at Spider 21-25 and the enabler for Rathalos. Solos Ice Golem Hard 5 eventually."
+      "id": "artak",
+      "name": "Artak",
+      "rarity": "Legendary",
+      "affinity": "Magic",
+      "faction": "Orcs",
+      "role": "HP",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 12,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 9,
+            "chimera": 7,
+            "hydra": 10,
+            "spider": 10,
+            "dragon": 10,
+            "fireKnight": 8,
+            "iceGolem": 10,
+            "arena": 7,
+            "spiderHard": 10,
+            "dragonHard": 9,
+            "fireKnightHard": 4,
+            "iceGolemHard": 10
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "A",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 5,
+            "spider": 5,
+            "dragon": 4,
+            "fireKnight": 3,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 3,
+            "arenaDefense": 3,
+            "minotaur": 4
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "ACC",
+          "HP%",
+          "C.RATE",
+          "C.DMG"
+        ],
+        "pveSets": [
+          "Perception",
+          "Immortal",
+          "Relentless",
+          "Speed",
+          "Toxic",
+          "Regen"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Solo Farm Build (campaign) / General PVE (dungeons)",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "turvold", "name": "Turvold", "rarity": "Legendary",
-      "faction": "Barbarians", "affinity": "Void", "type": "Attack",
-      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "complete",
-      "notes": "S-tier Clan Boss but explicitly gated behind having a buff-support team. A3 scales with number of buffs ON him. Defer to endgame CB team. Warmaster vs Giant Slayer UNRESOLVED - test before spending scrolls."
+      "id": "turvold",
+      "name": "Turvold",
+      "rarity": "Legendary",
+      "affinity": "Void",
+      "faction": "Barbarians",
+      "role": "Attack",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": {
+        "effect": "+42% Ally ATK",
+        "scope": "Faction Crypts",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 11,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 10,
+            "chimera": 8,
+            "hydra": 8,
+            "spider": 7,
+            "dragon": 8,
+            "fireKnight": 8,
+            "iceGolem": 7,
+            "arena": 9,
+            "spiderHard": 4,
+            "dragonHard": 5,
+            "fireKnightHard": 3,
+            "iceGolemHard": 4
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 5,
+            "chimera": 4,
+            "hydra": 2,
+            "spider": 3,
+            "dragon": 5,
+            "fireKnight": 5,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "C.RATE",
+          "C.DMG",
+          "HP%",
+          "ATK%"
+        ],
+        "pveSets": [
+          "Lifesteal",
+          "Speed",
+          "Cruel"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "PVP Nuker",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 2,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "rathalos-blademaster", "name": "Rathalos Blademaster", "rarity": "Legendary",
-      "faction": "Banner Lords", "affinity": "Force", "type": "Attack",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "Monster Hunter collab, now unobtainable. A2 ignores 100% of boss DEF; A1 Dec DEF unresistable vs bosses. Needs exactly 12 Legendary Tomes for a clean full max. Pair with Artak for the HP Burn passive."
+      "id": "rathalos-blademaster",
+      "name": "Rathalos Blademaster",
+      "rarity": "Legendary",
+      "affinity": "Force",
+      "faction": "Banner Lords",
+      "role": "Attack",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": {
+        "effect": "+30% Ally ATK",
+        "scope": "Dungeons",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 12,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 9,
+            "chimera": 8,
+            "hydra": 10,
+            "spider": 10,
+            "dragon": 9,
+            "fireKnight": 8,
+            "iceGolem": 8,
+            "arena": 8,
+            "spiderHard": 8,
+            "dragonHard": 8,
+            "fireKnightHard": 3,
+            "iceGolemHard": 5
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 5,
+            "chimera": 4,
+            "hydra": 5,
+            "spider": 5,
+            "dragon": 4,
+            "fireKnight": 3,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 3,
+            "arenaDefense": 3,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ATK%",
+          "SPD",
+          "C.RATE",
+          "C.DMG"
+        ],
+        "pveSets": [
+          "Savage/Lethal",
+          "Cruel",
+          "Fatal",
+          "Crit Damage"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "General PVE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "gnishak-verminlord", "name": "Gnishak Verminlord", "rarity": "Legendary",
-      "faction": "Skinwalkers", "affinity": "Force", "type": "Attack",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "Highest solo ceiling on the roster: Dragon 25, Ice Golem 25, Faction Wars, Doom Tower bosses. Bombs double-damage vs 200k+ MAX HP targets. Needs Regeneration/Bolster sustain first. 3-hit A1 = Giant Slayer."
+      "id": "gnishak-verminlord",
+      "name": "Gnishak Verminlord",
+      "rarity": "Legendary",
+      "affinity": "Force",
+      "faction": "Skinwalkers",
+      "role": "Attack",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": {
+        "effect": "+30% Ally ATK",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 12,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 9,
+            "chimera": 8,
+            "hydra": 7,
+            "spider": 6,
+            "dragon": 10,
+            "fireKnight": 9,
+            "iceGolem": 10,
+            "arena": 10,
+            "spiderHard": 6,
+            "dragonHard": 9,
+            "fireKnightHard": 5,
+            "iceGolemHard": 6
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 5,
+            "chimera": 4,
+            "hydra": 5,
+            "spider": 3,
+            "dragon": 5,
+            "fireKnight": 4,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 4,
+            "minotaur": 4
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "ATK",
+          "SPD",
+          "HP"
+        ],
+        "pveSets": [
+          "Perception",
+          "Cruel",
+          "Speed",
+          "Fatal",
+          "Regen",
+          "Relentless"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Nuker -> Solo Build",
+        "tier6Capstone": "Giant Slayer",
+        "a1HitCount": 3,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "ultimate-deathknight", "name": "Ultimate Deathknight", "rarity": "Legendary",
-      "faction": "Undead Hordes", "affinity": "Force", "type": "Defense",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "partial",
-      "notes": "Infrastructure champion. +30% DEF aura, AoE 50% Dec ATK at 80%, Shield + Continuous Heal, redirects a hit off any ally. Later solos Dragon 25 / Ice Golem 25 with Toxic. Skill NAMES are uncertain; effects corroborated."
+      "id": "ultimate-deathknight",
+      "name": "Ultimate Deathknight",
+      "rarity": "Legendary",
+      "affinity": "Force",
+      "faction": "Undead Hordes",
+      "role": "Defense",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": {
+        "effect": "+30% Ally DEF",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 10,
+        "hellhadesBookValue": 9,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 8,
+            "chimera": 7,
+            "hydra": 9,
+            "spider": 9,
+            "dragon": 10,
+            "fireKnight": 5,
+            "iceGolem": 10,
+            "arena": 10,
+            "spiderHard": 6,
+            "dragonHard": 8,
+            "fireKnightHard": 2,
+            "iceGolemHard": 7
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 5,
+            "spider": 5,
+            "dragon": 5,
+            "fireKnight": 4,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "SPD",
+          "DEF",
+          "HP",
+          "RES"
+        ],
+        "pveSets": [
+          "Regen",
+          "Reflex",
+          "Relentless",
+          "Perception",
+          "Toxic"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "General PvE -> Solo Drag & Ice Golem",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "hurndig", "name": "Hurndig", "rarity": "Legendary",
-      "faction": "Dwarves", "affinity": "Magic", "type": "Attack",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "AoE 60% Dec DEF + 50% Dec ACC on A2. Can run as a cheap Perception debuffer long before nuker gear exists. Also a Nightmare campaign solo farmer. PICK A LANE - he cannot do both."
+      "id": "hurndig",
+      "name": "Hurndig",
+      "rarity": "Legendary",
+      "affinity": "Magic",
+      "faction": "Dwarves",
+      "role": "Attack",
+      "startRank": 5,
+      "feedersTo6Star": "5x rank-5",
+      "aura": {
+        "effect": "+35% Ally ATK",
+        "scope": "Arena",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Legendary",
+        "toMaxAllSkills": 15,
+        "hellhadesBookValue": 9,
+        "hellhadesBookPriority": [
+          "A1",
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 9,
+          "byContent": {
+            "demonLord": 6,
+            "chimera": 8,
+            "hydra": 8,
+            "spider": 9,
+            "dragon": 9,
+            "fireKnight": 8,
+            "iceGolem": 10,
+            "arena": 9,
+            "spiderHard": 4,
+            "dragonHard": 8,
+            "fireKnightHard": 4,
+            "iceGolemHard": 9
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 3,
+            "chimera": 4,
+            "hydra": 4,
+            "spider": 5,
+            "dragon": 5,
+            "fireKnight": 4,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 3,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "SPD",
+          "C.RATE",
+          "C.DMG",
+          "ATK%"
+        ],
+        "pveSets": [
+          "Savage",
+          "Cruel",
+          "Swift Parry",
+          "Stun",
+          "Relentless",
+          "Speed"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Campaign Farmer",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "godseeker-aniri", "name": "Godseeker Aniri", "rarity": "Epic",
-      "faction": "The Sacred Order", "affinity": "Void", "type": "Defence",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "Revive with FULL cooldown reset - near-unique. Void affinity. 14 books to max but only A2 matters. Permanent endgame value, Hydra staple. Does nothing for early clear speed."
+      "id": "godseeker-aniri",
+      "name": "Godseeker Aniri",
+      "rarity": "Epic",
+      "affinity": "Void",
+      "faction": "Sacred Order",
+      "role": "Defense",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 17,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17",
+        "ayumiloveHeaderSays": 9,
+        "conflictNote": "Ayumilove page header says 9 but its own skill-level list sums to 17. Skill list trusted; verify in game."
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 9,
+            "chimera": 7,
+            "hydra": 8,
+            "spider": 8,
+            "dragon": 8,
+            "fireKnight": 6,
+            "iceGolem": 8,
+            "arena": 7,
+            "spiderHard": 4,
+            "dragonHard": 7,
+            "fireKnightHard": 4,
+            "iceGolemHard": 8
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "A",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 4,
+            "spider": 4,
+            "dragon": 4,
+            "fireKnight": 4,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 4
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "HP%",
+          "DEF%"
+        ],
+        "pveSets": [
+          "Speed",
+          "Defence",
+          "Immortal",
+          "Regeneration"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "General PvE / Reviver",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "skullcrown", "name": "Skullcrown", "rarity": "Epic",
-      "faction": "Knight Revenant", "affinity": "Void", "type": "Attack",
-      "buildPriority": "situational", "buildWave": 3, "researchStatus": "complete",
-      "notes": "AoE A1 (rare and valuable) + free Weaken + self-Unkillable. Good wave clearer and Arena nuker, no boss utility. Reported base SPD 196 is implausible and should be ignored. From Beyond passive needs Sinesha (not owned)."
+      "id": "skullcrown",
+      "name": "Skullcrown",
+      "rarity": "Epic",
+      "affinity": "Void",
+      "faction": "Knights Revenant",
+      "role": "Attack",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+23% Ally SPD",
+        "scope": "Arena",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 12,
+        "hellhadesBookValue": 8,
+        "hellhadesBookPriority": [
+          "A2"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 4,
+            "chimera": 4,
+            "hydra": 6,
+            "spider": 8,
+            "dragon": 8,
+            "fireKnight": 7,
+            "iceGolem": 8,
+            "arena": 8,
+            "spiderHard": 5,
+            "dragonHard": 5,
+            "fireKnightHard": 3,
+            "iceGolemHard": 4
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "A",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 2,
+            "chimera": 2,
+            "hydra": 3,
+            "spider": 4,
+            "dragon": 4,
+            "fireKnight": 3,
+            "iceGolem": 4,
+            "factionWars": 4,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "C.RATE",
+          "C.DMG",
+          "ACC",
+          "ATK%"
+        ],
+        "pveSets": [
+          "Stun",
+          "Cruel",
+          "Savage/Lethal",
+          "Merciless",
+          "Retaliation"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Campaign Farmer / PVP Blender",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "tagoar", "name": "Tagoar", "rarity": "Epic",
-      "faction": "Orcs", "affinity": "Magic", "type": "Support",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "AoE Increase SPD on a 3-turn cooldown - the tool that unlocks 2:1 Clan Boss speed tunes. Plus mass revive, AoE Shield, AoE heal, Increase DEF on A1, +25% HP aura. Long-lived into endgame."
+      "id": "tagoar",
+      "name": "Tagoar",
+      "rarity": "Epic",
+      "affinity": "Magic",
+      "faction": "Orcs",
+      "role": "Support",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+25% Ally HP",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 10,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 8,
+            "chimera": 7,
+            "hydra": 7,
+            "spider": 8,
+            "dragon": 8,
+            "fireKnight": 7,
+            "iceGolem": 8,
+            "arena": 7,
+            "spiderHard": 6,
+            "dragonHard": 7,
+            "fireKnightHard": 2,
+            "iceGolemHard": 7
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "A",
+          "byContent": {
+            "campaign": 3,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 4,
+            "spider": 2,
+            "dragon": 3,
+            "fireKnight": 3,
+            "iceGolem": 4,
+            "factionWars": 4,
+            "arenaOffense": 2,
+            "arenaDefense": 3,
+            "minotaur": 3
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "HP%",
+          "SPD",
+          "DEF%",
+          "RES"
+        ],
+        "pveSets": [
+          "Regeneration",
+          "Immortal",
+          "Guardian",
+          "Bolster"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Clan Boss / General PVE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 2,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "uugo", "name": "Uugo", "rarity": "Epic",
-      "faction": "Ogryn Tribes", "affinity": "Magic", "type": "Support",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "Best Epic on the roster. A2 lands 60% AoE Dec DEF AND AoE Block Buffs on one skill. Booked A2 goes to 100% chance / 3-turn cooldown - the #1 Epic Tome target. Needs real ACC to function."
+      "id": "uugo",
+      "name": "Uugo",
+      "rarity": "Epic",
+      "affinity": "Magic",
+      "faction": "Ogryn Tribes",
+      "role": "Support",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 16,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 7,
+            "chimera": 8,
+            "hydra": 9,
+            "spider": 9,
+            "dragon": 9,
+            "fireKnight": 7,
+            "iceGolem": 9,
+            "arena": 6,
+            "spiderHard": 7,
+            "dragonHard": 7,
+            "fireKnightHard": 4,
+            "iceGolemHard": 6
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 5,
+            "chimera": 4,
+            "hydra": 5,
+            "spider": 4,
+            "dragon": 5,
+            "fireKnight": 3,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 4,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "ACC",
+          "HP%",
+          "DEF%"
+        ],
+        "pveSets": [
+          "Speed",
+          "Perception",
+          "Reflex",
+          "Impulse",
+          "Feral"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Standard PvE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "alure", "name": "Alure", "rarity": "Epic",
-      "faction": "Demonspawn", "affinity": "Magic", "type": "Attack",
-      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "complete",
-      "notes": "NOT Dark Elves. DO NOT BOOK HER - booking reduces A1 usage and A1 is her entire value. 3 hits x 25% TM strip on crit. 100% C.RATE mandatory. Needs 300+ ACC. Endgame Fire Knight 21-25 speed-run specialist."
+      "id": "alure",
+      "name": "Alure",
+      "rarity": "Epic",
+      "affinity": "Magic",
+      "faction": "Demonspawn",
+      "role": "Attack",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+50 Ally ACC",
+        "scope": "Faction Crypts",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 12,
+        "hellhadesBookValue": 4,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17",
+        "ayumiloveHeaderSays": 14,
+        "conflictNote": "Ayumilove page header says 14 but its own skill-level list sums to 12. Skill list trusted; verify in game."
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 4,
+            "chimera": 4,
+            "hydra": 2,
+            "spider": 6,
+            "dragon": 4,
+            "fireKnight": 10,
+            "iceGolem": 8,
+            "arena": 6,
+            "spiderHard": 2,
+            "dragonHard": 3,
+            "fireKnightHard": 2,
+            "iceGolemHard": 4
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 3,
+            "demonLord": 2,
+            "chimera": 2,
+            "hydra": 1,
+            "spider": 4,
+            "dragon": 2,
+            "fireKnight": 5,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 3,
+            "arenaDefense": 3,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "C.RATE",
+          "HP%",
+          "SPD"
+        ],
+        "pveSets": [
+          "Lifesteal",
+          "Speed",
+          "Accuracy",
+          "Perception",
+          "Crit Rate"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Fire Knight + FW",
+        "tier6Capstone": "Giant Slayer",
+        "a1HitCount": 3,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "morag-bronzelock", "name": "Morag Bronzelock", "rarity": "Epic",
-      "faction": "Dwarves", "affinity": "Spirit", "type": "Defence",
-      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
-      "notes": "DEF is her attack stat (1.85x and 3.9x DEF multipliers) - one gear pool serves offence and defence, hugely gear-efficient. Team-wide Strengthen is rare. No aura. Spirit affinity = advantaged at Dragon 25."
+      "id": "morag-bronzelock",
+      "name": "Morag Bronzelock",
+      "rarity": "Epic",
+      "affinity": "Spirit",
+      "faction": "Dwarves",
+      "role": "Defense",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 9,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17",
+        "ayumiloveHeaderSays": 11,
+        "conflictNote": "Ayumilove page header says 11 but its own skill-level list sums to 9. Skill list trusted; verify in game."
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 7,
+          "byContent": {
+            "demonLord": 8,
+            "chimera": 7,
+            "hydra": 5,
+            "spider": 6,
+            "dragon": 7,
+            "fireKnight": 8,
+            "iceGolem": 7,
+            "arena": 8,
+            "spiderHard": 5,
+            "dragonHard": 5,
+            "fireKnightHard": 6,
+            "iceGolemHard": 6
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "B",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 3,
+            "spider": 3,
+            "dragon": 3,
+            "fireKnight": 4,
+            "iceGolem": 3,
+            "factionWars": 3,
+            "arenaOffense": 4,
+            "arenaDefense": 3,
+            "minotaur": 3
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "C.RATE",
+          "C.DMG",
+          "DEF%",
+          "SPD"
+        ],
+        "pveSets": [
+          "Protection",
+          "Savage/Lethal",
+          "Defiant",
+          "Merciless"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Nuker",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 2,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "high-khatun", "name": "High Khatun", "rarity": "Epic",
-      "faction": "Barbarians", "affinity": "Spirit", "type": "Support",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "Correct spelling is High Khatun. +19% ally SPD aura in ALL battles - keep her at low level purely as an aura leader even if not built. Engine of the early 2:1 CB tune. Endgame relevance limited."
+      "id": "high-khatun",
+      "name": "High Khatun",
+      "rarity": "Epic",
+      "affinity": "Spirit",
+      "faction": "Barbarians",
+      "role": "Support",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+19% Ally SPD",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 11,
+        "hellhadesBookValue": 8,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 7,
+          "byContent": {
+            "demonLord": 7,
+            "chimera": 6,
+            "hydra": 7,
+            "spider": 8,
+            "dragon": 7,
+            "fireKnight": 8,
+            "iceGolem": 8,
+            "arena": 8,
+            "spiderHard": 5,
+            "dragonHard": 4,
+            "fireKnightHard": 4,
+            "iceGolemHard": 5
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "B",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 4,
+            "chimera": 3,
+            "hydra": 2,
+            "spider": 4,
+            "dragon": 4,
+            "fireKnight": 3,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 4,
+            "arenaDefense": 4,
+            "minotaur": 4
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "ACC",
+          "DEF%",
+          "HP%"
+        ],
+        "pveSets": [
+          "Speed",
+          "Accuracy",
+          "Perception",
+          "Relentless"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Standard PvE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "fenax", "name": "Fenax", "rarity": "Epic",
-      "faction": null, "affinity": null, "type": null,
-      "buildPriority": "blocked", "buildWave": null, "researchStatus": "not-researched",
-      "notes": "RESEARCH INCOMPLETE. Known: 60% single-target Dec DEF, 30% Dec SPD, AoE Block Buffs (75% vs 80% conflict), AoE Block Active Skills, Block Revive on A1 that needs NO Accuracy. The no-ACC Block Revive maps directly onto Ice Golem's Frigid Vengeance. Verify in-game before any investment."
+      "id": "fenax",
+      "name": "Fenax",
+      "rarity": "Epic",
+      "affinity": "Spirit",
+      "faction": "Sacred Order",
+      "role": "Attack",
+      "startRank": 4,
+      "feedersTo6Star": "4x rank-4, then 5x rank-5",
+      "aura": null,
+      "auraNote": "No aura listed in the pack. Strong evidence of none, but not asserted.",
+      "tomes": {
+        "tomeRarity": "Epic",
+        "toMaxAllSkills": 13,
+        "hellhadesBookValue": 7,
+        "hellhadesBookPriority": [
+          "A1",
+          "A2"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 8,
+          "byContent": {
+            "demonLord": 4,
+            "chimera": 8,
+            "hydra": 8,
+            "spider": 6,
+            "dragon": 6,
+            "fireKnight": 8,
+            "iceGolem": 10,
+            "arena": 8,
+            "spiderHard": 2,
+            "dragonHard": 4,
+            "fireKnightHard": 2,
+            "iceGolemHard": 9
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "B",
+          "byContent": {
+            "campaign": 3,
+            "demonLord": 4,
+            "chimera": 4,
+            "hydra": 4,
+            "spider": 2,
+            "dragon": 3,
+            "fireKnight": 3,
+            "iceGolem": 5,
+            "factionWars": 4,
+            "arenaOffense": 5,
+            "arenaDefense": 4,
+            "minotaur": 4
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "SPD",
+          "C.RATE",
+          "C.DMG",
+          "HP%",
+          "ATK%"
+        ],
+        "pveSets": [
+          "Savage",
+          "Cruel",
+          "Speed",
+          "Accuracy"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "Standard PvE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "kael", "name": "Kael", "rarity": "Rare",
-      "faction": "Dark Elves", "affinity": "Magic", "type": "Attack",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "BUILD FIRST. The only champion who generates resources rather than consuming them. Lifesteal set, HP/DEF/SPD/ACC (survivability not damage). 800 Gems for masteries. Permanent niche in Rare-restricted Doom Tower Secret Rooms."
+      "id": "kael",
+      "name": "Kael",
+      "rarity": "Rare",
+      "affinity": "Magic",
+      "faction": "Dark Elves",
+      "role": "Attack",
+      "startRank": 3,
+      "feedersTo6Star": "3x rank-3, 4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+15% Ally HP",
+        "scope": "All battles",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Rare",
+        "toMaxAllSkills": 14,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 7,
+          "byContent": {
+            "demonLord": 7,
+            "chimera": 4,
+            "hydra": 4,
+            "spider": 6,
+            "dragon": 9,
+            "fireKnight": 6,
+            "iceGolem": 8,
+            "arena": 6,
+            "spiderHard": 4,
+            "dragonHard": 6,
+            "fireKnightHard": 2,
+            "iceGolemHard": 4
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "A",
+          "byContent": {
+            "campaign": 5,
+            "demonLord": 5,
+            "chimera": 2,
+            "hydra": 2,
+            "spider": 4,
+            "dragon": 5,
+            "fireKnight": 2,
+            "iceGolem": 4,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "ACC",
+          "SPD",
+          "ATK%",
+          "C.RATE",
+          "C.DMG"
+        ],
+        "pveSets": [
+          "Lifesteal",
+          "Speed",
+          "Perception",
+          "Cruel"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "General PvE",
+        "tier6Capstone": "Warmaster",
+        "a1HitCount": 1,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     },
     {
-      "id": "apothecary", "name": "Apothecary", "rarity": "Rare",
-      "faction": "High Elves", "affinity": "Magic", "type": "Support",
-      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
-      "notes": "Cheapest large power gain on the roster: 10 Rare Tomes for a full max. Heal scales off the ALLY's MAX HP so he works while under-geared. GIANT SLAYER not Warmaster (3-hit A1). Triple Speed sets, 100% C.RATE for Critical Heals."
+      "id": "apothecary",
+      "name": "Apothecary",
+      "rarity": "Rare",
+      "affinity": "Magic",
+      "faction": "High Elves",
+      "role": "Support",
+      "startRank": 3,
+      "feedersTo6Star": "3x rank-3, 4x rank-4, then 5x rank-5",
+      "aura": {
+        "effect": "+21% Ally DEF",
+        "scope": "Dungeons",
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "auraNote": null,
+      "tomes": {
+        "tomeRarity": "Rare",
+        "toMaxAllSkills": 10,
+        "hellhadesBookValue": 10,
+        "hellhadesBookPriority": [
+          "A2",
+          "A3"
+        ],
+        "source": "claude-web pack",
+        "retrieved": "2026-09-17"
+      },
+      "ratings": {
+        "hellhades": {
+          "source": "hellhades.com",
+          "scale": "0-10",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "overall": 7,
+          "byContent": {
+            "demonLord": 8,
+            "chimera": 6,
+            "hydra": 4,
+            "spider": 8,
+            "dragon": 8,
+            "fireKnight": 8,
+            "iceGolem": 8,
+            "arena": 7,
+            "spiderHard": 2,
+            "dragonHard": 6,
+            "fireKnightHard": 4,
+            "iceGolemHard": 6
+          }
+        },
+        "ayumilove": {
+          "source": "ayumilove.net",
+          "scale": "1-5 stars",
+          "retrieved": "2026-09-17",
+          "via": "docs/research/claude-web/01_ROSTER_DATA.md",
+          "rank": "S",
+          "byContent": {
+            "campaign": 4,
+            "demonLord": 5,
+            "chimera": 3,
+            "hydra": 2,
+            "spider": 5,
+            "dragon": 5,
+            "fireKnight": 5,
+            "iceGolem": 5,
+            "factionWars": 5,
+            "arenaOffense": 5,
+            "arenaDefense": 5,
+            "minotaur": 5
+          }
+        }
+      },
+      "gear": {
+        "pveStats": [
+          "SPD",
+          "HP%",
+          "DEF%",
+          "C.RATE"
+        ],
+        "pveSets": [
+          "Speed",
+          "Relentless",
+          "Righteous",
+          "Divine Speed"
+        ],
+        "source": "hellhades.com champion page",
+        "retrieved": "2026-09-17"
+      },
+      "masteries": {
+        "firstPresetToCopy": "All Round PvE (Clan Boss preset for Giant Slayer)",
+        "tier6Capstone": "Giant Slayer",
+        "a1HitCount": 3,
+        "rule": "HellHades Clan Boss guide: A1 hits 1-2 -> Warmaster; 3-4 -> Giant Slayer"
+      },
+      "owned": true
     }
-  ],
-  "knownGaps": [
-    "No team-wide Unkillable or Block Damage - blocks standard endgame Clan Boss templates",
-    "No team-wide Counterattack",
-    "No team-wide Increase ATK (only Turvold self-buffs) - mitigate with DEF-scaling Ice Golem teams",
-    "Fire Knight multi-hit coverage is tight: Apothecary + Alure + Gnishak + Morag = 11 hits, needs a 5th",
-    "Affinity imbalance: Magic x9, Force x4, Void x3, Spirit x2. Magic is disadvantaged at Dragon 25 (Force)",
-    "Fenax entirely unresearched"
-  ],
-  "chaseList": [
-    "Team-wide Unkillable or Block Damage provider (highest value)",
-    "Team-wide Counterattack provider",
-    "More multi-hit A1 champions (fixes Fire Knight)",
-    "Team-wide Increase ATK buffer",
-    "Spirit and Force champions (rebalance a Magic-heavy roster)"
   ]
 }

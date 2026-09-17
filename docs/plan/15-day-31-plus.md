@@ -1,238 +1,138 @@
-# 15 — After Day 30: The Road to Endgame
+# 15 — After Day 30
 
-**Covers Day 31 → Day 180.** Less prescriptive than the 30-day plan by design — by day 30 your
-account has diverged based on gear luck, pulls and how much you actually played. This gives you
-the **order of operations** and the **decision points**, not a script.
+> **🔄 TIER 3 — ANALYSIS, NOT SOURCE DATA.**
+> **Regenerate wholesale when the roster changes.**
 
----
-
-## The shape of the next five months
-
-| Period | Theme | The one thing that matters |
-|---|---|---|
-| **Days 31–60** | **Second wave + masteries** | Get Minotaur running and mastery your core |
-| **Days 61–90** | **Dungeon 15–20 + Clan Boss Brutal/NM** | Gear quality crosses the threshold where things start working |
-| **Days 91–120** | **Solo farming online** | Unattended dungeon farming — the biggest force multiplier available |
-| **Days 121–180** | **Endgame content opens** | Chimera trials, Hydra, Clan Boss UNM |
+**Regenerated:** 2026-09-17 from the research pack.
 
 ---
 
-# PHASE 5 — Masteries · Days 30–60
+## Content order after day 30
 
-**This is the defining project of month two.** A fully-mastered champion is roughly 15–25%
-more effective. Across five champions, that is the equivalent of a whole tier of gear.
+**HellHades' order: Dragon 20 → Spider 20 → Fire Knight.**
 
-### The cost, stated honestly
-**1,650 scrolls per champion** — 100 Basic, 600 Advanced, 950 Divine `[LIKELY]` — farmable
-**only in Minotaur's Labyrinth** `[CONFIRMED]`. Time estimates in circulation conflict badly
-(2–4 hours per champion vs 60+ hours); assume **slow**, and plan around it rather than hoping.
+- **Dungeon stage 20 is the main gear milestone**
+- **Stages 21–25 change the rules** — Enemy Max HP damage capped, turn-meter reduction halved.
+  **Do not rush past 20 until your gear can handle it**
+- **Hard dungeons** add an **"Awakened Weakness"** passive, at which point your **awakening
+  levels start to matter**
 
-**You cannot mastery eighteen champions. Choosing the right five or six is the most
-consequential resource decision on this account.**
+---
 
-### 🔑 The mechanic that makes it tractable
-> **Build a 4-champion Minotaur team that is already fully mastered, then put the champion you
-> are farming for in the 5th slot. Maxed champions stop receiving scrolls, so everything funnels
-> into slot five.** `[CONFIRMED]`
+## Level gates
 
-This roughly **quadruples** your effective farm rate. It is why Kael's gem-bought masteries in
-week one matter so much — he is the first member of that mastered core.
-
-### The work
-- [ ] Get a Minotaur team to **auto stage 13+**, then farm **stage 15** `[CONFIRMED]`
-- [ ] Mastery order: **Apothecary → Ultimate Deathknight → Uugo → Artak → Tagoar**
-- [ ] **⚠️ Every champion must be 6★ before masteries** — Tier 6 is Rank-6 gated `[CONFIRMED]`
-- [ ] **⚠️ Skip Rapid Response, Arcane Celerity and Cycle of Magic on any speed-tuned Clan Boss
-      champion** `[CONFIRMED]`
-
-### Capstone reference for your roster
-| Capstone | Champions |
+| Level | Unlocks |
 |---|---|
-| **Giant Slayer** | **Apothecary**, **Gnishak** (3-hit A1s) |
-| **Warmaster** | Uugo · Aniri · Morag · High Khatun · Kael · Ninja · Artak · Fenax |
-| **Helmsmasher** | Rathalos · Hurndig · Skullcrown (Arena) |
-| **Neither** | UDK · Tagoar (Defence/Support trees) |
-| **⚠️ Test first** | **Turvold** — sources conflict; his 2-hit single-target profile suggests Giant Slayer, but one source says Warmaster |
+| **33** | **Chimera** — already open by day 30 on this plan |
+| **40** | **Doom Tower** |
+| **45** | **Hydra** |
+| **52** | **Cursed City (Sintranos)** |
+| — | **Grim Forest** (added December 2025) — **endgame; note it exists and ignore it for months** |
 
 ---
 
-# PHASE 6 — The Second Wave · Days 30–90
+## Mid-term goals, in order
 
-Only start these once your first six are at 60/6★ with masteries under way.
-
-### Priority 7 — **Rathalos Blademaster**
-**Your best long-term Clan Boss and Hydra damage dealer.**
-- **A2 ignores 100% of a boss's DEF**; **A1's Decrease DEF cannot be resisted against bosses**
-- **🔑 Spend all 12 Legendary Tomes here** — he needs exactly 12 to fully max, so there is **no
-  randomness problem**. A2 and A3 go 4 → 3 cooldowns, raising how often his "every fifth skill
-  deals 200% more damage" passive fires
-- **Pair him with Artak.** Artak's AoE HP Burn triggers Rathalos's **+50% damage / −25% damage
-  taken** passive. You own both halves of a confirmed synergy
-- Gear: Lethal or Savage, or **Elite Lifesteal**. ATK%, C.RATE, C.DMG, SPD. **Helmsmasher**
-
-### Priority 8 — **Gnishak Verminlord**
-**The highest account-acceleration ceiling you own.**
-- **Solos Dragon 25, Ice Golem 25, Faction Wars and Doom Tower bosses** `[CONFIRMED]`
-- Bombs deal **double damage against 200k+ MAX HP targets** — which is every boss and every
-  high-stage wave
-- Needs **Regeneration or Bolster** for sustain before the solos work
-- **Giant Slayer** (3-hit A1)
-
-### Priority 9 — **Godseeker Aniri**
-- **Revive with full cooldown reset** — a revived nuker immediately re-fires its ultimate
-- **Void** — never affinity-disadvantaged anywhere
-- Cheap to book (only A2 genuinely matters). **Permanent endgame value; Hydra staple**
-
-### Priority 10–12
-**Ninja** (self-sufficient boss killer, needs crit gear) · **Hurndig** (AoE Dec DEF as a cheap
-Perception debuffer, *or* a Nightmare campaign farmer — **pick a lane**) · **Morag Bronzelock**
-(**DEF is her attack stat**, so one gear pool serves both roles).
+1. **A Clan Boss team that reliably kills Brutal**, then **Nightmare with a real speed tune** —
+   use the **DeadwoodJedi calculator** once you have the champions for it
+2. **Dragon 20 on farm**
+3. **Spider 20**
+4. **Fire Knight 20**
+5. **Arbiter missions completed** for the free Legendary
+6. **Hydra Normal chests** once you are level 45 and have six champions worth fielding
+7. **Hard dungeons**, where awakening levels begin to matter
 
 ---
 
-# PHASE 7 — Starsage Galathir · Days 45–60
+## Build wave 2 — days 31–90
 
-**Build him once Dragon is farmable and you have gear worth putting on him.**
-
-### The build is unusual — get it right
-- **Stack RESISTANCE, not Accuracy.** His passive converts **RES into ACC** (reportedly 75%)
-  `[CONFIRMED that the conversion exists]`. Gearing him like a normal support with ACC substats
-  **wastes half his passive**
-- **Stat priority: RES > SPD > HP/DEF** `[LIKELY]`
-
-### ⚠️ Before you commit resources
-His **base stats, aura, artifact sets, masteries and book requirements are all
-`[NOT CONFIRMED]`.** He is new enough that structured data is thin.
-
-**Open him in-game, read his actual skills, and report them back.** I will complete his dossier
-and give you a verified build. **Do not spend 1,650 mastery scrolls on guesswork.**
-
-### What he unlocks
-Permanent anchor for **Chimera** (S-tier), **Hydra** (S), **Doom Tower**, and **Arena** (he is
-"the most banned champion in Live Arena"). He is the best champion you own — he is deferred, not
-dismissed.
-
----
-
-# PHASE 8 — Solo Farming · Days 90–120
-
-**The biggest force multiplier a mid-game account can have.** Unattended farming converts energy
-directly into gear with zero attention.
-
-### Your three routes
-| Champion | Solos | Key enabler |
+| Champion | Why | Rating behind it |
 |---|---|---|
-| **Ultimate Deathknight** | **Dragon 25 · Ice Golem 25** | **Toxic set** — its poison damage does not trigger the boss's HP-threshold retaliation. His own A3 heals him, so he does not need Regeneration `[CONFIRMED]` |
-| **Gnishak Verminlord** | **Dragon 25 · Ice Golem 25 · Faction Wars · Doom Tower bosses** | Regeneration or Bolster |
-| **Artak** | **Ice Golem Hard 5** | HP scaling + self-heal off burns |
-
-**Affinity bonus: UDK and Gnishak are both Force — advantaged at Ice Golem 25 (Magic).**
-
-**UDK solo Ice Golem targets** `[LIKELY]`: ~225 ACC · ~225 RES · ~210 SPD · max HP and DEF.
-
-**When this comes online, your account changes character.** You stop hand-running dungeons and
-start banking gear while doing something else.
-
----
-
-# PHASE 9 — Endgame Content · Days 120–180
-
-### Clan Boss: Nightmare → Ultra-Nightmare
-**Target team:** Tagoar ⭐ · Galathir · Rathalos · Turvold · Uugo
-
-**Turvold finally comes online here** — his A3 scales with **how many buffs are on him**, so
-surrounded by Tagoar's Increase SPD/DEF, Galathir's buffs and his own three self-buffs, he
-becomes the nuke this roster has been building toward.
-
-**Speed tuning:** UNM Demon Lord runs at **Speed 190**; a 2:1 tune needs roughly **380 effective
-speed** `[CONFIRMED]`. Use the **DeadwoodJedi Clan Boss Calculator** — it simulates true turn
-order including the hidden decimal "true speed" produced by Speed sets and Lore of Steel
-`[CONFIRMED]`.
-
-> **Your structural gap:** no team-wide **Unkillable** or **Block Damage**, which standard UNM
-> templates are built on. Your workaround is **revive-and-sustain** — slower, less elegant, but
-> it works. **If you pull an Unkillable provider, tell me — it changes this plan materially.**
-
-### Chimera
-Gated on **level 33 + a clan with 10+ level-33 members and 50 weekly activity stars**
-`[CONFIRMED]`.
-
-**Team:** Galathir ⭐ · Uugo · Tagoar · Aniri · Artak/Gnishak
-
-**The build rule:** Ram places **[Duel] on the LOWEST Critical Damage** champion; Lion places
-**[Hunter's Gaze] on the HIGHEST Defence** champion. **Neither can be resisted or blocked**
-`[CONFIRMED]`. So you **choose who receives them** at gearing time and build that champion to
-survive it.
-
-**Trials:** complete them **early in the event** — the Clash Point multiplier only applies to
-damage dealt **after** the trial completes `[CONFIRMED]`.
-
-**Why it matters beyond the fight:** Chimera drops **Ocular Masses**, the only source of **Relic**
-crafting materials. Relics are an entire equipment axis.
-
-### Hydra
-Gated on **level 45**. **6 champions**, and **champion lock means you need multiple teams, not
-one good team** `[CONFIRMED]`.
-
-**Your roster is genuinely strong here:** Galathir (S) · Uugo (S — one of the very best Epics
-for Hydra) · Aniri (top-tier Epic) · Artak (A/S) · Rathalos (S with an HP Burn partner) ·
-Tagoar (excellent).
-
-**Start at the lowest difficulty and climb** `[CONFIRMED]`.
-
-### Faction Wars
-Long-term: **3-star every Normal stage across all 14 factions → Lydia the Deathsiren**, a
-top-tier Legendary support `[CONFIRMED]`. Hard mode → **Polara Fireheart**.
-
-**This will be slow for you** — your roster is spread thin, with only Orcs, Dwarves and
-Barbarians doubled up. **Keep off-faction Rares.** The star track also pays: **335 stars → an
-Epic Tome, and everything past 335 is Epic or Legendary** `[LIKELY]`.
+| **Uugo** | Finish her if not already at 60. **Hydra MVP** — removes all Heal Reduction | Hydra 9 · Dragon 9 · Ice Golem 9 |
+| **High Khatun · Apothecary · Alure** | **The Fire Knight kit** | Alure **Fire Knight 10** |
+| **Gnishak Verminlord** | Dragon and Ice Golem specialist, later soloist | Dragon **10** · Ice Golem **10** · Arena **10** |
+| **Fenax** | **Ice Golem specialist** — his A1 kill-clause blocks the ally revive, and needs no ACC | **Ice Golem 10** (HH) / **5/5** (Ayumilove) |
+| **Godseeker Aniri** | Clan Boss insurance — revive with **full cooldown reset**. **Void** | Demon Lord 9 |
+| **Tagoar** | Clan Boss speed-tune enabler — AoE Increase SPD, cooldown **5 → 3** booked | Demon Lord 8 |
+| **Hurndig** | **Nightmare 12-3 farming** and Arena | Ice Golem **10** · Arena 9 |
+| **Turvold** | Clan Boss damage **once you can keep him buffed** | **Demon Lord 10** · Arena 9 |
+| **Morag · Skullcrown · Kael** | Fire Knight joint attack · Arena speed lead · cheap Dragon poisoner | — |
 
 ---
 
-# Long-term resource policy
+## Solo farming — the month 3–4 unlock
+
+Unattended farming converts energy into gear with no attention. **You own three routes:**
+
+| Champion | Solos | Enabler |
+|---|---|---|
+| **Ultimate Deathknight** | **Dragon · Ice Golem** | **Toxic** set — his HellHades preset is literally called **"Solo Drag & Ice Golem"** |
+| **Gnishak Verminlord** | **Dragon · Ice Golem** | Bombs → **protected poisons**; Regen / Relentless |
+| **Artak** | **Spider** | HellHades names him a champion who can **solo this boss** with good gear — or duo with UDK as the healer |
+
+**A soloist also levels four fodder champions per run**, which compounds with campaign farming.
+
+---
+
+## Starsage Galathir — the long game
+
+He is build **#1** and already at 60. What remains is **Mythical Tomes**, which you have none
+of and cannot farm — they come from **Hero's Path events and similar**.
+
+**Priority when you get them: A2 (base form, *Stellar Embryo*)** — heal +20%, then cooldown
+**4 → 3**. That is **10 tomes to fully max**.
+
+**Build RES, not ACC.** His alternate-form passive **converts RES into ACC** (75% of RES when
+placing debuffs), and his **+80 Ally RES aura** points the same way. Stat priority
+**RES, SPD, HP%, DEF%**.
+
+---
+
+## Long-term resource policy
 
 | Resource | Policy |
 |---|---|
-| **Shards** | **Only open during 2× Summon Boost events.** Boosts do not raise Legendary odds — they bias *which* Legendary you get |
-| **Primal Shards** | Hold for 2× Primal events. Base Mythical rate is **0.5%** |
-| **Mystery Shards** | Save for **Champion Chase / Fusion** events. Buy Market fodder instead |
-| **Legendary Tomes** | Rathalos first (12 = exact full max). Then bank. **Live Arena gives 1/month regardless of tier** |
-| **Epic Tomes** | Spend freely — you have an abundance. Uugo → Aniri → Tagoar → Morag. **Never Alure** |
-| **Gems** | 800 → Kael's masteries first. Then energy refills during events. **Never** on random summons |
-| **Gear upgrades** | Bank them for **Artifact Enhancement events**, ideally overlapping a Clan vs Clan tournament |
-| **Great Hall medals** | **ACC → C.DMG → RESIST → DEF → HP → ATK.** Irreversible |
-| **Duplicate Rares** | **Never feed.** Faction Guardians need two copies per Chamber |
+| **Shards** | **Hold for boosted summon events.** Summon Boosts are now **15×**, Progressive Chance **20×/25×/30×** |
+| **Legendary tomes** | After UDK A3 + A2 and Artak A3, **hold the last 2** until the Clan Boss team settles. The **day 61–90 login block gives one** |
+| **Epic tomes** | Book each Epic **as it joins a team**. Keep **20–30 in reserve** for a future pull |
+| **Mythical tomes** | **All to Galathir's A2.** No farmable source |
+| **Gems** | Gem Mine (500) → 800 on Artak's masteries. **Never on shards** |
+| **Duplicates** | **Faction Guardians or skill-up material — never fodder** |
 
 ---
 
-# Milestones to aim at
+## Decision points — tell me when these happen
 
-| Milestone | Target | Why it matters |
-|---|---|---|
-| **Arbiter** (Progress Missions Part 4) | Month 3–6 | **+30% SPD aura in all areas** — best F2P reward in the game |
-| **Dragon 20 farmable** | Month 3 | Gear quality crosses the threshold where builds start working |
-| **Clan Boss Nightmare** | Month 3–4 | Shard and Book income compounds |
-| **Solo Dragon/Ice Golem 25** | Month 4 | Unattended gear farming |
-| **Lydia the Deathsiren** (Faction Wars) | Month 6+ | Top-tier Legendary support |
-| **Clan Boss UNM** | Month 6+ | The community's standard "account is mature" marker |
-| **Relics via Chimera** | Month 4+ | An entire equipment axis |
+The plan should be **regenerated**, not patched, when:
+
+1. **You pull a team-wide Unkillable, Block Damage, Counterattack or Ally Joint Attack
+   provider** — the first two change the Clan Boss plan; the last two directly upgrade
+   **Rathalos**, who wants them to hit his every-fifth-skill trigger
+2. **You reach level 45** — Hydra planning becomes real, and this roster's six best Hydra
+   champions all rate 9–10
+3. **Your clan can run Chimera at a real difficulty** — Trials and Relics open up
+4. **You get Mythical Tomes** — Galathir's A2
+5. **A patch rebalances one of your champions** — the pack's champion pages carry HellHades
+   stamps of **2026-04-06** and Ayumilove stamps of **2026-09-16**, so a refresh may be due
+6. **You verify any `unverified` claim in game** — several load-bearing items are tagged in
+   `docs/research/DATA_CONFLICTS.md §C`
+
+**Most pulls will not change the plan.** When one does not, I will say so plainly rather than
+manufacture a re-plan.
 
 ---
 
-# Decision points — tell me when you hit these
+## Still unresearched
 
-These are the moments where the plan should be re-derived rather than followed:
+Carried from `claude-web/05_OPEN_ITEMS_AND_CONFLICTS.md`. **Open TODOs — not guessed at.**
 
-1. **You pull an Unkillable or Block Damage provider** → the Clan Boss plan changes materially
-2. **You pull a team-wide Counterattack provider** → Fire Knight and Clan Boss both improve
-3. **You pull more multi-hit A1 champions** → Fire Knight unblocks earlier
-4. **You verify Fenax's kit** → he may slot straight into Ice Golem
-5. **You verify Galathir's kit** → I can give you a confirmed build instead of a hedged one
-6. **Your clan can run Chimera** → Relics open up
-7. **You hit level 45** → Hydra planning becomes real
-8. **A patch rebalances one of your champions** → the affected dossier needs re-research
-
-**Most pulls will not change the plan.** When one does not, I will say so plainly — "this is a
-nice champion but it changes nothing, stay the course" is usually the correct answer, and I
-would rather give you that than manufacture a re-plan to look responsive.
+1. **Demon Lord speed tunes** — whether this roster reaches 2:1 or 4:3, and at what speeds
+2. **Hydra head-by-head playbook** — **Head-of-Torment vs Galathir's Perfect Veil** especially
+3. **Chimera Trials** — trial list and empowerment breakpoints (7–9, 16–18)
+4. **Demon Lord damage thresholds** per difficulty and chest tier
+5. **Arena validation** — Live Arena and Tag Team Arena not researched at all
+6. **Doom Tower, Faction Wars, Cursed City, Grim Forest, Minotaur, Iron Twins, Sand Devil,
+   Phantom Shogun** — ratings exist, mechanics and teams do not
+7. **Blessings and Relics** — not extracted
+8. **Faction Guardians** — not researched, and **live for you from the day-30 High Khatun
+   duplicate**

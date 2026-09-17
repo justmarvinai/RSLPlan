@@ -83,6 +83,40 @@ generic site cannot. Anything a generic site does better, we link to instead.
 
 ---
 
+## 🚨 Non-negotiable build constraints
+
+These come from `docs/research/SOURCES.md §5` and `CLAUDE.md §2.8, §3` and are binding on the
+implementation.
+
+### 1. Attribution and no scraping
+Champion data, ratings, mastery presets and boss mechanics come from **HellHades** and
+**Ayumilove**.
+
+- **The site must credit both**, visibly
+- **The site must not scrape or hotlink HellHades' JSON endpoints.** The refresh recipes in
+  `SOURCES.md` are undocumented endpoints belonging to them, and are for the owner's **private**
+  refreshes only
+- Cached values must be shipped **clearly attributed and dated**
+
+### 2. Never merge the two rating scales
+**HellHades rates 0–10. Ayumilove rates 1–5 stars.** They disagree substantively — Alure is
+HellHades **10** for Fire Knight and Ayumilove **1/5** for Hydra.
+
+- **Show both**, each labelled with its source and scale
+- **Never persist an averaged or normalised number**
+- If a view needs one sort order, **compute it at render time and label it as derived**
+
+### 3. Tier 3 is regenerated, not edited
+Teams, build order, tome plan and the 30-day plan are **analysis**, not source data. The site
+renders them; it must not let them be hand-patched into divergence from `docs/plan/`.
+
+### 4. Per-form champions
+**Starsage Galathir has two forms with separate ratings and skills.** Any champion view must
+render per-form data without collapsing it, and **he cannot use Legendary Skill Tomes** — the
+tome planner must not offer them.
+
+---
+
 ## Design principles
 
 1. **Show the reasoning, not just the verdict.** "Build Uugo first" is useless. "Build Uugo

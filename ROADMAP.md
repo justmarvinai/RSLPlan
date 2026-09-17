@@ -8,61 +8,51 @@ to serve it.
 
 ## Track A — Account progression
 
-Dates assume a Day 1 of **2026-09-17**. Detail lives in `docs/plan/14-day-1-30-plan.md` and
-`docs/plan/15-day-31-plus.md`.
+> **🔄 Tier-3 analysis.** Regenerated 2026-09-17 from the research pack. Detail in
+> `docs/plan/14-day-1-30-plan.md` and `docs/plan/15-day-31-plus.md`.
 
-### Phase 0 — Foundation · Days 1–3
-**Goal:** stop bleeding value, start the engine.
-- Join an active clan (unlocks Clan Boss income; gates Chimera later)
-- Identify and commit to the campaign farmer
-- Stop opening shards outside 2× events
-- Set the daily routine
+Dates assume Day 1 = **2026-09-17**.
 
-**Exit criteria:** in a clan · farmer identified · daily routine running.
+### Phase 0 — Setup · Days 1–3
+**⏰ Redeem the new-player promo code** (24h / level 15 window) · join a clan **at your level** ·
+start the Arbiter progress missions · fill the Sparring Pit and keep it full · daily Arena
+battles · **book UDK's A3 (2 Legendary tomes) on day one** · start levelling Galathir.
 
-### Phase 1 — The farmer · Days 1–10
-**Goal:** one champion at **level 60, 6★**, clearing **Brutal 12-3** solo on auto at 100%.
-This is the single highest-leverage objective on a fresh account — everything downstream is
-bottlenecked by XP and silver.
+**Exit:** in a clan · Galathir levelling · daily loop running.
 
-**Exit criteria:** 60/6★ farmer · Brutal 12-3 solo on auto · Multi-Battle running unattended.
+### Phase 1 — Farmer online · Days 4–14
+**Artak to 6★ level 60**, farming **Brutal 12-3**. Gear him in whatever Speed, Perception and
+Lifesteal you find — his damage scales off **HP**, so cheap gear works. **UDK to 50** and book
+his A2 (4 tomes). Start daily Clan Boss.
 
-### Phase 2 — The core five · Days 5–20
-**Goal:** a functioning 5-champion PvE core covering the universal requirements:
-Decrease DEF · cleanse/Block Debuffs · Increase ATK/SPD · sustained damage · survivability.
+**Exit:** Artak farming on Multi-Battle · UDK at 50 with Decrease ATK at 100%.
 
-**Exit criteria:** five champions at 60 · core debuffs covered · ~200+ ACC on debuffers.
+### Phase 2 — Dungeons open · Days 15–21
+Clan Boss daily, Normal → Hard → Brutal. **Dragon, Ice Golem and Spider to stage 10** with the
+core five. Minotaur for mastery scrolls, Potion Keeps for ascension — **Super Raids are
+permanent in both**. **Ninja to 60.** Finish Arbiter part 1. Book Artak's A3 (4 tomes).
 
-### Phase 3 — Dungeon entry · Days 15–30
-**Goal:** farmable stages in the gear dungeons. Dragon first (most forgiving, drops the sets
-everything else needs), then Ice Golem, then Spider. Fire Knight is deliberately last — it is
-a mechanics check, not a stat check.
+### Phase 3 — Settle the loop · Days 22–30
+**Rathalos to 60** — completes the burn core. Dungeons to **stage 13–16**. Chimera weekly chest
+at level 33, **Trials ignored**. Fire Knight low stages as the Alure / High Khatun / Apothecary
+kit comes online. Hold shards for boosted summons.
 
-**Exit criteria:** Dragon 12–15+ farmable · Ice Golem started · gear quality rising.
+### Phase 4 — Content order · Days 31–90
+**HellHades' order: Dragon 20 → Spider 20 → Fire Knight.** Stage 20 is the gear milestone;
+**do not rush into 21–25**, where Enemy Max HP damage is capped and TM reduction halved.
+Build wave 2: Uugo · the Fire Knight kit · Gnishak · Fenax · Aniri · Tagoar.
 
-### Phase 4 — Clan Boss & Arena · Days 20–40
-**Goal:** consistent Clan Boss chests and a Great Hall feed.
-Arena is not optional: Great Hall bonuses are permanent, account-wide, and the top tiers are
-gated behind Gold Medals.
+### Phase 5 — Solo farming · Days 90–120
+**UDK in Toxic** (his preset is literally *"Solo Drag & Ice Golem"*) · **Gnishak** for Dragon
+and Ice Golem · **Artak** soloing Spider, or duoing it with UDK. A soloist also levels **four
+fodder champions per run**.
 
-**Exit criteria:** Clan Boss Hard/Brutal consistently · Silver Arena · Great Hall investment
-started.
+### Phase 6 — Endgame
+Clan Boss **Brutal → Nightmare with a real speed tune** (DeadwoodJedi calculator) · **Hydra at
+level 45** — six champions all rating 9–10 · Chimera Trials once the clan can support them ·
+Hard dungeons, where awakening levels start to matter.
 
-### Phase 5 — Masteries · Days 30–60
-**Goal:** full masteries on the core 4–6 champions.
-At ~1,650 scrolls and up to 60 hours of grinding per champion, this is the scarcest
-investment in the game. **Who gets masteries is decided in Phase 2, not here** — because
-Rapid Response, Arcane Celerity and Cycle of Magic silently break Clan Boss speed tunes and
-are expensive to undo.
-
-**Exit criteria:** Minotaur 13+ on auto · core team fully mastered.
-
-### Phase 6 — Unlocks · Days 45–90
-Faction Wars (lvl 30) · Chimera (lvl 33 + clan) · Doom Tower (lvl 40) · Hydra (lvl 45).
-
-### Phase 7 — Endgame · Day 90+
-Clan Boss Nightmare → Ultra-Nightmare · Dungeon 20–25 · Relics via Chimera ·
-Hard Mode dungeons · Hydra depth.
+**Level gates:** Chimera **33** · Doom Tower **40** · Hydra **45** · Cursed City **52**.
 
 ---
 
@@ -122,17 +112,16 @@ literally everything else. They are also the two cheapest things on the list.
 
 ## Success criteria at Day 30
 
-| Metric | Target | Stretch |
-|---|---|---|
-| Account level | 45+ | 50 |
-| Farmer | 60/6★, Brutal 12-3 auto | Sub-40s clears |
-| Champions at 60 | 3–5 | 6 |
-| Dragon | Stage 13–15 farmable | 20 |
-| Clan Boss | Hard/Brutal chests | Nightmare attempt |
-| Arena | Silver | Gold |
-| Great Hall | Investment started | Multiple level 4+ |
-| Masteries | 1 champion done | 2–3 |
-| Faction Wars | Unlocked, started | Several crypts progressing |
+| Metric | Target |
+|---|---|
+| **Campaign** | **Artak 6★/60 farming Brutal 12-3** |
+| Champions at 60 | **4–5** — Galathir, Artak, UDK, Ninja, Rathalos |
+| Dragon / Ice Golem / Spider | **Stage 13–16** |
+| Fire Knight | Low stages started |
+| Clan Boss | **Hard**, climbing to Brutal |
+| Chimera | Weekly chest, **Trials ignored** |
+| Arbiter missions | **Part 1 complete** |
+| Legendary tomes spent | **10 of 12** — UDK A3, UDK A2, Artak A3 |
 
-These are **calibrated for a fresh account**, not copied from a content creator's showcase.
-If you beat them, you are ahead.
+Calibrated for a fresh account. Savage, Cruel, Merciless, Relentless, Protection and Stoneskin
+all come from **dungeon stage 16+ or Hydra** — they are month 2–4 targets, not week 1.

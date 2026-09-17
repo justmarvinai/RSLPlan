@@ -1,185 +1,128 @@
-# 13 — Skill Tome Allocation Plan
+# 13 — Skill Tome Allocation
 
-**Your stock:** 26 Rare · **110 Epic** · 12 Legendary
-**Status:** irreversible spend — read the mechanic below before using any.
+> **🔄 TIER 3 — ANALYSIS, NOT SOURCE DATA.**
+> **Regenerate wholesale when the roster changes.** Tome costs and book values are tier-1 data
+> from `docs/research/claude-web/`; the allocation below is reasoning on top of them.
 
----
-
-## 🚨 The mechanic that makes books painful
-
-> **Each tome adds one level to ONE skill, and WHICH skill is upgraded is RANDOM among the
-> skills still needing improvement.** `[CONFIRMED]`
-
-**You cannot target a skill.** If a champion has one skill worth booking and three that are
-not, your tomes will scatter across all four.
-
-### The rule this produces
-**Only book a champion when either:**
-- **(a)** you can fully max them — at which point randomness stops mattering, because every
-  skill ends up maxed anyway; **or**
-- **(b)** every one of their skills benefits, so there is no wasted roll.
-
-**Partial-booking a champion with one good skill and three dead ones is how people waste
-Legendary Tomes.**
-
-You must also use a tome matching the champion's rarity — Legendary champions need Legendary
-Tomes `[CONFIRMED]`.
+**Regenerated:** 2026-09-17 from the research pack.
 
 ---
 
-## Your position is unusual — and worth saying plainly
+## Your position
 
-**110 Epic Tomes is a mid-game stockpile, not a starter one.** Most accounts ration Epic tomes
-one champion at a time for months. At roughly 11–15 tomes to fully max an Epic, **you can fully
-book five or six Epics — essentially your entire Epic roster — and still have spares.**
+| Tome | Owned | Needed to max everything owned |
+|---|---|---|
+| **Rare** | **26** | 24 (Kael 14 + Apothecary 10) |
+| **Epic** | **110** | ~100 |
+| **Legendary** | **12** | **85** |
+| **Mythical** | **0** | **10** (Starsage Galathir) |
 
-**This removes the hardest constraint most new accounts face.** It is the single strongest
-asset you have after the champions themselves.
+**Two things follow immediately:**
 
-> ⚠️ **This is also the thing I am least sure about.** See `USER_QUESTION.md` Q2 and Q10 — if
-> those 110 tomes are a one-time windfall rather than the start of ongoing spending, the
-> allocation below should become more conservative. Confirm the number before spending.
+1. **Legendary tomes are the only real bottleneck.** 12 against a need of 85.
+2. **🚨 Starsage Galathir cannot use Legendary tomes.** Tome rarity does not cross upward —
+   **Mythicals need Mythical Tomes**, which come from Hero's Path events and similar. **You own
+   zero.** Downgrading (a higher-rarity tome on a lower-rarity champion) is possible but
+   wasteful.
 
----
-
-## RARE TOMES — 26 available
-
-### ✅ Spend now: **Apothecary — 10 tomes** (full max) `[LIKELY]`
-**The single best conversion on your entire roster.**
-
-- Takes his **A2 heal to a 2-turn cooldown** and sustains his **30% AoE Increase SPD**
-  `[CONFIRMED]`
-- **10 tomes fully maxes him** — so randomness is a non-issue
-- He is described as *"very easy to book"* `[CONFIRMED]`
-
-**Do this in the first week. It is the cheapest large power gain available to you.**
-
-### ✅ Then: **Kael — remaining 16 tomes**
-Every skill benefits — A1 and A3 poison chances, A2 cooldown — so there is no wasted roll.
-Improves both his farming loop and his long-term Clan Boss/Dragon poison value.
-
-**Allocation: 10 → Apothecary · 16 → Kael · 0 held.**
-Rare tomes are the most plentiful tier and both champions are permanent keepers (including
-Rare-restricted Doom Tower Secret Rooms). There is no reason to hoard these.
+> ⚠️ **One mechanic to confirm.** This plan assumes **you choose which skill a tome upgrades**.
+> The previous version of this document assumed selection was **random**, which would make
+> targeted 2-tome spends impossible. The pack's plan presupposes targeting and is almost
+> certainly right — but **please verify in game** (`DATA_CONFLICTS.md §A1`). It takes ten
+> seconds and the whole plan below depends on it.
 
 ---
 
-## EPIC TOMES — 110 available
+## LEGENDARY — 12 owned · spend 10, hold 2
 
-### Priority order
+**Irreversible.** Recommended order, cheapest large upgrade first:
 
-| # | Champion | Est. cost | Why | Confidence |
+| # | Spend | Cost | What it buys |
+|---|---|---|---|
+| **1** | **Ultimate Deathknight — A3** | **2** | *Get Comfy Everyone* cooldown **5 → 3** on the team **Shield + 15% Continuous Heal**. **The cheapest large upgrade you own** |
+| **2** | **Ultimate Deathknight — A2** | **4** | *Rats Off To Ya* Decrease ATK **80% → 100% chance** (tomes 2–3) and cooldown **4 → 3** (tome 4). **Decrease ATK uptime is the single biggest survivability lever in Clan Boss, Ice Golem and Spider** |
+| **3** | **Artak — A3** | **4** | *Purifyre* HP Burn **75% → 100%** and cooldown **4 → 3**. **This is what makes the Spider and Hydra burn plan reliable** |
+| **4** | **Hold the last 2** | — | Until the Clan Boss team is settled. Candidates: **Artak A2** (Decrease ATK to 100%), **Ninja A2** (burn chance per hit), or a better Legendary you pull |
+
+**Why UDK and Artak rather than Rathalos:** this buys **survivability and debuff reliability
+across four game modes in the first month**, at a point where you cannot yet gear Rathalos for
+his damage to matter. Rathalos needs exactly 12 tomes for a clean full max and his ceiling is
+higher — but it is a month-3 ceiling.
+
+> **🔴 This overrides the previous plan**, which held all 12 and spent them on Rathalos. If you
+> would rather bank for Rathalos, say so — it is a legitimate long-game choice, not a mistake.
+> See `DATA_CONFLICTS.md §A2`.
+
+---
+
+## EPIC — 110 owned · spend as champions join teams
+
+**You can afford to fully book every Epic you own.** So **book each one as it joins a team
+rather than hoarding.** Best value per tome first:
+
+| Order | Champion | Cost | What it buys | Book value |
 |---|---|---|---|---|
-| **1** | **Uugo** | ~11–15 | **A2 → 100% debuff chance, 3-turn cooldown.** Sources call this the difference between "fine" and "team-defining" | `[CONFIRMED]` |
-| **2** | **Godseeker Aniri** | **14** | Only A2 genuinely needs it — but max her anyway to dodge randomness. Unusually book-cheap for her power | `[LIKELY]` |
-| **3** | **Tagoar** | ~11–15 | A2 (the 3-turn AoE Increase SPD that enables 2:1 Clan Boss tunes) and A3 revive cooldown | `[LIKELY]` |
-| **4** | **High Khatun** | **11** | A2 "Rally the Horde" priority — but see the caveat below | `[LIKELY]` |
-| **5** | **Morag Bronzelock** | ~11–15 | A2 → 3-turn cooldown gives near-permanent Strengthen, which keeps her counterattack passive online | `[LIKELY]` |
-| **6** | **Skullcrown** | ~11–15 | Low priority — only matters for Ally-Attack "blender" teams you cannot build yet | `[LIKELY]` |
+| **1** | **High Khatun — A2** | **1** | *Rally the Horde* cooldown **4 → 3** on the team speed buff. **One tome** | 8/10 |
+| **2** | **Godseeker Aniri — A3 and passive** | **3 each** | Both cooldowns **7 → 4** — the revive and the Revive-on-Death pre-empt | 10/10 |
+| **3** | **Tagoar — A2** | **4** | *Charge Cant* cooldown **5 → 3** — AoE Increase SPD, the Clan Boss tune enabler | 10/10 |
+| **4** | **Uugo — A2 and A3** | **12 total** | **Decrease DEF to 100% chance** and lower cooldowns (A2 **4 → 3**, A3 **6 → 4**) | 10/10 |
+| **last** | **Alure** | 12 to max | **HellHades book value 4/10** — her turn-meter control works unbooked | **4/10** |
 
-**Rough total for 1–5: ~62–74 tomes. You have 110.** Comfortable.
+**Keep 20–30 Epic tomes in reserve** for a future Epic pull such as **Seer, Royal Guard or
+Coldheart**.
 
-### 🚨 Do NOT book Alure — this is counterintuitive
-Sources state she **requires no books at all**, and go further: booking her is **actively advised
-against**, because **reducing her other cooldowns means she uses her A1 less — and the A1 is her
-entire value** `[LIKELY, firmly stated and internally consistent]`.
+**Full Epic costs for reference:** Aniri **17** · Uugo **16** · Fenax **13** · Alure **12** ·
+Skullcrown **12** · High Khatun **11** · Tagoar **10** · Morag **9**.
 
-**She is a free-to-build Epic crowd controller. Spend nothing on her.**
-
-### ⚠️ Hold on High Khatun until you decide her role
-She is **11 tomes to max**, and **fully usable unbooked if you only want her as an Arena
-speed-aura lead** `[LIKELY]`. Sources are blunt that *"her endgame relevance is more limited"*
-and she is *"not considered an endgame staple"* `[CONFIRMED]`.
-
-**Book her if** she is your Clan Boss tune engine.
-**Skip her if** Tagoar takes that job and she is only ever a leader for the aura.
-
-### ⏸️ Hold on Fenax
-Research incomplete. **Do not spend a single tome until his kit is verified in-game.**
-
-### Recommended allocation
-```
-Uugo              ~15   ← do this first
-Godseeker Aniri    14
-Tagoar            ~15
-Morag Bronzelock  ~15
-High Khatun        11   ← only if she is your CB engine
-Alure               0   ← deliberately zero
-Skullcrown          0   ← later, if ever
-Fenax               0   ← blocked on research
-                 -----
-Spent            ~70
-Remaining        ~40   ← held for future Epics
-```
-
-**Keeping ~40 in reserve is deliberate.** You will pull more Epics, and some will be better than
-Skullcrown. Spending down to zero removes your ability to react.
+> **Note on Alure:** the previous version said *"never book her."* That was too absolute. The
+> correct guidance is **book her last** — HellHades gives her book priority A2/A3 with a value
+> of 4/10.
 
 ---
 
-## LEGENDARY TOMES — 12 available
+## RARE — 26 owned · spend all 26
 
-### 🛑 Recommendation: spend ZERO in the first 30 days
+**Rare tomes fit nothing else you own, so there is no reason to save them.**
 
-Legendary Tomes are among the scarcest resources in the game. Standard guidance is unambiguous:
-**bank them until you know who your keepers are** `[CONFIRMED as consensus]`.
+| Order | Champion | Cost | What it buys |
+|---|---|---|---|
+| **1** | **Apothecary** | **10** | A2 heal and cooldown (**3 → 2**), A3 cooldown **5 → 3** on the AoE Increase SPD |
+| **2** | **Kael** | **14** | A2 and A3 — book value **10/10** |
 
-**Three concrete reasons for your account specifically:**
-1. **You cannot use any Legendary properly yet.** Rathalos and Turvold both need real crit gear
-   you will not have for weeks. Booking them changes nothing about what you can clear on day 20
-2. **Your stock grows passively.** **Live Arena gives 1 Legendary Skill Tome per month
-   regardless of tier** `[CONFIRMED]`, and the Progress Missions chain awards 2 more
-   `[CONFIRMED]`. Waiting costs you nothing
-3. **Your Clan Boss anchor is not yet decided.** Rathalos or Turvold — that answer depends on
-   what gear you find and whether you pull an Unkillable provider
+**Total 24 of 26.** Apothecary first.
 
-### When you do spend: **Rathalos Blademaster, all 12**
+---
 
-**He needs exactly 12 Legendary Tomes to fully max** `[LIKELY]` — which means **no randomness
-problem, because every skill ends maxed.** That is a clean, complete, zero-waste spend, and it
-is rare.
+## MYTHICAL — 0 owned
 
-**What the 12 buy you:**
-- **A2 and A3 both go 4 → 3 turn cooldowns**, which directly raises how often his **"every fifth
-  skill deals 200% more damage"** passive triggers
-- A1's Decrease DEF chance improves — and that debuff is **unresistable against bosses**
+**Galathir needs 10.** Per HellHades his priority is **A2 (base form, *Stellar Embryo*)** —
+heal +20%, then cooldown **4 → 3**.
 
-Combined with **A2 ignoring 100% of a boss's DEF**, he is your best long-term Clan Boss and
-Hydra damage dealer, and he is **unobtainable now**, so he will not be replaced by a luckier pull.
-
-**Timing: around day 30–60**, once he has crit gear and is actually in your Clan Boss team.
-
-### The alternative: Turvold
-Books are high value on him too — **A2 and A3 each gain −1 cooldown** `[LIKELY]`. But his exact
-tome count is `[NOT CONFIRMED]`, so you cannot guarantee a clean full max, which reintroduces
-the randomness problem.
-
-**Verdict: Rathalos first.** Revisit Turvold once your Clan Boss team is actually running and
-you have more tomes banked.
+**Save the first Mythical tomes you earn for that.** They come from Hero's Path events and
+similar; there is no farmable source.
 
 ---
 
 ## Summary
 
-| Tier | Stock | Spend now | On whom | Hold |
+| Tome | Owned | Spend now | On whom | Hold |
 |---|---|---|---|---|
-| **Rare** | 26 | **26** | Apothecary (10, full max) → Kael (16) | 0 |
-| **Epic** | 110 | **~70** | Uugo → Aniri → Tagoar → Morag → *(High Khatun if CB engine)* | ~40 |
-| **Legendary** | 12 | **0** | — | **All 12 until day 30–60, then Rathalos** |
+| **Rare** | 26 | **24** | Apothecary (10) → Kael (14) | 2 |
+| **Epic** | 110 | **~55–70** | High Khatun A2 → Aniri A3+passive → Tagoar A2 → Uugo A2+A3 · **Alure last** | **20–30 in reserve** |
+| **Legendary** | 12 | **10** | UDK A3 (2) → UDK A2 (4) → Artak A3 (4) | **2 until the CB team settles** |
+| **Mythical** | 0 | — | Galathir A2 when you get any | — |
 
-### The three rules
-1. **Never partial-book a champion with dead skills** — randomness wastes the tomes
-2. **Never book Alure** — it actively makes her worse
-3. **Never spend Legendary Tomes on a champion you cannot yet gear**
+### Three rules
+1. **Verify you can target the skill** before spending anything (`DATA_CONFLICTS.md §A1`)
+2. **Legendary tomes cannot touch Galathir** — he needs Mythical tomes
+3. **Book a champion when they join a team**, not in advance
 
 ---
 
-## Before you spend anything
+## Before you spend
 
-**Open the champion in-game and read the actual skill text.** Patches 10.00 and 10.60 both
-included champion re-balancing passes `[CONFIRMED]`, and **no 2026 rebalance was confirmed or
-ruled out for any champion on your roster** — the research budget ran out before patch archives
-could be worked through.
+**Open the champion in-game and read the skill text.** Every website, **including this
+repository**, is a lagging indicator. The pack's champion pages carry HellHades stamps of
+**2026-04-06** (Skullcrown 2026-08-24) and Ayumilove stamps of **2026-09-16**.
 
-The in-game client is always correct. Every website, **including this repository**, is a lagging
-indicator. Thirty seconds of checking beats an irreversible mistake.
+Thirty seconds of checking beats an irreversible mistake.

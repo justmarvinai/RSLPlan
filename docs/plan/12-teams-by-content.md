@@ -1,480 +1,297 @@
 # 12 — Teams by Content Type
 
-**Date:** 2026-09-17 · Requirements from `docs/research/03-content-mechanics.md` · Champion
-data from `docs/research/02-champion-dossiers.md`
+> **🔄 TIER 3 — ANALYSIS, NOT SOURCE DATA.**
+> **Regenerate wholesale when the roster changes — never edit piecemeal.**
+> Mechanics come from `docs/research/03-content-mechanics.md` (tier 2); ratings from
+> `docs/research/02-champion-dossiers.md` (tier 1). Every slot cites the rating or mechanic
+> behind it.
+
+**Regenerated:** 2026-09-17 from the research pack.
+
+**⭐ = leader** (only the leader's aura applies).
+Team sizes: **Arena 4 · dungeons / Demon Lord / Chimera 5 · Hydra 6.**
 
 ---
 
-## How to read this document
+## The core five
 
-Each content type gets **three teams**: what you can field **now**, what you build **toward**,
-and the **endgame** target. Timelines are calibrated for a genuinely fresh account, not copied
-from a showcase.
+**Starsage Galathir · Ultimate Deathknight · Artak · Ninja · Rathalos Blademaster**
 
-**Two conventions:**
-- **⭐ = team leader** (only the leader's aura applies — this is free stats, do not waste it)
-- Every team states **what is blocking it**, honestly. Where something is not achievable inside
-  30 days, it says so rather than pretending.
-
-**Team sizes:** Arena 4 · Dungeons/Campaign/Demon Lord/Chimera 5 · **Hydra 6**
+They carry **Clan Boss, Spider, Dragon and Ice Golem simultaneously**, so one gear investment
+serves four modes — and they are the cheapest champions on the roster to rank.
 
 ---
 
-# 1. Campaign Solo Farmer
+# 1. Campaign farming
 
-**Requirement:** AoE damage · self-sustain · **100% reliability** · speed. Target **Brutal 12-3**
-(best XP+silver in the game; it drops Shields, which sell for more than 12-6's Boots)
-`[CONFIRMED]`
+**Goal: Brutal 12-3** — best XP per energy once you clear it fast, and shields there sell for
+the most silver. **Energy: Normal 4 · Hard 6 · Brutal 8 · Nightmare 16.**
 
-### ✅ NOW — Day 1–10
-| Slot | Champion | Role |
+| Slot | Champion | Why |
 |---|---|---|
-| 1 | **⭐ Kael** | Solo farmer — Lifesteal set |
-| 2–4 | **Food champions** | Ride along soaking XP |
+| ⭐ | **Artak** | HellHades ships a dedicated **"Solo Farm Build"** preset. **All three skills are AoE.** Damage scales off **HP** — the cheapest, most plentiful gear for a new account |
+| 2–4 | **Food champions** | Soak XP. Multi-Battle training queue holds **60 champions**; **Auto-Equip** gears fodder fast |
 
-- **Gear:** **Lifesteal** (self-sustain, no healer) + **Speed**
-- **Stats: HP, DEF, SPD, ACC** — survivability over damage. The metric is *runs per hour at
-  100% success*, not damage numbers
-- **Masteries:** Ruthless Ambush · Cycle of Violence · Kill Streak · Spirit Haste ·
-  **Cycle of Revenge** `[LIKELY]`. **Buy with 800 Gems** — do not farm these
-- **The engine:** A2 "Acid Rain" **fills his own Turn Meter 25% per enemy killed** — kill a
-  wave, refill, act again
+**Gear:** whatever **Speed, Perception and Lifesteal** you find. Prioritise **HP% and SPD**.
 
-> **⚠️ Reliability is an economic decision, not perfectionism.** Under **Super Raids** (2×
-> energy for 2× rewards) a failed run **costs you the doubled runs** `[CONFIRMED]`. A 95%
-> farmer is expensive. Build him boring and bulletproof.
+> **⚠️ The sources disagree here, and the pack says so.** Ayumilove rates Artak **4/5** for
+> Campaign, below Gnishak, Hurndig, Rathalos, Skullcrown, Uugo, Aniri and Kael at **5/5**.
+> Those champions need crit and attack stats an early account does not have. **Artak is
+> recommended on gear-cost grounds, not rating grounds.**
 
-### 🔨 MID — Day 30+
-Swap to **Hurndig** for **Nightmare** campaign — *"a very popular option for soloing Nightmare
-Campaign as a farmer"* `[CONFIRMED]`. Keep Kael for Brutal; run both.
+**Planned switch:** **Hurndig** for **Nightmare 12-3** — HellHades describes this as a popular
+role for him and ships a **"Campaign Farmer"** preset.
 
-### 🏁 ENDGAME
-**Hurndig** on Nightmare, plus **UDK or Gnishak** soloing dungeons unattended for gear while
-campaign runs separately.
-
-**Realistic timeline:** Brutal 12-3 solo by **day 7–10**.
+**XP targets:** 963,806 to take a rank-5 champion to 50 · 2,010,669 for a rank-6 to 60.
 
 ---
 
-# 2. Dragon's Lair
+# 2. Demon Lord (daily Clan Boss)
 
-**Requirements:** Decrease DEF · **cleanse / Block Debuffs** support with high RES (the Dragon
-applies Poison + Weaken + Decrease ATK) · **~300 ACC at stage 25** · sustained single-target
-damage.
-**Stage 25 is FORCE affinity** `[CONFIRMED]` → your Magic champions are **disadvantaged**.
+**Top-priority debuff is Decrease ATK** — the boss's A1 and A2 are AoE attacks scaling off its
+**own ATK**. Its A3 is single-target scaling off **the target's HP**, so the soaker wants **high
+DEF, comparatively low HP**. Cap of **10 debuffs**. Opens **Void**, switches at **50% HP**.
 
-### ✅ NOW — Day 15–30 · target stages 8–15
-| Slot | Champion | Role |
+| Slot | Champion | Why |
 |---|---|---|
-| 1 | **⭐ High Khatun** | Speed aura (+19% all battles) · AoE Increase SPD |
-| 2 | **Uugo** | **60% AoE Decrease DEF** + AoE heal + cleanse |
-| 3 | **Apothecary** | Heal · AoE Increase SPD · 3-hit A1 |
-| 4 | **Ultimate Deathknight** | Survivability · AoE Dec ATK · Shield |
-| 5 | **Artak** | Damage (HP-scaling, forgiving) |
+| ⭐ | **Ultimate Deathknight** | **+30% Ally DEF, all battles.** **AoE 50% Decrease ATK at 80% chance** — the single most valuable debuff here. Shield + Continuous Heal |
+| 2 | **Starsage Galathir** | Cleanse, **Block Debuffs**, AoE revive, TM fill. Demon Lord **8** |
+| 3 | **Ninja** | **Demon Lord 10.** 60% Decrease DEF; **+15% own TM vs bosses**; Escalation ramps **+20% ATK per cycle vs bosses** |
+| 4 | **Artak** | Second **AoE 50% Decrease ATK**; HP Burn placement and activation |
+| 5 | **Rathalos Blademaster** | Demon Lord **9**. A1 Decrease DEF **cannot be resisted vs bosses**; A2 **ignores 100% of boss DEF** |
 
-### 🔨 MID — Day 30–90 · target stages 15–20
-Swap **Apothecary → Rathalos Blademaster** once he has crit gear. His A1 places a **60%
-Decrease DEF that CANNOT BE RESISTED against bosses**, and his A2 **ignores 100% of the boss's
-DEF** `[CONFIRMED]`. Lead with **Rathalos (+30% ally ATK in Dungeons)**.
+**Run it untuned.** HellHades explicitly recommends an **untuned "speed team"** for early
+accounts — swap **Apothecary** or **High Khatun** in as speed boosters once built. **Do not
+chase a 2:1 or 4:3 tune yet.**
 
-### 🏁 ENDGAME — stage 20–25, affinity-aware
-**Field Force and Void champions. Leave the Magic crowd at home.**
+**Progression:** Normal → Hard → Brutal. **Killing the boss doubles every member's chest**, so
+clear a lower difficulty rather than scratch a higher one. Early gear is **Lifesteal**.
 
-| Slot | Champion | Affinity | Why |
+**Later upgrades:** **Godseeker Aniri** (Demon Lord **9**) extends ally buffs **+1 turn** and
+revives with **full cooldown reset**; **Tagoar** and **High Khatun** are the tune enablers;
+**Turvold** (Demon Lord **10**) once you can keep him alive and buffed.
+
+---
+
+# 3. Chimera (level 33 + clan)
+
+Five champions · **65 turns** · forms cycle **Ultimate → Ram → Ultimate → Lion → Ultimate →
+Viper**, five boss turns each. **Chimera can be hit with Decrease SPD.**
+
+| Slot | Champion | Why |
+|---|---|---|
+| ⭐ | **Starsage Galathir** | **Chimera 10** (base form). **+80 Ally RES aura.** Cleanse, Block Debuffs, AoE revive — and the Viper answer below |
+| 2 | **Ninja** | **Chimera 10** |
+| 3 | **Uugo** | **Block Buffs** stops the Ultimate form's self-buff. Chimera 8 |
+| 4 | **Rathalos Blademaster** | Chimera 8, boss damage |
+| 5 | **UDK** early → **Fenax** later | UDK: Decrease ATK + shields. Fenax: Chimera 8 and Block Buffs / Block Active Skills |
+
+### The Galathir trick
+**The Viper form is vulnerable to Block Active Skills**, which locks it to its A1.
+**Galathir's alternate-form A2 (Eclipse Rend) places Block Active Skills on all enemies.**
+
+Plan: fight in **base form** for the cleanse, Block Debuffs and AoE revive → **Metamorph when
+the Viper appears** (it grants an Extra Turn) → lock it → Metamorph back.
+
+### 🚨 The Perfect Veil trap — specific to this team
+> **The Ram form reflects 50% of the damage you deal and ignores 50% DEF against anyone under
+> Veil, Perfect Veil or Taunt.**
+
+**Galathir's A3 (Part the Veil) grants Perfect Veil to all allies. Ninja's A2 (Hailburn) grants
+it to himself.** **Do not use either going into Ram form.**
+
+### Gearing decisions made before you enter
+- **Duel lands on the LOWEST C.DMG% champion** → give **Galathir more C.DMG% than UDK** so it
+  lands on UDK
+- **Hunter's Gaze lands on the HIGHEST-DEF champion** → UDK naturally, and **never remove it**
+  (removal triggers an extra AoE)
+- **Lion's A3 strips Decrease ATK** and hits harder per debuff removed → **re-apply Decrease ATK
+  after that attack**
+- **Do not stack buffs right before the boss swaps back to Ultimate form**
+
+**Trials: ignore them for now** — they make the Ultimate form significantly stronger. Farm the
+weekly chest.
+
+---
+
+# 4. Hydra (level 45 + clan)
+
+**Six champions · three keys a week · those six are locked out for the rest of the week.**
+
+| Slot | Champion | HellHades Hydra | Why |
 |---|---|---|---|
-| 1 | **⭐ Rathalos Blademaster** | Force (neutral) | +30% ATK dungeon aura · unresistable Dec DEF · 100% ignore boss DEF |
-| 2 | **Starsage Galathir** | Force (neutral) | **Removes ALL debuffs + Block Debuffs** — the exact answer to Dragon's Poison/Weaken/Dec ATK stack |
-| 3 | **Gnishak Verminlord** | Force (neutral) | Bombs **double-damage vs 200k+ MAX HP** targets |
-| 4 | **Morag Bronzelock** | **Spirit (advantaged)** | DEF-scaling damage |
-| 5 | **Godseeker Aniri** | Void (neutral) | Revive with full cooldown reset |
+| ⭐ | **Starsage Galathir** | **9** | **+80 Ally RES aura** — directly serves the **355 RES** Mischief-target requirement. Cleanse, revive, Block Debuffs |
+| 2 | **Ultimate Deathknight** | **9** | Decrease ATK, shields, blocks a hit aimed at an ally |
+| 3 | **Uugo** | **9** | **A3 removes ALL Heal Reduction** — the direct counter to **Head of Decay**. This is why HellHades calls her a Hydra MVP |
+| 4 | **Artak** | **10** | **HP Burn cancels Head of Blight's Poison Cloud** |
+| 5 | **Ninja** | **10** | Second HP Burn source and burn activation |
+| 6 | **Rathalos Blademaster** | **10** | **+50% damage vs [HP Burn] targets** — fed by Artak and Ninja |
 
-> **Galathir is close to purpose-built for Dragon.** The fight's entire pressure is a debuff
-> stack; his A2 removes **all** debuffs, heals, fills Turn Meter and applies Block Debuffs.
-> Build him for **RESISTANCE, not Accuracy** — his passive converts RES into ACC `[CONFIRMED]`.
+**All six rate 9–10 on HellHades for Hydra.** This is the strongest single alignment between
+your roster and any content type.
 
-### 🏆 The real goal: solo farming
-**Gnishak Verminlord can solo Dragon 25** `[CONFIRMED]`, and **UDK can solo Dragon 25 with a
-Toxic set** `[CONFIRMED]`. Unattended gear farming is the single biggest force multiplier
-available to a mid-game account. **You own two routes to it.**
+**Head notes:** dead head → **Exposed Neck (200% damage taken)**; replacement arrives with
+**Serpent's Will (−75%)**. **Head of Wrath triggers Vengeance after 15 hits it has taken — a
+300% AoE**, so many-hit teams must plan around it.
 
-**Realistic timeline:** stage 10–13 by day 30 · stage 20 around month 3 · stage 25 solo,
-month 4+.
+**Stat floors (Normal):** **>210 SPD · ~215 ACC · 355 RES** on the Mischief target.
 
----
-
-# 3. Fire Knight's Castle — your hardest content
-
-**Requirement:** **12 separate hits per rotation** to strip Fyro's Divine Shield. The shield
-absorbs 80% of damage and makes him debuff-immune; fail to break it and he heals and AoE-nukes
-you with a **40% MAX HP reduction** `[CONFIRMED]`.
-
-**Hit COUNT matters, not hit damage.** A 6-hit skill for low damage beats a 1-hit nuke.
-
-### Your hit-count audit (A1 hits on the boss, per turn)
-| Champion | Hits |
-|---|---|
-| **Apothecary** | **3** |
-| **Alure** | **3** |
-| **Gnishak Verminlord** | **3** |
-| Morag Bronzelock | 2 |
-| Tagoar / Turvold / Skullcrown | 2 |
-
-### ✅ NOW — Day 20–30 · target stages 6–13
-| Slot | Champion | Hits |
-|---|---|---|
-| 1 | **⭐ Apothecary** | 3 (+21% DEF dungeon aura) |
-| 2 | **Uugo** | 1 (Dec DEF + Block Buffs) |
-| 3 | **Ultimate Deathknight** | 1 (survive the nuke) |
-| 4 | **Artak** | 2 (A3 is AoE ×2) |
-| 5 | **Kael** | 1 (A3 is 4 random hits, on cooldown) |
-
-Low stages do not have the full 12-layer shield, so this clears early content fine. **It will
-stall in the high teens.**
-
-### 🔨 MID → 🏁 ENDGAME — the real Fire Knight team
-| Slot | Champion | A1 hits | Role |
-|---|---|---|---|
-| 1 | **⭐ Gnishak Verminlord** | **3** | +30% ATK aura · bombs |
-| 2 | **Alure** | **3** | **Named endgame FK 21–25 speed-run champion** `[CONFIRMED]` |
-| 3 | **Apothecary** | **3** | Heal · speed · Giant Slayer procs |
-| 4 | **Morag Bronzelock** | **2** | Strengthen · Ally Attack · Shield-ignoring A1 |
-| 5 | **Tagoar** | **2** | Increase SPD · Shield · heal |
-| | **Total** | **13** | ✅ Clears 12 layers |
-
-**Add counterattack sets (Retaliation / Avenging) for free extra hits outside your turn**
-`[CONFIRMED]`.
-
-### 🚨 The honest blocker
-**This team is gear-gated, not roster-gated.** **Alure needs 100% C.RATE and 300+ ACC**, and
-**Gnishak needs real stats**. Neither is close on a fresh account.
-
-> **Verdict: Fire Knight is a month 2–4 project. Expect stage 10–13 by day 30 and do not
-> measure yourself against high stages.** This is good news — gear is farmable, champions are
-> not. You own the answer; you just cannot afford it yet.
-
----
-
-# 4. Ice Golem's Peak
-
-**Requirements:** Decrease DEF · **Increase ATK (or Increase DEF) + Increase SPD** `[CONFIRMED]`
-· an answer to **Frigid Vengeance** (revives all dead minions) · an ACC buffer against
-**Numbing Chill** (−50% ACC) · cleanse for Freeze.
-**Stage 25 is MAGIC affinity** `[CONFIRMED]` → your **Force champions are ADVANTAGED**.
-
-### 🔑 The line that makes this accessible
-**The boss does not use its revive if it takes damage on its own turn** `[CONFIRMED]` — so
-**Poison + HP Burn pressure skips the mechanic entirely.** You have Artak (HP Burn), Kael
-(Poison) and Gnishak (protected Poisons). **This is your route.**
-
-You also have **no team-wide Increase ATK**. **Solution: run a DEF-scaling team** — Morag, UDK
-and Aniri all scale off DEF — **and use Tagoar's Increase DEF instead.** Gear-efficient and it
-sidesteps the gap.
-
-### ✅ NOW — Day 20–30 · target stages 8–15
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Ultimate Deathknight** | **Force — advantaged.** +30% DEF aura · Dec ATK · Shield |
-| 2 | **Uugo** | 60% AoE Dec DEF · cleanse · heal |
-| 3 | **Tagoar** | Increase SPD + Increase DEF + Shield + heal |
-| 4 | **Artak** | **HP Burn — DoT pressure to skip the revive** |
-| 5 | **Kael** | Poison — more DoT pressure |
-
-### 🔨 MID — Day 30–90 · stages 15–20
-Swap **Kael → Gnishak Verminlord** (**Force — advantaged**; bombs convert into **protected
-Poisons**, exactly the DoT pressure this fight wants).
-
-### 🏁 ENDGAME
-| Slot | Champion | Affinity |
-|---|---|---|
-| 1 | **⭐ Ultimate Deathknight** | **Force — advantaged** |
-| 2 | **Gnishak Verminlord** | **Force — advantaged** |
-| 3 | **Starsage Galathir** | **Force** — cleanse the Freeze, revive, Block Debuffs |
-| 4 | **Uugo** | Magic — Dec DEF |
-| 5 | **Morag Bronzelock** | Spirit — DEF-scaling damage |
-
-**And if Fenax's Block Revive is confirmed**, he is a direct mechanical answer to Frigid
-Vengeance — **and it needs no Accuracy**, which matters when Numbing Chill is stripping 50% of
-it. Verify his kit and report back.
-
-### 🏆 The real goal
-**UDK solos Ice Golem 25 with Toxic** `[CONFIRMED]`. **Gnishak solos Ice Golem 25**
-`[CONFIRMED]`. **Artak solos Ice Golem Hard 5** `[CONFIRMED]`. **Three separate routes to
-unattended farming, and your two best candidates are Force — advantaged at stage 25.**
-
-**Realistic timeline:** stage 10–15 by day 30 · stage 20 month 2–3 · solo 25 month 4+.
+> **Open TODO:** the six head guides were not read in full. **Head-of-Torment counterplay
+> versus Galathir's Perfect Veil needs checking** before this team is trusted at higher
+> difficulties.
 
 ---
 
 # 5. Spider's Den
 
-**Requirement:** **AoE HP Burn is the win condition at stages 21–25** — MAX-HP-based damage is
-capped there, but a burning Spiderling deals **3% of the boss's MAX HP on its turn**, and with
-10 Spiderlings that is **~30% per rotation** `[CONFIRMED]`. Plus **~225 ACC**, AoE control, and
-Decrease DEF.
+Spiderlings spawn **6 at start, 2 each of your turns, 4 after each Spider turn, cap 10**, and
+**the Spider devours them for a 3% heal and +10% ATK each, up to +100%**.
+**Stages 21–25 cap Enemy Max HP damage and halve TM reduction → HP Burn + activation is the
+damage route.**
 
-**Rewards: the accessories dungeon** — Rings, Amulets, Banners `[CONFIRMED]`. Accessories are a
-large, frequently-ignored share of your total stats.
+| Slot | Champion | HellHades Spider | Why |
+|---|---|---|---|
+| ⭐ | **Artak** | **10** | HP Burn placement **and activation**. HellHades names him a champion who can **solo this boss** with good gear |
+| 2 | **Starsage Galathir** | **10** | Cleanse, revive, Block Debuffs |
+| 3 | **Ultimate Deathknight** | **9** | **His passive blocks single-target hits aimed at allies and redirects them to himself — tailor-made for spiderlings** |
+| 4 | **Rathalos Blademaster** | **10** | +50% damage vs burning targets |
+| 5 | **Ninja** | 8 | Second burn source |
 
-### ✅ NOW — Day 25–30 · target stages 8–15
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Tagoar** | +25% HP aura · Increase SPD · Shield · heal |
-| 2 | **Artak** | **AoE HP Burn — the win condition** |
-| 3 | **Uugo** | 60% AoE Dec DEF · heal · cleanse |
-| 4 | **Ultimate Deathknight** | Protector (rated **A** for Spider) · Dec ATK |
-| 5 | **Apothecary** | Heal · AoE Increase SPD |
+**Swap in Uugo** (Spider 9) for more Decrease DEF, or **High Khatun** (Spider 8) for turn-meter
+control.
 
-### 🔨 MID / 🏁 ENDGAME
-Add **Skullcrown** (**AoE A1**, rated **5/5 Spider**) to manage Spiderlings, and **Rathalos**
-(rated **A**) — whose passive gives **+50% damage and −25% damage taken versus the burning
-targets Artak creates**.
+**Endgame:** **Artak solo**, or **Artak + UDK as a duo** — both of which you own.
 
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Rathalos Blademaster** | +30% ATK dungeon aura · **+50% dmg vs HP Burn targets** |
-| 2 | **Artak** | AoE HP Burn engine |
-| 3 | **Skullcrown** | AoE A1 — Spiderling control |
-| 4 | **Uugo** | Dec DEF |
-| 5 | **Godseeker Aniri** | Revive insurance (rated 4.5/5 Spider) |
-
-> **Note on the "bait" strategy:** the classic high-stage approach gives one champion the lowest
-> HP by a wide margin (allies at ~300%+ of his HP) so Spiderlings reliably target him
-> `[CONFIRMED]`. It is gear-hungry and advanced — **not a day-30 target.** Your HP Burn route
-> is the accessible one.
-
-**Realistic timeline:** stage 10–15 by day 30 · stage 20 month 3.
+> **Farm stage 10 during Spider tournaments.** HellHades notes it drops **unusually generous
+> gear for its energy cost** before you can clear 20.
 
 ---
 
-# 6. Demon Lord (Clan Boss)
+# 6. Dragon's Lair
 
-**The most important repeatable content on a new account** — chests give **Shards, Rare/Epic/
-Legendary Books, Gems**, and the **Cruel** and **Immortal** sets `[CONFIRMED]`.
+The boss **charges Scorch**; **poison damage lands before it acts, so poisons cancel Scorch**.
+**It reduces incoming poison damage by 60%, so you need many poisons.**
+**Immune to all turn-meter and speed manipulation** — leave Alure and High Khatun out.
 
-**Requirements in priority order:** ① survive the full fight ② Decrease ATK ③ Weaken +
-Decrease DEF ④ Poison ⑤ **230+ ACC** at UNM ⑥ speed tuning.
-**The boss is immune to crowd control and Turn Meter reduction**, and **only 10 debuffs can be
-active at once** `[CONFIRMED]`.
+| Slot | Champion | HellHades Dragon | Why |
+|---|---|---|---|
+| ⭐ | **Gnishak Verminlord** | **10** | **+30% Ally ATK aura, all battles.** His **bombs convert into protected poisons** that cannot be removed — exactly what a 60%-poison-reduction fight wants |
+| 2 | **Starsage Galathir** | **10** | Cleanse, revive |
+| 3 | **Ultimate Deathknight** | **10** | Decrease ATK, shields |
+| 4 | **Artak** | **10** | HP Burn pressure |
+| 5 | **Ninja** | 9 | Decrease DEF, boss damage |
 
-### ✅ NOW — Day 10–30 · target Easy → Hard
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ High Khatun** | **+19% SPD aura** · AoE Increase SPD + TM fill — **the engine of the well-known early 2:1 tune** `[CONFIRMED]` |
-| 2 | **Ultimate Deathknight** | **AoE 50% Dec ATK at 80% chance** — the best defensive debuff here · Shield · Continuous Heal |
-| 3 | **Uugo** | 60% AoE Decrease DEF |
-| 4 | **Apothecary** | Heal · AoE Increase SPD · **3-hit A1 = Giant Slayer procs** |
-| 5 | **Kael** | **5% Poison** — %MAX-HP damage that ignores DEF |
+**Early:** run the core five and add Gnishak when built. **Kael** (Dragon **9** HellHades,
+**5/5** Ayumilove) is a cheap extra poisoner if you build him.
 
-**Why this works under-geared:** two healers, a shield, a continuous heal and a 50% Decrease
-ATK. You will not out-damage anything, but **you will survive the full fight**, and damage is
-irrelevant if you die at turn 30.
-
-### 🔨 MID — Day 30–90 · Brutal → Nightmare
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Tagoar** | **AoE Increase SPD on a 3-turn cooldown — the 2:1 tune tool** `[CONFIRMED]` |
-| 2 | **Uugo** | Dec DEF, **booked to 100% chance / 3-turn cooldown** |
-| 3 | **Ultimate Deathknight** | Dec ATK · Shield · heal |
-| 4 | **Rathalos Blademaster** | **Ignores 100% of boss DEF** · unresistable Dec DEF |
-| 5 | **Godseeker Aniri** | Revive **with full cooldown reset** — a revived nuker re-fires immediately |
-
-### 🏁 ENDGAME — Nightmare → Ultra-Nightmare
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Tagoar** | Speed tune engine |
-| 2 | **Starsage Galathir** | Cleanse · mass revive · Block Debuffs |
-| 3 | **Rathalos Blademaster** | Primary damage — 100% ignore boss DEF |
-| 4 | **Turvold** | **Buff-stacking nuke — A3 scales with the number of buffs on him** |
-| 5 | **Uugo** | Dec DEF + Block Buffs |
-
-**Turvold finally comes online here.** His A3 damage scales with *how many buffs are on him* —
-so surrounded by Tagoar's Increase SPD/DEF, Galathir's buffs and his own three self-buffs, he
-becomes the nuke this roster has been building toward. **This is why he is deferred, not
-dismissed.**
-
-### 🚨 Speed tuning — read before assigning masteries
-- A **2:1 tune** = two team turns per boss turn. **UNM Demon Lord runs at Speed 190**;
-  a 2:1 tune needs roughly **380 effective speed** `[CONFIRMED]`
-- **Masteries that BREAK tunes: Rapid Response · Arcane Celerity · Cycle of Magic**
-  `[CONFIRMED]`. **Decide whether a champion is a tuned CB champion BEFORE spending 1,650
-  scrolls** — undoing it costs a full re-farm
-- **Tooling:** the DeadwoodJedi Clan Boss Calculator is the community standard and simulates
-  true turn order including the hidden decimal "true speed" from Speed sets and Lore of Steel
-  `[CONFIRMED]`
-
-**Your structural gap:** no team-wide **Unkillable** or **Block Damage**, which standard UNM
-templates are built on. **Your workaround is revive-and-sustain** — slower and less elegant,
-but it works. **If you pull an Unkillable provider, tell me — it changes this plan.**
-
-**Realistic timeline:** Easy–Normal by day 10 · Hard by day 20–30 · Brutal month 2 ·
-Nightmare month 3–4 · UNM month 6+.
+**Endgame:** HellHades lists **Gnishak among reliable Dragon soloists**, and **UDK solos it with
+a Toxic set** — his own HellHades preset is literally called **"Solo Drag & Ice Golem"**.
+A soloist also levels **four fodder champions per run**.
 
 ---
 
-# 7. Arena (Classic)
+# 7. Fire Knight's Castle
 
-**The dynamic:** a **speed race**. Whoever moves first usually wins `[CONFIRMED]`.
+**The shield is the whole fight, and it scales:** **5 hits** at stages 1–6 · **7** at 7–9 ·
+**10** at 10–20 · **12** at 21–25. While up: immune to debuffs and TM effects, **80% less
+damage**. On his turn he **heals and fully regenerates it**.
 
-**Why it matters even if you dislike PvP:** Arena feeds the **Great Hall**, whose bonuses are
-**permanent, account-wide stat increases applied in every mode** `[CONFIRMED]`. **Great Hall
-levels 7–10 require Gold Medals**, which require **Gold Arena**. Arena is not optional content
-for a player who wants to clear dungeons.
+**This is the one area the core five is weak — UDK is rated 5 here.** It needs its own team.
 
-### ✅ NOW — Day 15–30 · target Bronze → Silver
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ High Khatun** | Speed lead — **stack three Speed sets (+12% SPD each = +36%)** `[CONFIRMED]` |
-| 2 | **Kael** | AoE nuke (Acid Rain) |
-| 3 | **Uugo** | AoE Decrease DEF — makes the nuke kill |
-| 4 | **Artak** | AoE damage + Dec ATK |
+| Slot | Champion | A1 hits | Why |
+|---|---|---|---|
+| 1 | **Alure** | **3** | **HellHades Fire Knight 10** and the named **MVP of stages 21–25** — 25% turn meter per **critical** hit, which matters most once TM reduction is halved after stage 20 |
+| ⭐ | **High Khatun** | 1 | **+19% Ally SPD, all battles.** Fire Knight 8 |
+| 3 | **Apothecary** | **3** | Fire Knight 8 (HH) / **5/5** (Ayumilove). Heal + AoE Increase SPD |
+| 4 | **Ninja** | 1 | Fire Knight 9 — the highest FK rating among the core five |
+| 5 | **Gnishak** (**3** hits) or **Kael** | 3 / 1 | Gnishak FK 9. Kael is the cheap option |
 
-### 🔨 MID — Day 30–90 · Silver → Gold
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Hurndig** | **+35% ally ATK in Arena** · **AoE 60% Dec DEF + Dec ACC** · **full Turn Meter depletion** |
-| 2 | **High Khatun** | Speed + AoE Turn Meter fill |
-| 3 | **Skullcrown** | **AoE A1 nuker** — a named high-end Arena nuker `[CONFIRMED]` |
-| 4 | **Alure** | **3 hits × 25% TM strip on crit = up to 75% per turn** |
+**Running total with Alure + Apothecary + Gnishak = 9 A1 hits**, which covers stages 1–9
+outright and most of 10–20 with one more source.
+**Swap in Morag** — her **A3 pulls two allies into a joint attack**, stripping extra counters.
 
-*Lead choice:* **Hurndig (+35% ATK)** if you are killing on the opening turn; **Skullcrown
-(+23% Arena SPD)** or **High Khatun (+19% all battles)** if you need to move first. Test both.
+**Build Alure to 100% C.RATE** — Psychic Whip only strips turn meter on a **critical** hit.
 
-### 🏁 ENDGAME
-| Slot | Champion | Role |
-|---|---|---|
-| 1 | **⭐ Starsage Galathir** | **"The most banned champion in Live Arena"** `[CONFIRMED]` — turn manipulation, Stun, Block Active Skills |
-| 2 | **Hurndig** | Arena ATK aura · AoE Dec DEF · TM depletion |
-| 3 | **Skullcrown** | AoE nuke |
-| 4 | **Turvold** | Single-target burst — self-sufficient, needs no support |
-
-### 🔑 Great Hall — spend medals correctly, it is irreversible
-- **Priority: ACC → C.DMG → RESIST → DEF → HP → ATK** `[CONFIRMED as consensus]`
-- **C.DMG, RESIST and ACC give more stat per Medal** than HP/ATK/DEF `[CONFIRMED]`
-- **🚨 Upgrades cannot be undone.** New players dump medals into ATK% and regret it. **Put your
-  first medals into ACC** — it is both the most efficient and the fix for your most common
-  failure mode (resisted debuffs)
-
-**Realistic timeline:** Silver by day 30 · **Gold is a stretch** · **Platinum is not happening**
-in 30 days. The day-30 goal is *"do your free battles daily for Medals and Daily Quests"*, not
-climbing.
+> **Timing:** this is build wave 7. **Start Fire Knight low stages once Alure, High Khatun and
+> Apothecary come online**, and treat high stages as month 2+. HellHades' own content order
+> after day 30 is **Dragon 20 → Spider 20 → Fire Knight.**
 
 ---
 
-# 8. Chimera (Clan Boss)
+# 8. Ice Golem's Peak
 
-### 🚫 Not achievable in 30 days — and here is exactly why
-- **Unlocks at account level 33** `[CONFIRMED]`
-- **Your CLAN needs ≥10 players at level 33+ and ≥50 Clan Activity Stars in the preceding 7
-  days** `[CONFIRMED]` — this is a *clan* gate you cannot solve alone
-- The fight runs **65 turns**, and **surviving all 65 is the baseline before damage matters at
-  all** `[CONFIRMED]`
+Klyssus **counter-attacks at HP thresholds**. **With both allies alive that counter ignores
+defence entirely and can Freeze**; **if the allies are dead it revives them instead**. His
+allies apply **Heal Reduction** and **Decrease DEF**.
 
-**Listed here so you understand what you are building toward — and so you do not join a clan
-that expects Chimera output from you on day 10.**
+| Slot | Champion | HellHades Ice Golem | Why |
+|---|---|---|---|
+| ⭐ | **Ultimate Deathknight** | **10** | **AoE Decrease ATK — close to mandatory here.** Shields, heal |
+| 2 | **Starsage Galathir** | **10** | **Cleanse + Block Debuffs** for Decrease ACC and Freeze; reviver |
+| 3 | **Fenax** | **10** | **His A1 kill-clause means enemies cannot be revived** — the direct answer to the counter reviving Klyssus's allies. **Needs no Accuracy** (it is a kill effect, not a debuff) |
+| 4 | **Artak** | **10** | Second AoE Decrease ATK, HP Burn |
+| 5 | **Ninja** (9) or **Gnishak** (**10**) or **Hurndig** (**10**) | | All three rate 9–10 |
 
-### 🏁 Your eventual Chimera team (month 4+)
-| Slot | Champion | Role |
+**HellHades rates Artak, UDK, Gnishak, Hurndig and Fenax all 10 here** — Ice Golem is this
+roster's deepest dungeon.
+
+**Endgame:** a low-damage poisoner in **Regeneration** gear, or poison-activation teams.
+**UDK in Toxic** and **Gnishak** are both listed as soloists.
+
+---
+
+# 9. Classic Arena
+
+**4 champions.** Early aim: **farm medals for the Great Hall**, which gives permanent stats by
+affinity across the whole game. **Speed aura matters more than anything else at this stage.**
+
+> ⚠️ **The pack proposed five names for this four-slot mode** and flagged the composition as
+> **not validated against the live arena meta.** Treated below as a shortlist.
+
+**Shortlist, by HellHades Arena rating:** Galathir **10** · UDK **10** · Gnishak **10** ·
+Turvold **9** · Hurndig **9** · Skullcrown **8** · High Khatun **8** · Morag **8** · Fenax **8**
+
+| Slot | Champion | Why |
 |---|---|---|
-| 1 | **⭐ Starsage Galathir** | **S-tier — "the best alternative to Senna"** `[LIKELY]`. Mass revive · full cleanse · Block Debuffs · team TM |
-| 2 | **Uugo** | Named among the top Epics for Chimera `[LIKELY]` · Dec DEF + Block Buffs |
-| 3 | **Tagoar** | AoE Increase SPD · Shield · mass revive |
-| 4 | **Godseeker Aniri** | Revive with cooldown reset · Revive-on-Death pre-empt |
-| 5 | **Artak** or **Gnishak** | AoE Decrease ATK · sustained DoT damage |
+| ⭐ | **Skullcrown** | **+23% Ally SPD in Arena.** Classic Arena is decided by turn order before damage |
+| 2 | **Starsage Galathir** *(alternate form)* | Arena **10** in **both** forms. **Dark Nebula** gives allies **+50% ACC** and places **50% Decrease RES + AoE Stun without attacking** |
+| 3 | **Hurndig** | Arena 9. AoE **60% Decrease DEF**, and A3 **fully depletes a turn meter** |
+| 4 | **Turvold** | Arena 9. Self-buffs **+50% ATK / +30% C.RATE / +30% SPD**, takes an **Extra Turn**, then nukes |
 
-### 🔑 The build rule that decides this fight
-**Ram Form places [Duel] on the champion with the LOWEST Critical Damage. Lion Form places
-[Hunter's Gaze] on the champion with the HIGHEST Defence. Neither can be resisted or blocked**
-`[CONFIRMED]`.
+**Leader alternative: Hurndig (+35% ATK in Arena)** if you would rather kill on the opening
+turn than move first. **This is flagged for your decision** — `DATA_CONFLICTS.md §A3`.
 
-**So you do not counter them — you choose who receives them**, by controlling which champion has
-the lowest C.DMG and which has the highest DEF, and building that champion to survive it. **This
-is a gearing decision made before you enter the fight.**
+**Defence options:** **UDK** and **Gnishak**, both Arena **10**.
 
-### Trials
-**3 trials per form**, each with Easy/Normal/Hard tiers. Completing a trial **raises your Clash
-Point multiplier but also permanently buffs the boss's Ultimate Form** `[CONFIRMED]`.
-**The multiplier only applies to damage dealt AFTER the trial completes** — so **complete trials
-early in the event**, not late.
-
-**Rewards matter to you long-term:** Chimera drops **Ocular Masses**, the only source of **Relic**
-crafting materials `[CONFIRMED]`. Relics are an entire equipment axis locked behind this fight.
-
-**Realistic timeline:** level 33 around **day 25–35** · a clan that can run Chimera is the real
-gate · meaningful damage **month 4+**.
+`unverified (search synthesis, 2026-09-17)`: Great Hall priority **ACC → C.DMG → RESIST → DEF →
+HP → ATK**; **upgrades are irreversible**; levels 7–10 need **Gold medals**.
 
 ---
 
-# 9. Hydra (Clan Boss)
+## Cross-content summary
 
-### 🚫 Not achievable in 30 days
-- **Unlocks at account level 45** `[CONFIRMED]`
-- **6 champions per team** — not 5
-- **Champion lock: a champion used on one key cannot be reused on the next** `[CONFIRMED]` →
-  **you need multiple viable teams, not one good team.** Hydra is fundamentally a *breadth*
-  check, and breadth is exactly what a fresh account lacks
-
-### ✅ The good news: your roster is genuinely strong here
-Several of your champions are specifically top-tier for Hydra:
-
-| Champion | Hydra verdict |
-|---|---|
-| **Starsage Galathir** | **S** `[LIKELY]` |
-| **Uugo** | **S — one of the very best Epics in the game for Hydra** `[CONFIRMED]` |
-| **Godseeker Aniri** | **Top-tier Epic** `[CONFIRMED]` |
-| **Rathalos Blademaster** | **S with an HP Burn partner** — reports of 699K+ damage `[LIKELY]` |
-| **Artak** | **A/S** `[CONFIRMED]` — and he *is* the HP Burn partner |
-| **Tagoar** | **Excellent** `[CONFIRMED]` |
-
-### 🏁 Your eventual Hydra team (month 6+)
-| Slot | Champion | Role |
+| Content | Team | Blocker |
 |---|---|---|
-| 1 | **⭐ Starsage Galathir** | Mass revive · cleanse · Block Debuffs · team TM |
-| 2 | **Uugo** | **Dec DEF + Block Buffs** — Block Buffs shuts down Head self-buffing |
-| 3 | **Godseeker Aniri** | Revive + cooldown reset · Revive-on-Death pre-empt |
-| 4 | **Artak** | **AoE HP Burn** + AoE Dec ATK |
-| 5 | **Rathalos Blademaster** | **+50% damage vs HP Burn targets** — fed by Artak |
-| 6 | **Tagoar** | Increase SPD · Shield · mass revive |
+| **Campaign** | ⭐Artak + 3 food | None — start day 1 |
+| **Demon Lord** | ⭐UDK · Galathir · Ninja · Artak · Rathalos | Clan |
+| **Spider** | ⭐Artak · Galathir · UDK · Rathalos · Ninja | Gear |
+| **Dragon** | ⭐Gnishak · Galathir · UDK · Artak · Ninja | Gnishak is build #8 |
+| **Ice Golem** | ⭐UDK · Galathir · Fenax · Artak · Ninja/Gnishak/Hurndig | Fenax is wave 9 |
+| **Fire Knight** | Alure · ⭐High Khatun · Apothecary · Ninja · Gnishak | **Build wave 7** |
+| **Arena** | ⭐Skullcrown · Galathir(alt) · Hurndig · Turvold | Unvalidated vs live meta |
+| **Chimera** | ⭐Galathir · Ninja · Uugo · Rathalos · UDK/Fenax | **Level 33 + clan** |
+| **Hydra** | ⭐Galathir · UDK · Uugo · Artak · Ninja · Rathalos | **Level 45 + clan** |
 
-**Artak → Rathalos is a confirmed mechanical pairing and you own both halves.** That is the
-core of this team.
-
-### Mechanics to know now
-- **Mark of the Hydra** — one champion gets a **16-turn countdown**; when it expires they are
-  **devoured**. You can **rescue them** by damaging the devouring head fast enough `[CONFIRMED]`
-- Six possible heads; you fight **4 "Starter Heads"** per rotation, with 2 more tagging in when
-  you decapitate `[CONFIRMED]`
-- Community guidance: **start at the lowest difficulty and climb** `[CONFIRMED]`
-
-**Realistic timeline:** level 45 around **month 2** · first meaningful Hydra keys **month 4–6** ·
-competitive damage **month 8+**.
+**The core five appear in six of nine teams.** That is the whole argument for building them
+first.
 
 ---
 
-# Cross-content summary
+## Four rules that apply everywhere
 
-| Content | Day 30 target | Month 3 | Endgame | Blocker |
-|---|---|---|---|---|
-| **Campaign farm** | ✅ **Brutal 12-3 solo** | Nightmare (Hurndig) | Unattended multi-farm | None — do this first |
-| **Dragon** | Stage 10–13 | Stage 20 | **Solo 25** (Gnishak/UDK) | Gear |
-| **Ice Golem** | Stage 10–15 | Stage 20 | **Solo 25** (UDK Toxic) | Gear |
-| **Spider** | Stage 10–15 | Stage 20 | HP Burn / bait comps | Gear + ACC |
-| **Fire Knight** | Stage 10–13 | Stage 15–18 | Alure speed runs | **Gear on Alure + Gnishak** |
-| **Arena Classic** | Silver | Gold | Galathir comps | Speed gear |
-| **Demon Lord** | Hard | Brutal → NM | UNM | No Unkillable — use revives |
-| **Chimera** | 🚫 Locked | First attempts | Trials + Relics | **Level 33 + clan** |
-| **Hydra** | 🚫 Locked | 🚫 Locked (lvl 45) | 6-champ team | **Level 45 + roster depth** |
-
----
-
-## The four universal rules
-
-1. **Accuracy is the gate.** More PvE failures trace to low ACC than to low damage. A Decrease
-   DEF that lands doubles your team's damage; one that resists does nothing. Targets:
-   **Spider 20 ≈ 225 · Dragon 25 ≈ 300 · Clan Boss UNM 230+** `[CONFIRMED]`
-2. **Survive first, damage second.** Every boss fight is a survival check before it is a DPS
-   check. Your roster's depth is sustain — **lean into it**
-3. **Swap your leader per content.** Only the leader's aura applies. Dungeon-scoped auras beat
-   weaker all-battle ones *inside* dungeons. It is free
-4. **Affinity matters more than the numbers suggest** — weak hits can cause debuffs to fail
-   outright. **Dragon 25 is Force** (avoid your Magic champions); **Ice Golem 25 is Magic**
-   (your Force champions are advantaged)
+1. **Accuracy gates everything.** ~150–180 ACC for dungeon stages 10–16, **220+ for stage 20+**.
+   Use the **HellHades Stages Tool** rather than guessing
+2. **Swap your leader per content** — only the leader's aura applies, and it is free
+3. **Survive first.** Damage is irrelevant if the team dies; this roster's depth is sustain
+4. **Do not rush past dungeon stage 20** — stages 21–25 change the rules (Enemy Max HP damage
+   capped, TM reduction halved)

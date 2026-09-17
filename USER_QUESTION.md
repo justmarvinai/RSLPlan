@@ -1,187 +1,210 @@
-# USER_QUESTION.md — Questions before we build
+# USER_QUESTION.md
 
-**Created:** 2026-09-17
+**Updated:** 2026-09-17, after the research pack replaced the earlier search-synthesis research.
 
-Answer what you can. **None of these block the plan** — every question below has a stated
-default assumption, and the plan in `docs/plan/` is written against those defaults. Your
-answers make it sharper, they do not unlock it.
-
-Questions are ordered by **how much your answer changes the plan**. If you only answer five,
-answer the first five.
+**Questions the pack already answered have been removed.** What remains is ordered by how much
+your answer changes the plan. **None of these block you** — every item has a stated default and
+the plan runs on it.
 
 ---
 
-## TIER 1 — These materially change the plan
+# ⏰ TIME-CRITICAL — answer this one first
 
-### Q1. What is your account level, and how far is your Campaign progress?
-**Why it matters:** account level is a hard gate on almost everything —
-Faction Wars needs 30, Chimera 33, Doom Tower 40, Hydra 45. Campaign progress determines
-whether Brutal 12-3 farming is even reachable yet. The entire 30-day schedule is sequenced
-around these gates.
+## Q1. Is the account less than 24 hours old and below level 15?
 
-**My default assumption:** account level under 20, Campaign Normal partially cleared, Brutal
-not unlocked. The Day 1–30 plan is built for exactly this and front-loads campaign push.
+**Why it is urgent:** the **new-player promo code** can only be redeemed once per account, and
+HellHades' promo page says it must be used **before level 15 and within 24 hours of account
+creation**. *(Their new-player guide says 72 hours; the pack advises assuming the tighter
+window.)* If that window is open, you should redeem **right now**, before reading anything else.
 
----
+**My recommendation if it is still open:**
+- **`HEARTOFCOLD` (Coldheart)** — strongest general-purpose Rare for **Fire Knight, Spider and
+  boss damage**, and Fire Knight is your weakest area; **or**
+- **`FIRESTORM` (Sicia Flametongue)** — an **HP Burn activator** that slots straight into the
+  Artak / Ninja / Rathalos burn loop
 
-### Q2. How did this account come by a Mythical + 7 Legendaries + 8 Epics + 110 Epic Tomes?
-**Why it matters — and this is not an idle question:** that is not a normal fresh account.
-A genuinely new F2P account has ~2 Legendaries at best and almost no Epic Tomes. 110 Epic
-Tomes is a mid-game stockpile.
+**Skip `UDKING` and `FINALSPITE`** — you already own Ultimate Deathknight and Uugo.
+Full code list in `docs/plan/14-day-1-30-plan.md`.
 
-Which of these is it?
-- (a) You bought starter/progression packs
-- (b) The account was gifted/transferred/purchased from someone
-- (c) A promo, returning-player or content-creator bundle
-- (d) Something else
+**Default assumption:** the window is **closed**. The plan works without it; tell me and I will
+drop the section.
 
-**Why I need it:** it tells me whether more resources are likely to keep arriving. If you are
-buying packs, the plan should spend aggressively now because more is coming. If this is a
-one-time windfall, the plan must treat these 110 Epic Tomes as **all the Epic Tomes you will
-see for months** and ration them.
-
-**My default assumption:** (a) — you bought starter packs, and modest further spending is
-possible. **This is the assumption I am least confident in and the one most worth correcting.**
+**Also tell me your account level and campaign progress** — Chimera needs 33, Doom Tower 40,
+Hydra 45, Cursed City 52, and the 30-day schedule is sequenced around those gates.
 
 ---
 
-### Q3. Are you in a clan? If so, what Clan Boss difficulty does it clear?
-**Why it matters:** Demon Lord chests are your main early source of Shards, Books and Gems.
-Chimera needs **10+ clanmates at level 33 with 50 weekly activity stars** — if your clan
-cannot field that, the entire **Relic** system is locked off for you, and Relics are a whole
-equipment axis.
+# 🔴 Decisions from the conflict audit
 
-**My default assumption:** not yet in a clan. **Joining an active one is listed as a Day 1–2
-action** because it is free and it is worth more than any single champion build.
+These four come from `docs/research/DATA_CONFLICTS.md §A`. Nothing has been silently
+overwritten.
 
----
+## Q2. Can you choose which skill a Skill Tome upgrades?
 
-### Q4. What is your spending intent going forward?
-- (a) Strict F2P from here
-- (b) Low spender — battle pass / occasional good value pack
-- (c) Moderate — monthly packs, some events
-- (d) Heavy
+**This is the highest-value ten seconds you can spend.** Open any champion → Skills → look at
+whether the upgrade button is per-skill.
 
-**Why it matters:** this changes energy policy (refill with gems or not), whether to chase
-fusion events, and how hard to push Arena for Great Hall vs. just farming.
+**Why it matters:** my earlier research claimed skill selection was **random**, and the whole
+old tome plan was built on that. The pack's plan spends **2 tomes on UDK's A3 specifically**,
+which only works if you can target. **I have rebuilt the plan on targeting** and I am confident
+the pack is right — but if I am wrong, hoarding until you can full-max a champion becomes
+correct again.
 
-**My default assumption:** (b) low spender. Plan is written to be fully completable F2P, with
-optional "if you spend" notes marked separately so you can ignore them cleanly.
+**Default assumption:** **you can target the skill.**
 
----
+## Q3. Legendary tome allocation — do you agree?
 
-### Q5. How much time per day, and how many separate log-ins?
-**Why it matters:** energy caps and regenerates; Clan Boss gives **1 key per 6 hours, max 2
-stored**. A player who logs in 4× a day gets meaningfully more out of the same account than
-one who logs in once. The daily routine is built around your actual pattern.
+You hold **12**. Maxing every Legendary you own would take **85**, so this is a real choice.
+**Irreversible.**
 
-**My default assumption:** 2–3 log-ins/day, 30–60 minutes total, most of it on auto/multi-
-battle.
+| | Plan |
+|---|---|
+| **Adopted (pack)** | **UDK A3 (2) → UDK A2 (4) → Artak A3 (4) → hold 2.** Buys Decrease ATK to **100% chance** and HP Burn to **100%** — survivability and debuff reliability across four modes in month one |
+| **Alternative (my earlier plan)** | **Hold all 12, then all 12 into Rathalos** for a clean full max. Higher ceiling, but a month-3 ceiling |
 
----
+**Default:** the pack's. **Say so if you would rather bank for Rathalos** — it is legitimate.
 
-## TIER 2 — These refine the plan
+## Q4. Arena leader — speed or damage?
 
-### Q6. What resources do you currently hold?
-Specifically: **Gems**, **Energy**, **Silver**, **Shards** (Ancient / Void / Sacred /
-Primal), **Gear** of note, **Potions**, **Mastery Scrolls**.
+The pack gave a **five-name shortlist for a four-slot mode**, and flagged it as **not validated
+against the live arena meta**. I built a 4-slot team from it. The open choice is the leader:
 
-**Why it matters:** 800 Gems buys a full mastery set and skips ~60 hours of Minotaur grinding
-`[CONFIRMED]`. If you are sitting on gems, that changes the first two weeks completely.
+- **Skullcrown — +23% Ally SPD in Arena** → you move first *(my default)*
+- **Hurndig — +35% Ally ATK in Arena** → you kill on the opening turn
 
-**My default assumption:** low gems (<1000), no meaningful gear, no mastery scrolls.
+**Default:** Skullcrown, because Classic Arena is decided by turn order before damage.
 
----
+## Q5. Does your clan compete seriously in Chimera Clash?
 
-### Q7. Do you have champions beyond the 18 you listed?
-Duplicates, low-rarity champions, starter champions, Uncommons/Commons.
+The plan says **ignore Chimera Trials** — they make the Ultimate form significantly stronger,
+and a young account should just farm the weekly chest.
 
-**Why it matters:** you need **food** champions to rank up your main team, and **Faction
-Wars** requires fielding 4–5 champions from a *single faction*. Cheap champions are not junk;
-feeding the wrong one is irreversible.
+**But if your clan is competing for Clash placement**, the calculus flips: the Clash Point
+multiplier only applies to damage dealt **after** a trial completes, so late trials are worth
+far less.
 
-**My default assumption:** you have some low-rarity champions not worth listing. The plan
-includes explicit "never feed these" rules.
+**Default:** not competing. Ignore Trials.
 
 ---
 
-### Q8. Do you have a preferred playstyle or content you actually enjoy?
-Some people hate Arena. Some want to speed-farm and never think about it. Some enjoy
-theorycrafting speed tunes.
+# Questions from the pack's own open list
 
-**Why it matters:** I can weight the plan toward what you will actually do. A plan you abandon
-in week 2 is worth nothing.
+## Q6. Do you want the Fire Knight kit built inside the first 30 days?
 
-**My default assumption:** you want maximum efficiency and will do whatever is optimal,
-including Arena.
+**The pack's plan — and mine — takes the second path**, but this is genuinely your call:
 
----
+| Option | What happens |
+|---|---|
+| **Push Dragon, Spider and Ice Golem first** *(default)* | The core five carries all three. Fire Knight starts **month 2**, when Alure, High Khatun and Apothecary are built |
+| **Build the Fire Knight kit inside 30 days** | Fire Knight opens earlier, but it **diverts three build slots** away from the core five, and the core five is what carries four other modes |
 
-### Q9. Platform — PC (Plarium Play / Steam), mobile, or both?
-**Why it matters:** multi-battle and background farming behave differently, and PC makes long
-farming sessions far more practical.
+**Why the default:** HellHades' own content order after day 30 is **Dragon 20 → Spider 20 →
+Fire Knight**, and the core five rates **5/10** at Fire Knight — it is a genuinely different
+team, not a stretch of the same one.
 
-**My default assumption:** PC available for farming sessions.
+## Q7. Are you playing the German client?
 
----
+**Why it matters:** the pack flagged this for the website's champion lookup — if you see
+different champion names in game, I need the mapping so the site can match both.
 
-### Q10. Your stated tome counts — confirm these are correct?
-You said: **26 Rare Tomes, 110 Epic Tomes, 12 Legendary Tomes.**
+**More immediately:** if you report a champion by its German name I may not recognise it.
+**Send me anything that looks different** and I will record both spellings.
 
-**Why I am double-checking:** 110 Epic and 12 Legendary is a *lot*. Legendary Tomes are among
-the scarcest resources in the game — 12 is enough to fully book roughly 1–2 Legendary
-champions depending on their skill count. The tome allocation plan
-(`docs/plan/13-tome-allocation.md`) treats these as precious and irreversible, so it is worth
-confirming the numbers before you spend any.
+**Default:** English client.
 
-**My default assumption:** the numbers are as stated.
+## Q8. Will you spend at all — and specifically, a Raid Card?
 
----
+Two things change with the answer:
+- Whether **Gem Mine (500 gems) + 800 gems on Artak's masteries** is the whole gem plan, or the
+  start of one
+- Whether a **Raid Card's extra XP and Sparring Pit speed** belongs in the levelling maths
 
-## TIER 3 — Website questions (only matter once we start coding)
+**Default:** **light spending at most.** The plan is completable without spending; anything
+spend-dependent is marked separately so you can ignore it cleanly.
 
-### Q11. What do you actually want to track day-to-day?
-Rank the ones you would genuinely use:
-- Champion roster with build status (gear / masteries / books / level / rank)
-- Team compositions per content type, with "ready / blocked on X" status
-- The 30-day plan as a checklist with progress
-- Daily/weekly routine checklist
-- Gear inventory
-- A "what should I do right now?" recommender
-- Farming/energy tracker
-- Dungeon stage progress tracker
-- Resource stockpile tracker (tomes, gems, shards, scrolls)
-- A speed-tuning calculator for Clan Boss
+## Q9. Do you have a clan already, and at what progression level?
 
-**My default assumption:** roster + build status, teams with readiness, and the plan as a
-checklist are the core. Everything else is secondary.
+**Chimera and Hydra difficulty — and therefore your rewards — depend on the clan, not on you.**
+The pack is explicit that **joining a clan far above you means worse chest rewards for you, not
+better**, so this is not simply "join the strongest clan you can".
 
----
+**Default:** not yet in a clan. Joining one is a Day 1 action.
 
-### Q12. Private to you, or shareable?
-Does it need a login, or is a private Vercel URL fine? Will anyone else (clanmates) use it?
+## Q10. How many sessions a day, realistically?
 
-**My default assumption:** private, single-user, no auth needed for v1. Data stored in the
-repo, edited by asking me. Simplest thing that works.
+The 30-day plan assumes **two or three sessions a day**, not a hardcore schedule. Clan Boss
+keys and energy both reward frequent short logins.
+
+**Default:** 2–3 logins, 30–60 minutes total.
 
 ---
 
-### Q13. Do you want to edit data in the browser, or is "tell Claude and he updates it" fine?
-**Why it matters:** this is the single biggest architectural decision for the site. Browser
-editing means a database, auth, and API routes. "Tell Claude" means static typed data in the
-repo, which is dramatically simpler, faster, version-controlled and free to host.
+# Still useful, lower priority
 
-**My default assumption:** repo-as-database for v1, with the option to add browser editing
-later if you find yourself wanting it. See `docs/website/22-tech-stack.md`.
+## Q11. What resources do you actually hold?
+
+Specifically **Gems** (the Gem Mine costs 500 and masteries 800 — if you are sitting on gems
+that changes week one), plus Energy, Silver, Shards, Potions and Mastery Scrolls.
+
+**Default:** low gems (<1000), no meaningful gear, no mastery scrolls.
+
+## Q12. Confirm your tome counts — and do you have any Mythical tomes?
+
+The plan assumes **26 Rare · 110 Epic · 12 Legendary · 0 Mythical**.
+
+**The Mythical number matters most.** Galathir needs **10 Mythical Tomes** and **Legendary tomes
+cannot be used on him**. There is no farmable source — they come from Hero's Path events and
+similar.
+
+**Default:** the numbers are as stated, including zero Mythical.
+
+## Q13. Do you have champions beyond the 18 listed?
+
+Duplicates, low-rarity champions, Uncommons and Commons.
+
+**Why it matters more than it used to:** you need **food** for rank-ups, and on this roster
+rank-ups are the expensive part. The plan says **buy Common/Uncommon champions from the Market
+for food** and **never feed duplicates** — the day-30 High Khatun duplicate is explicitly for
+**Faction Guardians or skill-up material**.
+
+**Default:** some low-rarity champions not worth listing.
+
+## Q14. How did this account come by a Mythical + 7 Legendaries + 110 Epic tomes?
+
+Not idle curiosity: it tells me whether more resources keep arriving. Several of these are
+**free login/promo champions** (UDK, Turvold and Uugo all have promo codes; Artak and Rathalos
+were login-reward Legendaries), which would explain most of it — but 110 Epic tomes is a
+mid-game stockpile.
+
+**Default:** a mix of promo codes and starter packs, with modest further spending possible.
 
 ---
 
-### Q14. Anything you specifically want that I have not thought of?
-Open slot.
+# Website questions — only matter once we start coding
+
+## Q15. What would you actually use day to day?
+Rank these: roster with build status · teams with ready/blocked status · the 30-day plan as a
+checklist · daily routine · resource tracker · "what should I do right now?" · dungeon progress ·
+tome planner · speed-tuning calculator.
+
+**Default:** roster + build status, teams with readiness, and the plan as a checklist.
+
+## Q16. Private, or shareable with clanmates?
+**Default:** private, single-user, no auth for v1.
+
+## Q17. Edit in the browser, or tell me and I update it?
+This is the biggest architectural decision. Browser editing means a database, auth and API
+routes; "tell Claude" means typed data in the repo — simpler, version-controlled, free.
+
+**Default:** repo-as-database, with localStorage for your own progress ticks.
+
+## Q18. Anything I have not asked?
 
 ---
 
 ## How to answer
 
-Reply in plain text however you like — bullet points, one line each, or just numbers:
-`Q1: level 14, campaign Normal ch.6` etc. Anything you skip keeps its default assumption.
+Plain text, any format — `Q1: level 12, 3 days old` etc. Anything you skip keeps its default.
+
+**If you only answer two, make them Q1 (the promo window, because it expires) and Q2 (whether
+tomes can target a skill, because the tome plan depends on it).**

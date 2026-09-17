@@ -1,5 +1,15 @@
 # 01 — Game State: RAID Shadow Legends, September 2026
 
+> **⚠️ SECONDARY SOURCE.** Compiled from **web search synthesis**, not direct source access.
+> The research pack does not cover general game state, so this is kept — but it is **not pack
+> data**, and everything here should be treated as `unverified (search synthesis, 2026-09-17)`.
+>
+> **Where the pack touches the same ground, the pack wins.** The pack independently confirms:
+> Summon Boosts raised to **15×** and Progressive Chance to **20×/25×/30×**, **Super Raids
+> permanent in Potion Keeps (April 2026) and Minotaur**, the **Multi-Battle training queue
+> holding 60 champions (July 2026)**, **Auto-Equip (May 2026)**, and a **Void ×2 event starting
+> 2026-09-18**.
+
 **Compiled:** 2026-09-17 · Current patch line **11.7x**
 
 > **Correction notice:** an earlier draft of this document stated the patch line was 10.x.
