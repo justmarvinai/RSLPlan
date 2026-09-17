@@ -3,99 +3,103 @@
 Every place the research pack (`docs/research/claude-web/`, 2026-09-17, direct source access)
 disagreed with the earlier search-synthesis research in this repository.
 
-**Default resolution:** the pack wins, per `CLAUDE.md §2.6`.
-**Where a decision is genuinely yours, it is marked 🔴 DECISION NEEDED and nothing has been
-silently overwritten.**
+**Default resolution:** the pack wins, per `CLAUDE.md §2.7`.
+
+**Status, 2026-09-17: all four open decisions are answered.** See Section A. One of them —
+**skill tome randomness** — **overrides the pack**, on the owner's direct observation of their
+own client. Account state is recorded in `docs/plan/09-account-state.md`.
 
 ---
 
-# 🔴 Section A — Decisions I need from you
+# ✅ Section A — Resolved by the owner, 2026-09-17
 
-Four items. Everything else has been resolved in the pack's favour and is listed in Section B
-for transparency.
-
----
-
-## A1. 🔴 Does a Skill Tome let you choose which skill to upgrade?
-
-**This is the single most important item in this document**, because my entire earlier tome
-plan was built on the answer being "no".
-
-| | Claim |
-|---|---|
-| **My earlier research** | *"Each tome adds one level to ONE skill, and WHICH skill is upgraded is RANDOM among the skills still needing improvement."* Tagged `[CONFIRMED]` — wrongly, it came from search synthesis |
-| **The pack** | Does not state the mechanic explicitly, but its **entire Legendary tome plan presupposes targeting**: *"Ultimate Deathknight A3, 2 tomes"*, *"Ultimate Deathknight A2, 4 tomes"*, *"Artak A3, 4 tomes"*. That plan is incoherent if selection is random |
-
-**My assessment:** the pack is almost certainly right and **I was wrong**. In RAID you select
-the specific skill to upgrade. I have rebuilt the tome plan on the targeting assumption.
-
-**Why I am still flagging it:** it took my earlier plan in a completely different direction
-(*"never partial-book a champion with dead skills"*), and it is **verifiable by you in about
-ten seconds** — open any champion, tap Skills, and see whether the upgrade button is per-skill.
-
-**Consequence if I am wrong and selection IS random:** the pack's plan of spending 2 tomes on
-UDK's A3 does not work, and hoarding until you can full-max a champion becomes correct again.
-
-**→ Please confirm: can you pick the skill?**
+All four answered. **One of them overrides the research pack.**
 
 ---
 
-## A2. 🔴 Legendary Skill Tome allocation — two defensible plans
+## A1. ✅ RESOLVED — Skill tomes are RANDOM. **This overrides the pack.**
 
-You hold **12 Legendary Tomes**. Fully maxing every Legendary you own would take **85**, so
-this is a real allocation decision, not a formality. **Irreversible.**
+> **Owner, from their own client:** *"Skill Tome Upgrades are completely random. I can't select
+> a Ability to specifically upgrade."*
 
-| | Plan | Reasoning |
+| | Claim | Outcome |
 |---|---|---|
-| **Pack (now adopted)** | **UDK A3 (2) → UDK A2 (4) → Artak A3 (4) → hold 2** | Cheapest large upgrades first. UDK A3: cooldown 5→3 on the team Shield + 15% Continuous Heal. UDK A2: Decrease ATK 80%→**100% chance** and cooldown 4→3 — *"the single biggest survivability lever in Clan Boss, Ice Golem and Spider"*. Artak A3: HP Burn 75%→**100%** and cooldown 4→3, which makes the Spider and Hydra burn plan reliable |
-| **My earlier plan** | **Hold all 12, then spend all 12 on Rathalos Blademaster** | Rathalos needs **exactly 12** to fully max — a clean, zero-waste spend. His A2 ignores 100% of a boss's DEF and his A1 Decrease DEF is unresistable against bosses |
+| **My earlier research** | Skill selection is **random** among skills still needing improvement | ✅ **Correct** |
+| **The research pack** | Its Legendary plan spends **"Ultimate Deathknight A3, 2 tomes"** — only coherent if you can target | ❌ **Not executable** |
 
-**Why the pack's plan is better for you right now:** it buys **survivability and debuff
-reliability across four game modes in the first month**, at a point where you cannot yet gear
-Rathalos to make his damage matter. Rathalos's ceiling is higher, but it is a month-3 ceiling.
+**Resolution: the owner wins.** `CLAUDE.md §2.7` gives the pack precedence *unless the owner
+decides otherwise*, and the owner has direct observation of the live client. The pack's authors
+did not state the mechanic explicitly — they assumed it.
 
-**Adopted:** the pack's plan. **Overrule me if you would rather bank for Rathalos** — that is a
-legitimate long-game choice, not a mistake.
+### What this changes
+**Partial booking is a gamble; full-maxing is the only guarantee.** The Legendary plan of
+"2 tomes here, 4 tomes there" is dead. `docs/plan/13-tome-allocation.md` is rebuilt around
+**exact full maxes**.
 
----
-
-## A3. 🔴 The pack's Classic Arena team has five champions; Classic Arena has four slots
-
-The pack proposes: *"Skullcrown (leader), Starsage in alternate form, Hurndig, Ninja,
-Turvold"* — and itself notes *"This composition has not been validated against the live arena
-meta."*
-
-**Classic Arena is a 4-champion mode.** So this is a five-name shortlist, not a team.
-
-**What I have done:** treated it as a shortlist and built a 4-slot team from it, using the
-pack's own HellHades Arena ratings — **Starsage 10 · Hurndig 9 (+35% ATK Arena aura) ·
-Turvold 9 · Skullcrown 8 (+23% SPD Arena aura)**.
-
-**The open question is the leader**, because the two auras do different jobs:
-- **Hurndig +35% ATK in Arena** → you kill on the opening turn
-- **Skullcrown +23% SPD in Arena** → you move first
-
-**→ Which do you want to test first?** My default is **Skullcrown for the speed aura**, because
-Classic Arena is decided by turn order before it is decided by damage. Flagged rather than
-assumed.
+It works out unusually well:
+- **Epic:** full-maxing all eight costs **100**; the owner holds **110**
+- **Rare:** full-maxing Kael and Apothecary costs **24**; the owner holds **26**
+- **Legendary:** 12 held. **Artak and Rathalos each cost exactly 12** — a perfect fit
 
 ---
 
-## A4. 🔴 Chimera Trials — "complete early" or "ignore early"?
+## A2. ✅ RESOLVED — Legendary tomes: all 12 into **Artak**
 
-| | Guidance |
-|---|---|
-| **My earlier research** | **Complete trials early in the event.** The Clash Point multiplier only applies to damage dealt *after* a trial completes, so late completion is worth far less |
-| **The pack** | **Ignore Trials entirely for now.** *"Trials make the Ultimate form significantly stronger, so ignore them early and just farm the weekly chest"* |
+Owner: *"Whatever you would recommend… If they bring me a immediate progression boost when I
+use them, then plan using them."* Plus the standing rule: **early → endgame over short-term.**
 
-**These are not actually contradictory — they answer different questions.** Mine is about
-maximising Clash Points *within* an event you are competing in. The pack's is about a young
-account that cannot yet survive 65 turns and should just bank the weekly chest.
+**Decision: all 12 into Artak, a clean full max.**
 
-**Adopted:** the pack's guidance, because it matches your account stage. My point is retained
-in the plan as a note for when you *are* competing.
+| Candidate | Cost to max | Why not |
+|---|---|---|
+| **Artak** | **exactly 12** ✅ | **Chosen** |
+| Rathalos | exactly 12 | Also a perfect fit, but his masteries are not bought and his damage needs gear the account does not have yet |
+| UDK | 10 | Leaves 2 stranded, and 2 random tomes buy nothing reliable |
+| Turvold / Ninja | 11 / 13 | Turvold strands 1; Ninja cannot be completed |
 
-**→ Tell me if your clan competes seriously in Chimera Clash**, because that flips the answer.
+**Why Artak specifically:**
+- **Exact fit — zero waste**, which matters enormously under randomness
+- **His masteries are already bought**, so books finish him rather than starting him
+- He is the **campaign farmer** (immediate) *and* HellHades **Spider 10 · Dragon 10 · Ice Golem
+  10 · Hydra 10 · Demon Lord 9** (endgame) — the clearest "early all the way to endgame"
+  champion on the roster
+- Books take his **A3 HP Burn 75% → 100%** and **A2 Decrease ATK 75% → 100%**, both cooldown
+  **4 → 3**. That is what makes the Spider and Hydra burn plan reliable
+- Every one of his three skills is worth upgrading, so **no random tome is wasted**
+
+**More Legendary tomes are coming** — Live Arena gives 1/month regardless of tier, the day
+61–90 login block gives one, and the Faction Wars star track pays them past 335 stars. Rathalos
+is the next full max.
+
+---
+
+## A3. ✅ RESOLVED — Arena leader: **Skullcrown now, Hurndig later**
+
+Owner: *"Whatever you recommend."*
+
+**Decision: lead with Skullcrown (+23% Ally SPD in Arena) while climbing; switch to Hurndig
+(+35% Ally ATK in Arena) once your damage can one-shot.**
+
+Classic Arena is decided by turn order before it is decided by damage, and with a family clan
+Arena exists purely to farm **Great Hall medals**. Moving first wins the medal grind. Once
+Hurndig and Turvold can actually kill on the opening turn, the ATK aura is worth more.
+
+**Trigger to switch:** when your opening nuke reliably kills a defender.
+
+---
+
+## A4. ✅ RESOLVED — Chimera Trials: ignore them
+
+Owner: *"No my clan is only my dads and my own accounts. We do not progressively/competitive
+play the clan stuff."*
+
+**Confirmed: ignore Trials.** They make the Ultimate form significantly stronger and pay off
+only in competitive Clash placement.
+
+> **But this answer surfaced something bigger.** Chimera requires **10+ clan members at level
+> 33+ with 50 weekly activity stars**. A family clan of multi-accounts almost certainly cannot
+> field that — **so Chimera, and therefore the entire Relic system, is probably inaccessible**.
+> See `docs/plan/09-account-state.md`.
 
 ---
 

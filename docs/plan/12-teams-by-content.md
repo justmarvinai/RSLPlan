@@ -73,7 +73,16 @@ revives with **full cooldown reset**; **Tagoar** and **High Khatun** are the tun
 
 ---
 
-# 3. Chimera (level 33 + clan)
+# 3. Chimera (level 33 + clan) — ⚠️ probably inaccessible
+
+> **🚨 Chimera requires 10+ clan members at level 33+ with 50 Clan Activity Stars in the
+> preceding 7 days.** The owner's clan is a **family clan at level 4** — their own accounts plus
+> their dad's multi-accounts. That almost certainly cannot meet the requirement.
+>
+> **Consequence: Chimera — and therefore the entire Relic system, which is fed only by Chimera's
+> Ocular Masses — is likely closed.** The team below is kept as a **contingency** for if you
+> ever join an active clan. See `docs/plan/09-account-state.md`.
+
 
 Five champions · **65 turns** · forms cycle **Ultimate → Ram → Ultimate → Lion → Ultimate →
 Viper**, five boss turns each. **Chimera can be hit with Decrease SPD.**
@@ -258,8 +267,11 @@ Turvold **9** · Hurndig **9** · Skullcrown **8** · High Khatun **8** · Morag
 | 3 | **Hurndig** | Arena 9. AoE **60% Decrease DEF**, and A3 **fully depletes a turn meter** |
 | 4 | **Turvold** | Arena 9. Self-buffs **+50% ATK / +30% C.RATE / +30% SPD**, takes an **Extra Turn**, then nukes |
 
-**Leader alternative: Hurndig (+35% ATK in Arena)** if you would rather kill on the opening
-turn than move first. **This is flagged for your decision** — `DATA_CONFLICTS.md §A3`.
+**✅ Decision (owner answered "whatever you recommend"): lead Skullcrown now, switch to Hurndig
+later.** Classic Arena is decided by turn order before damage, and with a family clan Arena
+exists purely to farm **Great Hall medals** — so moving first wins the grind.
+**Switch trigger:** when your opening nuke reliably kills a defender, Hurndig's **+35% ATK**
+becomes worth more than Skullcrown's **+23% SPD**.
 
 **Defence options:** **UDK** and **Gnishak**, both Arena **10**.
 

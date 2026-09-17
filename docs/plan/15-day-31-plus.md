@@ -3,7 +3,10 @@
 > **🔄 TIER 3 — ANALYSIS, NOT SOURCE DATA.**
 > **Regenerate wholesale when the roster changes.**
 
-**Regenerated:** 2026-09-17 from the research pack.
+**Regenerated:** 2026-09-17 from the research pack, against `docs/plan/09-account-state.md`.
+
+> **Given the day-30 targets are met**, months 2–6 are about gear quality and account level,
+> not resources. You will still have banked energy and silver.
 
 ---
 
@@ -23,7 +26,7 @@
 
 | Level | Unlocks |
 |---|---|
-| **33** | **Chimera** — already open by day 30 on this plan |
+| **33** | **Chimera** — ⚠️ **level gate only.** The real gate is **10+ clan members at level 33+**, which a family clan cannot meet |
 | **40** | **Doom Tower** |
 | **45** | **Hydra** |
 | **52** | **Cursed City (Sintranos)** |
@@ -76,7 +79,7 @@ Unattended farming converts energy into gear with no attention. **You own three 
 
 ## Starsage Galathir — the long game
 
-He is build **#1** and already at 60. What remains is **Mythical Tomes**, which you have none
+He is build **#1**, already rank 6 with masteries bought, and should be at 60 within days. What remains is **Mythical Tomes**, which you have none
 of and cannot farm — they come from **Hero's Path events and similar**.
 
 **Priority when you get them: A2 (base form, *Stellar Embryo*)** — heal +20%, then cooldown
@@ -92,9 +95,9 @@ placing debuffs), and his **+80 Ally RES aura** points the same way. Stat priori
 
 | Resource | Policy |
 |---|---|
-| **Shards** | **Hold for boosted summon events.** Summon Boosts are now **15×**, Progressive Chance **20×/25×/30×** |
-| **Legendary tomes** | After UDK A3 + A2 and Artak A3, **hold the last 2** until the Clan Boss team settles. The **day 61–90 login block gives one** |
-| **Epic tomes** | Book each Epic **as it joins a team**. Keep **20–30 in reserve** for a future pull |
+| **Shards** | You hold **1,500 Mystery and nothing else**. Use them as **food in batches**; hold 300–500 for a Champion Chase or Fusion event. If you ever acquire Ancient/Void/Sacred/Primal, **hold for boosted events** — Summon Boosts are now **15×**, Progressive Chance **20×/25×/30×** |
+| **Legendary tomes** | **Upgrades are random, so only ever full-max.** All 12 went to Artak. **Rathalos is next at exactly 12** — bank until you have all 12. Sources: Live Arena 1/month regardless of tier, the day 61–90 login block, and the Faction Wars star track past 335 stars |
+| **Epic tomes** | All eight Epics full-maxed by day 30 (100 of 110). **10 spare** for a future pull |
 | **Mythical tomes** | **All to Galathir's A2.** No farmable source |
 | **Gems** | Gem Mine (500) → 800 on Artak's masteries. **Never on shards** |
 | **Duplicates** | **Faction Guardians or skill-up material — never fodder** |
@@ -110,7 +113,8 @@ The plan should be **regenerated**, not patched, when:
    **Rathalos**, who wants them to hit his every-fifth-skill trigger
 2. **You reach level 45** — Hydra planning becomes real, and this roster's six best Hydra
    champions all rate 9–10
-3. **Your clan can run Chimera at a real difficulty** — Trials and Relics open up
+3. **You join an active clan** — this is the *only* route to **Chimera**, and therefore to
+   **Relics**. Tell me and I will promote Chimera from contingency to a live target
 4. **You get Mythical Tomes** — Galathir's A2
 5. **A patch rebalances one of your champions** — the pack's champion pages carry HellHades
    stamps of **2026-04-06** and Ayumilove stamps of **2026-09-16**, so a refresh may be due

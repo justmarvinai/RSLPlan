@@ -1,6 +1,10 @@
 # 20 — Tracker Website: Product Spec
 
-**Status:** proposed, not built. Awaiting green light.
+**Status:** scope **confirmed by the owner 2026-09-17**. Not built — awaiting the go-ahead.
+
+**Confirmed decisions:** private, single-user (possibly shown to the owner's dad), **no auth**,
+hosted on **Vercel**, **repo-as-database with localStorage** for progress ticks. Feature order
+below was left to me ("as you recommend").
 
 ---
 
@@ -145,8 +149,20 @@ shows a number we cannot stand behind.
 
 ---
 
+## Account-specific requirements
+
+From `docs/plan/09-account-state.md` — these are not generic features, they are things this
+account specifically needs:
+
+| Requirement | Why |
+|---|---|
+| **Tome planner must model RANDOM upgrades** | The owner cannot target a skill. The planner shows **full-max costs only** and must never suggest a partial spend |
+| **Galathir must be excluded from Legendary tome planning** | Mythicals need Mythical Tomes |
+| **Mark Chimera as clan-blocked** | Family clan cannot meet the 10×level-33 requirement. Show it as a contingency, not a target |
+| **Do not render energy/silver as constraints** | 94,667 and 58M respectively |
+| **Track which masteries are already bought** | Galathir, Artak and Ninja are done; the gem budget depends on it |
+
 ## Open questions
 
-Blocked on **Q11–Q13** in `USER_QUESTION.md`: what you actually want to track, whether it needs
-auth, and whether you want in-browser editing. Defaults are assumed in
-`docs/website/22-tech-stack.md`.
+**None blocking.** Remaining in-game verifications are listed in `USER_QUESTION.md` and
+`docs/research/DATA_CONFLICTS.md §C`.

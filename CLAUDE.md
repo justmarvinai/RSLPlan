@@ -43,14 +43,25 @@ carries the source it came from and the date it was retrieved.** `data/roster.js
 **A value with no provenance is not usable.** If you cannot say where a number came from and
 when, do not write it down.
 
-### 2.7 The research pack wins conflicts
-**`docs/research/claude-web/` (retrieved 2026-09-17, direct access to hellhades.com and
-ayumilove.net) is the primary source of record.** Where anything in this repository disagrees
-with it, **the pack wins — unless the owner decides otherwise.**
+### 2.7 Precedence: the owner, then the pack, then everything else
+
+1. **The owner's direct observation of their live client wins over everything.** It already has
+   once: they confirmed **skill tome upgrades are random**, which overrode the pack's targeted
+   tome plan (`DATA_CONFLICTS.md §A1`)
+2. **`docs/research/claude-web/`** (retrieved 2026-09-17, direct access to hellhades.com and
+   ayumilove.net) is the primary *research* source of record
+3. Earlier search-synthesis research is last, and is tagged `unverified` wherever it survives
+
+**The account's actual state lives in `docs/plan/09-account-state.md`** — level, resources,
+clan, masteries already bought, and the decisions taken on the owner's behalf. **Tier-3
+documents are derived from it**, so a change there means regenerating `docs/plan/10`–`15`.
 
 **Never overwrite silently.** If you believe your data is newer or more accurate, record both
 values and your reasoning in `docs/research/DATA_CONFLICTS.md` and leave the decision to the
 owner.
+
+**🚨 Skill tomes are random on this account.** Never write a plan that spends a partial number
+of tomes to reach a named skill. **Full max, or bank.**
 
 ### 2.8 Ratings are never merged
 **HellHades rates 0–10. Ayumilove rates 1–5 stars.** They are independent judgements that
@@ -124,7 +135,8 @@ docs/research/claude-web/   PRIMARY SOURCE. The research pack. Tier 1 + 2. Do no
 docs/research/SOURCES.md    Every URL, retrieval date, staleness stamp, refresh recipe.
 docs/research/DATA_CONFLICTS.md  Pack vs earlier research. Open decisions for the owner.
 docs/research/*.md          Working index over the pack. Tier 1 + 2.
-docs/plan/                  TIER 3. Regenerate wholesale when the roster changes.
+docs/plan/09-account-state.md  Authoritative account state. Tier-3 derives from this.
+docs/plan/                  TIER 3. Regenerate wholesale when the roster or account changes.
 docs/website/               Product spec, data model, tech stack for the tracker app.
 data/roster.json            Tier-1 roster data with per-source ratings, scales and dates.
 ```

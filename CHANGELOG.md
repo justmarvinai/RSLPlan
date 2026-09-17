@@ -16,6 +16,67 @@ changed in the plan **and, just as importantly, what did not**.
 
 ---
 
+## [0.3.0] — 2026-09-17 — **Account state recorded; plan rebuilt around it**
+
+The owner answered all 18 open questions. Two answers changed the plan structurally, and one
+**overrode the research pack**.
+
+### 🚨 Skill tomes are random — the owner overrides the pack
+The owner confirmed from their own client: *"Skill Tome Upgrades are completely random. I can't
+select a Ability to specifically upgrade."*
+
+This invalidates the pack's Legendary plan, which spent **2 tomes on UDK's A3 specifically**.
+Precedence is now explicit in `CLAUDE.md §2.7`: **the owner's live client beats the pack, which
+beats earlier search-synthesis research.**
+
+**Tome plan rebuilt on full-maxes only** — and the stockpile lines up almost perfectly:
+- **Legendary:** all 12 → **Artak**, who costs exactly 12. Zero waste, masteries already bought,
+  and HellHades 9–10 in five modes
+- **Epic:** **all eight Epics fully maxed** at 100 tomes, 10 spare
+- **Rare:** Apothecary (10) + Kael (14) fully maxed, 2 spare
+- **Mythical:** 0 held; bank to 10 before touching Galathir
+
+### 🚨 This is not a fresh account
+It is a **purchased daily-login farm account**: level **26**, **no content cleared**, carrying
+**94,667 energy · 58,000,000 silver · 4,760 gems · 1,500 Mystery Shards**, with **masteries
+already bought for Galathir, Artak and Ninja**.
+
+**All rationing advice removed.** Energy budgeting, silver discipline, the "don't upgrade past
+level 8" rule, Market-fodder advice and the Gem Mine unlock are gone. The plan now builds six
+champions in parallel and treats the 1,500 Mystery Shards as the food supply.
+
+### ⚠️ Chimera is probably inaccessible
+The clan is a **family clan at level 4** — the owner's and their dad's multi-accounts.
+**Chimera needs 10+ members at level 33+ with 50 weekly activity stars**, so **Chimera, and
+therefore the entire Relic system, is likely closed.** Kept as a contingency and clearly marked.
+
+### Added
+- `docs/plan/09-account-state.md` — **authoritative account state**: level, resources, clan,
+  masteries owned, the two structural findings, and the five decisions taken on the owner's
+  behalf with reasoning
+
+### Changed
+- `docs/plan/13-tome-allocation.md` — **rebuilt on randomness.** Full max or bank
+- `docs/plan/14-day-1-30-plan.md` — **rewritten** for level 26 with banked resources. Day-30
+  targets raised substantially: account level 40+, 8–10 champions at 60/6★, Dragon and Ice
+  Golem at stage 20, Clan Boss Brutal
+- `docs/plan/10`, `11`, `12`, `15` — account context, the gem budget (5 mastery purchases at
+  800), the Fire Knight kit moved forward into days 15–21, the Arena leader decision
+  (**Skullcrown now, Hurndig once your nuke one-shots**), and the Chimera caveat
+- `data/roster.json` — `accountState` and a full `resources` block, including
+  `tomeUpgradeIsRandom: true`
+- `USER_QUESTION.md` — replaced with the answered record plus **five remaining in-game checks**
+- `CLAUDE.md` — precedence rule rewritten; a hard rule against partial tome spends
+- `README.md`, `docs/website/20-product-spec.md` — reframed; website scope confirmed
+  (private, no auth, Vercel, repo-as-database + localStorage)
+
+### Noted once, not dwelt on
+The account was **purchased from a third-party seller**, which generally breaches Plarium's
+terms and carries a recovery/ban risk outside the owner's control. Recorded in
+`09-account-state.md` as context for how much to invest. It changes none of the advice.
+
+---
+
 ## [0.2.0] — 2026-09-17 — **Data source replacement**
 
 The research pack in `docs/research/claude-web/` — compiled the same day by a session with
@@ -181,3 +242,4 @@ plan moved.
 |---|---|---|
 | 2026-09-17 | Initial roster recorded: 1 Mythical, 7 Legendary, 8 Epic, 2 Rare | Baseline |
 | 2026-09-17 | **Data source replaced** by the direct-access research pack | Build order rebuilt (Galathir #1, Artak farmer); Legendary tome plan replaced; Fenax researched; all tier-3 regenerated |
+| 2026-09-17 | **Account state recorded** — level 26, banked resources, random tomes, family clan | Tome plan rebuilt on full-maxes; 30-day plan rewritten for parallel building; Chimera marked probably inaccessible |

@@ -5,7 +5,13 @@
 > Ratings and skill data come from `docs/research/claude-web/`; every recommendation below
 > cites the rating or mechanic behind it.
 
-**Regenerated:** 2026-09-17 from the research pack.
+**Regenerated:** 2026-09-17 from the research pack, against the account state in
+`docs/plan/09-account-state.md`.
+
+> **Account context that changes this document:** **masteries are already bought for Starsage
+> Galathir, Artak and Ninja**, and the owner holds **4,760 gems** (5 more purchases at 800) plus
+> **effectively unlimited energy, silver and food**. Three of the core five are therefore
+> already part-finished, and **champions can be built in parallel** rather than one at a time.
 
 ---
 
@@ -35,7 +41,7 @@ free.** Build the high-rarity champions first — on this roster that is the *ch
 | **4** | **Ninja** | **Level 60** | **Demon Lord 10 · Chimera 10 · Hydra 10 · Ice Golem H 10.** Boss killer that builds its own ATK/C.DMG stacks |
 | **5** | **Rathalos Blademaster** | **Level 60** | Completes the burn core — **+50% damage vs [HP Burn] targets**. Hydra **10**, Spider **10**. A2 **ignores 100% of a boss's DEF** |
 | **6** | **Uugo** | **Level 50–60** | **Hydra MVP** — her A3 removes **all Heal Reduction**, the direct counter to Head of Decay. AoE **60% Decrease DEF + Block Buffs** on one skill. Hydra 9 · Spider 9 · Dragon 9 · Ice Golem 9 |
-| **7** | **High Khatun · Apothecary · Alure** | **50+** | **The Fire Knight kit.** Alure is **HellHades' Fire Knight 10** and the named MVP of stages 21–25. Apothecary and Alure both have **3-hit A1s**. High Khatun is also your **+19% SPD all-battles** lead |
+| **7** | **High Khatun · Apothecary · Alure** | **60/6★** | **The Fire Knight kit — build it inside 30 days.** Alure is **HellHades' Fire Knight 10** and the named MVP of stages 21–25. Apothecary and Alure both have **3-hit A1s**. High Khatun is also your **+19% SPD all-battles** lead. *(Owner answered "whatever you recommend" to the timing question; your resources allow parallel building that a fresh account could not — so this comes forward from month 2 to days 15–21.)* |
 | **8** | **Gnishak Verminlord** | **Level 60** | Dragon **10** · Ice Golem **10** · Arena **10** · Fire Knight 9. **3-hit A1**; bombs convert into **protected poisons**; later a Dragon and Ice Golem soloist |
 | **9+** | Fenax · Godseeker Aniri · Tagoar · Hurndig · Turvold · Skullcrown · Morag · Kael | As needed | Situational — see below |
 
@@ -95,15 +101,30 @@ Full node lists in `claude-web/02_BUILDS_MASTERIES_TOMES.md`.
 2. `unverified (search synthesis, 2026-09-17)`: **Tier 6 masteries require Rank 6.** If true,
    masteries on a champion below 6★ waste the capstone. **Verify before spending.**
 
-### Gems
-**Spend your first 800 gems on masteries for your first rank-6 champion** — on this plan that
-is **Artak**. Also **unlock the Gem Mine (500 gems)**; the pack puts its payback at roughly
-**100 days**. **Do not buy shards with gems.**
+### Gems — 4,760 held, Gem Mine already bought
+
+**Masteries are already owned for Galathir, Artak and Ninja.** The remaining budget:
+
+| Purchase | Cost | Running |
+|---|---|---|
+| **Ultimate Deathknight** | 800 | 800 |
+| **Rathalos Blademaster** | 800 | 1,600 |
+| **Uugo** | 800 | 2,400 |
+| **Apothecary** | 800 | 3,200 |
+| **Alure** | 800 | **4,000** |
+
+**Leaves 760 gems.** Everyone after that gets masteries from **Minotaur**, where **Super Raids
+are permanent** and you have ~7,900 dungeon runs of banked energy.
+
+**⚠️ 6★ the champion before buying** — Tier 6 is Rank-6 gated. **Do not buy shards with gems.**
 
 `unverified (search synthesis, 2026-09-17)`: a full mastery set is **1,650 scrolls**
 (100 Basic / 600 Advanced / 950 Divine), and **maxed champions stop receiving scrolls, so a 5th
 slot in a fully-mastered Minotaur team collects everything**. The pack confirms Minotaur is the
 source and that **Super Raids are permanent there**.
+
+**With ~94,667 banked energy, Minotaur farming is cheap for you** — the scroll grind that
+bottlenecks most accounts is a time cost here, not a resource cost.
 
 ---
 
@@ -118,9 +139,12 @@ Feeding is **irreversible**.
 | **Duplicate Rares** | `unverified`: Faction Guardians need **two copies of the same champion** per Chamber |
 | **Off-faction Rares** | Faction Wars needs a full team from **one faction** |
 
-**Use Market-bought Common/Uncommon champions as food**, and keep the **Sparring Pit full from
-day 1** — a fully upgraded pit tops a champion up in roughly the time it takes to feed a 1★
-champion in the Tavern.
+**Your food supply is the 1,500 Mystery Shards** — roughly 1,113 Common and 366 Uncommon
+champions. **Open them in batches of 50–100 and feed immediately**, or you will overflow the
+champion vault. Budget ~1,000 for food and hold ~300–500 for a Champion Chase or Fusion event.
+
+Keep the **Sparring Pit full from day 1** — a fully upgraded pit tops a champion up in roughly
+the time it takes to feed a 1★ champion in the Tavern.
 
 ---
 

@@ -3,7 +3,8 @@
 A researched, prioritised progression plan for one specific account, plus (later) a tracker
 website to keep it current as the roster changes.
 
-**Account:** fresh starter · 1 Mythical · 7 Legendary · 8 Epic · 2 Rare · 26/110/12/**0** tomes
+**Account:** level **26**, no content cleared · 1 Mythical · 7 Legendary · 8 Epic · 2 Rare
+**Banked:** 94,667 energy · 58M silver · 4,760 gems · 1,500 Mystery Shards · 26/110/12/**0** tomes
 **Primary source:** `docs/research/claude-web/` — retrieved **2026-09-17** with direct access
 to hellhades.com and ayumilove.net
 
@@ -11,12 +12,34 @@ to hellhades.com and ayumilove.net
 
 ## ⚡ Start here
 
-1. **[`USER_QUESTION.md`](USER_QUESTION.md) — Q1 first.** The new-player promo code expires
-   **24 hours after account creation and before level 15**. If that window is open, redeem now
-2. **[`docs/plan/14-day-1-30-plan.md`](docs/plan/14-day-1-30-plan.md)** — what to do, starting today
+1. **[`docs/plan/14-day-1-30-plan.md`](docs/plan/14-day-1-30-plan.md)** — what to do, starting today
+2. **[`docs/plan/09-account-state.md`](docs/plan/09-account-state.md)** — the account, its banked
+   resources, and the decisions taken on your behalf
 3. **[`docs/plan/11-build-priority.md`](docs/plan/11-build-priority.md)** — who to build, in order
 4. **[`docs/plan/12-teams-by-content.md`](docs/plan/12-teams-by-content.md)** — teams for all nine content types
-5. **[`docs/research/DATA_CONFLICTS.md`](docs/research/DATA_CONFLICTS.md)** — **4 decisions I need from you**
+5. **[`docs/plan/13-tome-allocation.md`](docs/plan/13-tome-allocation.md)** — **tome upgrades are random; only ever full-max**
+
+---
+
+## This is not a fresh account
+
+It is a **purchased daily-login farm account**: years of banked rewards, **zero content
+cleared**. So the usual new-account advice inverts.
+
+| Normal new account | This account |
+|---|---|
+| Ration energy | **94,667 energy** — ~11,800 Brutal 12-3 runs |
+| Ration silver, don't upgrade past level 8 | **58M silver** — upgrade freely |
+| Build one champion at a time | **Build six in parallel** |
+| Buy Market fodder, hoard Mystery Shards | **1,500 Mystery Shards *are* the fodder** |
+| Grind Minotaur for masteries | **Already bought for Galathir, Artak and Ninja**; 4,760 gems buys five more |
+
+**The constraints are account level (26), champion ranks, gear quality — and clan size.**
+
+> ⚠️ **Two things that shape the plan:**
+> **Skill tome upgrades are random** on this client, so the tome plan only ever spends a
+> **full max**. And the **family clan almost certainly cannot unlock Chimera** (10+ members at
+> level 33+), which closes off **Relics**.
 
 ---
 
@@ -123,6 +146,11 @@ this repository **must not scrape or hotlink their endpoints**, must ship cached
 
 ## Website status
 
-**Not built.** Spec in `docs/website/`; stack is Next.js + TypeScript + Tailwind on Vercel.
-**Waiting on your go-ahead** — scope is research and documentation until you say
+**Not built — waiting on your go-ahead.** Scope stays research and documentation until you say
 *"start coding"*.
+
+**Confirmed:** private, single-user, **no auth**, hosted on Vercel, **repo-as-database with
+localStorage** for your progress ticks. Next.js + TypeScript + Tailwind.
+
+**Build order:** roster with build status → teams with computed readiness → the 30-day plan as
+a checklist → a "what do I do right now?" dashboard. Spec in `docs/website/20-product-spec.md`.

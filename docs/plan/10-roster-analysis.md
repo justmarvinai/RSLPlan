@@ -8,6 +8,13 @@
 **Regenerated:** 2026-09-17 from the research pack · **Roster:** 1 Mythical · 7 Legendary ·
 8 Epic · 2 Rare
 
+> **Account context:** level **26**, no content cleared, but carrying **94,667 energy ·
+> 58M silver · 4,760 gems · 1,500 Mystery Shards**, with **masteries already bought for
+> Galathir, Artak and Ninja**. Full state in `docs/plan/09-account-state.md`.
+>
+> **Resources are not the bottleneck on this account.** The constraints are account level,
+> champion ranks and gear quality — and, for Chimera, clan size.
+
 ---
 
 ## 1. The finding that reorganises everything
@@ -185,6 +192,26 @@ that is a scheduling problem, not a roster gap.
 
 ---
 
+## 6b. Clan size is a hard gate on one content type
+
+The owner's clan is a **family clan at level 4** — their own and their dad's multi-accounts,
+played non-competitively.
+
+| Content | Status |
+|---|---|
+| **Demon Lord** | ✅ Works in any clan |
+| **Hydra** | ✅ Level 45; no member-count gate found |
+| **Chimera** | ❌ **Needs 10+ members at level 33+ with 50 weekly activity stars** |
+
+**Chimera is the sole source of Ocular Masses, which are the sole source of Relic crafting
+materials.** So the family clan costs an entire equipment axis.
+
+**That is a legitimate trade** — joining an active clan is the only fix, and it is a social
+choice, not a mechanical one. The plan assumes you stay. Chimera content is retained as a
+contingency.
+
+---
+
 ## 7. What to chase in summons
 
 1. **Team-wide Unkillable or Block Damage** — your biggest structural gap
@@ -197,9 +224,12 @@ that is a scheduling problem, not a roster gap.
 damage. **A new Legendary in those categories changes nothing**, and I will say so rather than
 manufacture a re-plan.
 
-The pack's promo-code recommendation is relevant here: **FIRESTORM (Sicia Flametongue)** is an
-HP Burn activator that slots straight into the Artak/Ninja/Rathalos loop, and **HEARTOFCOLD
-(Coldheart)** is the strongest general-purpose Rare for Fire Knight, Spider and boss damage.
+**With no Ancient, Void, Sacred or Primal shards and no spending planned, summons are not a
+lever you currently have.** Your 1,500 Mystery Shards are food, not a roster source — at a 1.4%
+Rare rate they yield roughly 21 Rares.
+
+**So the roster you have is the roster you are building with.** That is fine: eight of nine
+content types are already solved by the core five plus Uugo.
 
 ---
 

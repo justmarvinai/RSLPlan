@@ -12,8 +12,8 @@
     "attributionRequired": true,
     "scrapingPolicy": "Refresh recipes in docs/research/SOURCES.md are for private use only. The public site must not scrape or hotlink HellHades endpoints and must credit HellHades and Ayumilove."
   },
-  "accountName": "Fresh Starter Account",
-  "accountLevel": null,
+  "accountName": "Purchased daily-login farm account (level 26, no content cleared)",
+  "accountLevel": 26,
   "resources": {
     "tomes": {
       "rare": 26,
@@ -23,18 +23,30 @@
     },
     "tomesNeededToMaxAllOwned": {
       "rare": 24,
-      "epic": "~100",
+      "epic": 100,
       "legendary": 85,
       "mythical": 10
     },
-    "gems": null,
+    "tomeUpgradeIsRandom": true,
+    "tomeUpgradeNote": "Owner confirmed in client that skill tome upgrades pick a RANDOM skill. This OVERRIDES the research pack, whose plan assumed targeting. Consequence: only ever spend a full max.",
+    "gems": 4760,
+    "gemMinePurchased": true,
+    "energy": 94667,
+    "silver": 58000000,
     "shards": {
-      "ancient": null,
-      "void": null,
-      "sacred": null,
-      "primal": null,
-      "mystery": null
-    }
+      "mystery": 1500,
+      "ancient": 0,
+      "void": 0,
+      "sacred": 0,
+      "primal": 0
+    },
+    "potionsPerElement": "200-300",
+    "gear": "basic, roughly 20 champions' worth, usable via Auto-Equip",
+    "masteriesAlreadyPurchased": [
+      "starsage-galathir",
+      "artak",
+      "ninja"
+    ]
   },
   "rankUpFoodRule": {
     "note": "Rarity sets starting rank; starting rank sets food cost to 6 stars. Kael and Apothecary are the MOST expensive champions on this account to six-star; Starsage Galathir costs no feeders at all.",
@@ -1769,5 +1781,23 @@
       },
       "owned": true
     }
-  ]
+  ],
+  "accountState": {
+    "recorded": "2026-09-17",
+    "source": "owner answers to USER_QUESTION.md",
+    "detail": "docs/plan/09-account-state.md",
+    "level": 26,
+    "contentCleared": "none",
+    "client": "English",
+    "origin": "purchased daily-login farm account from a third-party seller",
+    "playPattern": "2-3 logins/day, 30-60 min, more at weekends",
+    "spendingIntent": "Gem Mine already bought; no further spending planned",
+    "clan": {
+      "type": "family clan (owner + dad multi-accounts)",
+      "level": 4,
+      "competitive": false,
+      "chimeraLikelyBlocked": true,
+      "note": "Chimera needs 10+ members at level 33+ with 50 weekly activity stars; a family clan almost certainly cannot meet it, which closes off Relics."
+    }
+  }
 }
