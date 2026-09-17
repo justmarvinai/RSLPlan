@@ -147,13 +147,50 @@ this repository **must not scrape or hotlink their endpoints**, must ship cached
 
 ---
 
-## Website status
+## Website
 
-**Not built — waiting on your go-ahead.** Scope stays research and documentation until you say
-*"start coding"*.
+**Built and deployable.** Next.js 15 (App Router) + TypeScript (strict) + Tailwind v4, static
+export of 26 pages, no backend.
 
-**Confirmed:** private, single-user, **no auth**, hosted on Vercel, **repo-as-database with
-localStorage** for your progress ticks. Next.js + TypeScript + Tailwind.
+```bash
+pnpm install
+pnpm dev        # http://localhost:3000
+pnpm check      # typecheck + data tests + production build
+```
 
-**Build order:** roster with build status → teams with computed readiness → the 30-day plan as
-a checklist → a "what do I do right now?" dashboard. Spec in `docs/website/20-product-spec.md`.
+**Deploy:** point Vercel at this repo. It auto-detects Next.js; no environment variables are
+needed because nothing secret exists and nothing is fetched at runtime.
+
+| Page | What it does |
+|---|---|
+| **/** | "What do I do right now?" — next plan steps, resources, the two rules that shape everything |
+| **/roster** | All 18 champions, filterable, **both rating scales shown separately** |
+| **/roster/[id]** | Per-champion: aura, food cost, tome cost, masteries, ratings by content, teams they appear in, and your build tracker |
+| **/teams** | Nine content types with **readiness computed from your build state** and the blocker named |
+| **/plan** | 33 steps across five phases, ticked in `localStorage` |
+| **/tomes** | Allocation that is **full-max only**, because tome upgrades are random |
+
+### What the data tests guard
+`pnpm test` runs 21 checks over the data, not the UI — because the failure that would actually
+hurt is the site confidently showing wrong advice:
+
+- Every rating carries **source, scale and retrieval date**; the two scales are **never merged**
+- Galathir's ratings are stored **per form**, and he is **excluded from Legendary tome planning**
+- Every tome allocation is **exactly a full max** — a partial spend fails the build
+- Every team slot has a **stated reason**, and no team exceeds its mode's size
+- The Fire Knight team supplies **enough A1 hits** for the stage 10–20 shield
+- Giant Slayer only ever goes to a **3+ hit A1**; Warmaster only to 1–2
+- Every irreversible tome step carries an **IRREVERSIBLE** warning, and every gem mastery
+  purchase carries the **6★** warning
+
+---
+
+## Attribution
+
+Champion data, ratings, mastery presets and boss mechanics come from
+**[HellHades](https://hellhades.com/)** and **[Ayumilove](https://ayumilove.net/)**, retrieved
+2026-09-17.
+
+**The refresh recipes in `SOURCES.md` are for private use only.** The site ships cached,
+attributed, dated values — it **does not scrape or hotlink** their endpoints, and it credits
+both sources in the footer of every page.

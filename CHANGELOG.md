@@ -16,6 +16,44 @@ changed in the plan **and, just as importantly, what did not**.
 
 ---
 
+## [0.5.0] — 2026-09-17 — **Tracker website built**
+
+The owner gave the go-ahead. The site is built, tested and deployable.
+
+### Added
+- **Next.js 15 App Router + TypeScript (strict) + Tailwind v4**, pnpm, no backend.
+  26 statically generated pages, 102 kB shared JS
+- **Typed, Zod-validated data layer** (`lib/`) — `data/roster.json` is parsed at module load,
+  so a malformed roster fails the build instead of shipping wrong advice
+- **Pages:** dashboard ("what do I do right now?"), roster list, per-champion detail, teams
+  with computed readiness, 30-day plan checklist, tome planner
+- **Progress tracking in `localStorage`** — your build state and plan ticks live in the
+  browser; the plan itself stays in git. Every read and write is wrapped so private windows and
+  blocked storage degrade to an empty state rather than crashing
+- **Readiness engine** (`lib/readiness.ts`) — turns the plan into "here is exactly what is
+  blocking you", naming the shortfall per slot
+- **21 data-integrity tests** (`tests/data-integrity.test.ts`)
+
+### Rules enforced in code, not just prose
+- **The two rating scales are never merged.** HellHades (0–10) and Ayumilove (1–5) render as
+  separate labelled chips carrying source and retrieval date in the tooltip. A test asserts no
+  combined/average field can exist, and derived sort orders are labelled as derived
+- **Tome allocations are full-max only.** A test compares every allocation against the
+  champion's `toMaxAllSkills` and fails on any partial spend
+- **Galathir is excluded from Legendary tome planning** and his page explains he needs Mythical
+  Tomes
+- **Mastery checkboxes are disabled below 6★**, with the owner-confirmed Tier-6 rule shown
+- **Unknown champions render "not yet researched"** rather than a fabricated rating
+- **HellHades and Ayumilove are credited in the footer of every page**; nothing is scraped or
+  hotlinked at runtime
+
+### Caught by the tests during the build
+Three team slots had a bare rating (e.g. "HellHades Chimera 8.") as their entire justification,
+and one gem-purchase step was missing its 6★ warning. The tests rejected all four; they were
+fixed with real reasoning rather than by loosening the assertions.
+
+---
+
 ## [0.4.0] — 2026-09-17 — **Five in-game checks answered**
 
 The owner verified all five outstanding claims directly against the live client. **Four confirm
@@ -280,3 +318,4 @@ plan moved.
 | 2026-09-17 | **Data source replaced** by the direct-access research pack | Build order rebuilt (Galathir #1, Artak farmer); Legendary tome plan replaced; Fenax researched; all tier-3 regenerated |
 | 2026-09-17 | **Account state recorded** — level 26, banked resources, random tomes, family clan | Tome plan rebuilt on full-maxes; 30-day plan rewritten for parallel building |
 | 2026-09-17 | **Five in-game checks verified** by the owner | Chimera confirmed available (Relics reachable); 6★-for-Tier-6, dungeon affinities and Faction Guardian duplicates all confirmed; vault capacities recorded |
+| 2026-09-17 | **Website built** | Next.js app with typed data layer, readiness engine and 21 data-integrity tests |

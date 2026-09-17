@@ -60,23 +60,23 @@ Hard dungeons, where awakening levels start to matter.
 
 **Gate: no code until you say go.**
 
-### Milestone 0 — Research & spec ✅ *current*
+### Milestone 0 — Research & spec ✅ **done**
 Research documents, plan documents, data model, tech stack, open questions.
 
-### Milestone 1 — Skeleton *(on your green light)*
+### Milestone 1 — Skeleton ✅ **done**
 Next.js + TS + Tailwind + shadcn scaffold · Zod-validated roster data · deploys to Vercel ·
 roster list renders from real data.
 
 **Definition of done:** live Vercel URL showing your real roster.
 
-### Milestone 2 — Core value
+### Milestone 2 — Core value ✅ **done**
 Champion detail pages with kit and build status · teams per content type with **readiness
 computed from your actual build state** · the 30-day plan as a checklist (localStorage) ·
 "what do I do right now?" dashboard.
 
 **Definition of done:** you can answer "what should I do next?" without asking me.
 
-### Milestone 3 — Tools
+### Milestone 3 — Tools *(partly done — tome planner and readiness shipped; accuracy calculator and gap analysis outstanding)*
 Accuracy target calculator · build-priority queue · tome allocation planner · roster gap
 analysis · research docs rendered in-app.
 
