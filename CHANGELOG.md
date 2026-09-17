@@ -16,6 +16,48 @@ changed in the plan **and, just as importantly, what did not**.
 
 ---
 
+## [0.5.1] — 2026-09-17 — **Security: dependency update after a rejected deploy**
+
+Vercel compiled the build successfully and then **refused to deploy it**:
+*"Vulnerable version of Next.js detected."*
+
+### Cause
+Dependency versions were pinned from model memory rather than checked against the registry.
+`next@15.5.4` was months stale, and `pnpm audit` reported **40 advisories — 4 critical, 17 high,
+17 moderate, 2 low** — including:
+
+| Advisory | Severity | Detail |
+|---|---|---|
+| GHSA-9qr9-h5gf-34mp / CVE-2025-55182 | **Critical (CVSS 10.0)** | RCE in the React flight protocol |
+| GHSA-p293-qw3h-jr36 | **Critical** | Unauthenticated RCE on Windows-hosted servers |
+| *(Image Optimization API)* | **Critical** | Unauthenticated RCE |
+| GHSA-5xrq-8626-4rwp | **Critical** | Vitest UI arbitrary file read/execute |
+
+### Fixed
+| Package | Was | Now | Why |
+|---|---|---|---|
+| `next` | 15.5.4 | **16.3.5** | The 15.x line needed ≥15.5.24; moved to the current `latest` line instead of the backport line |
+| `react` / `react-dom` | 19.1.1 | **19.3.0** | CVE-2025-55182 and CVE-2025-55183 affect React itself |
+| `vitest` | 3.2.4 | **5.0.1** | Needed ≥4.1.11 for the `@vitest/mocker` path traversal |
+| `tailwindcss` / `@tailwindcss/postcss` | 4.1.13 | **4.3.3** | Pulls a patched `postcss` (three advisories) |
+| `@types/*` | various | current | Matching React 19.3 |
+
+**Deliberately not bumped:** `zod@3` and `typescript@5`. Neither appears in any advisory, and
+`zod@4` / `typescript@7` are breaking rewrites — no reason to take that risk for no security
+gain.
+
+**Result: `pnpm audit` now reports zero advisories at every severity.** Typecheck clean,
+21/21 tests passing, production build clean on Next 16, and all routes verified to render
+with content and attribution intact.
+
+### Added to prevent a repeat
+- **`pnpm check` now runs the audit** — typecheck → tests → `pnpm audit --audit-level high` →
+  build. The failure surfaces locally instead of at deploy time
+- **`CLAUDE.md §7b`** — a rule against pinning versions from memory, with the two commands to
+  run first
+
+---
+
 ## [0.5.0] — 2026-09-17 — **Tracker website built**
 
 The owner gave the go-ahead. The site is built, tested and deployable.
@@ -319,3 +361,4 @@ plan moved.
 | 2026-09-17 | **Account state recorded** — level 26, banked resources, random tomes, family clan | Tome plan rebuilt on full-maxes; 30-day plan rewritten for parallel building |
 | 2026-09-17 | **Five in-game checks verified** by the owner | Chimera confirmed available (Relics reachable); 6★-for-Tier-6, dungeon affinities and Faction Guardian duplicates all confirmed; vault capacities recorded |
 | 2026-09-17 | **Website built** | Next.js app with typed data layer, readiness engine and 21 data-integrity tests |
+| 2026-09-17 | **Security dependency update** | Vercel rejected the first deploy over 4 critical Next.js advisories; Next 16.3.5, React 19.3, Vitest 5. Audit now clean and wired into `pnpm check` |

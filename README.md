@@ -155,8 +155,13 @@ export of 26 pages, no backend.
 ```bash
 pnpm install
 pnpm dev        # http://localhost:3000
-pnpm check      # typecheck + data tests + production build
+pnpm check      # typecheck + data tests + security audit + production build
+pnpm audit      # high/critical advisories only
 ```
+
+> **Dependency versions must be checked against the registry, never pinned from memory.** The
+> first deploy of this app was rejected by Vercel because `next@15.5.4` carried four critical
+> advisories. `pnpm check` now runs the audit so that fails locally instead of at deploy time.
 
 **Deploy:** point Vercel at this repo. It auto-detects Next.js; no environment variables are
 needed because nothing secret exists and nothing is fetched at runtime.

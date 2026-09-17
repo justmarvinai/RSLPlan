@@ -201,6 +201,27 @@ When green-lit, follow `docs/website/22-tech-stack.md`. Summary:
 
 ---
 
+## 7b. Dependency hygiene
+
+**Do not pin dependency versions from memory.** A model's training data lags the registry by
+months, and this repository already lost a Vercel deploy to it: the initial build pinned
+`next@15.5.4`, which by September 2026 carried **four critical advisories** including an
+unauthenticated RCE. Vercel refused to deploy it.
+
+**Before pinning any version:**
+```bash
+npm view <pkg> version        # what latest actually is, today
+pnpm audit --audit-level high # what is currently vulnerable
+```
+
+- **`pnpm check` runs the audit** (typecheck → tests → audit → build). Keep it that way.
+- **Take security bumps immediately**, including majors when the patched line requires it.
+- **Do not take majors that no advisory requires** — `zod@3` and `typescript@5` are pinned
+  deliberately, because `zod@4` and `typescript@7` are breaking rewrites with no security
+  benefit here.
+
+---
+
 ## 8. Git conventions
 
 - Branch: `claude/peaceful-wozniak-kkuhjx`
