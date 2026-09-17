@@ -36,10 +36,13 @@ cleared**. So the usual new-account advice inverts.
 
 **The constraints are account level (26), champion ranks, gear quality — and clan size.**
 
-> ⚠️ **Two things that shape the plan:**
-> **Skill tome upgrades are random** on this client, so the tome plan only ever spends a
-> **full max**. And the **family clan almost certainly cannot unlock Chimera** (10+ members at
-> level 33+), which closes off **Relics**.
+> ⚠️ **The one thing that shapes the plan most:** **skill tome upgrades are random** on this
+> client, so the tome plan only ever spends a **full max** — never a partial spend toward a
+> named skill.
+>
+> ✅ **All five in-game checks are answered.** Tier 6 masteries need 6★, Dragon 25 is Force,
+> Ice Golem 25 is Magic, Faction Guardian Chambers need two copies of the same champion, and
+> **Chimera is available** — so Relics are reachable.
 
 ---
 

@@ -34,14 +34,15 @@ afford six simultaneously.** Nothing below rations energy, silver or food — yo
 | **Energy budgeting, overcap warnings, refill advice** | You have ~94,667 energy |
 | **Silver discipline, "don't upgrade past level 8"** | You have 58M silver. **Upgrade freely** |
 | **"Buy Market fodder to save Mystery Shards"** | You have 1,500 Mystery Shards. They *are* the fodder |
-| **Chimera** | Your family clan almost certainly cannot meet the 10×level-33 requirement — see `09-account-state.md` |
+| ~~Chimera as inaccessible~~ | ✅ **Corrected — Chimera IS available.** It opens at account level 33 |
 
 ---
 
 # Days 1–2 — Turn the stockpile into progress
 
-- [ ] **🚨 Open Mystery Shards in batches, not all at once.** 1,500 shards will overflow your
-      champion vault. Open ~50–100, feed them into rank-ups, repeat.
+- [ ] **🚨 Open Mystery Shards in batches, not all at once.** Your vaults hold **120 Master /
+      150 Champion / 600 Reserve** — 1,500 shards will overflow them. **Check free slots, open
+      that many, feed immediately, repeat.** Batches of **100–150** are comfortable.
       **Budget ~1,000 for food and hold ~300–500** in case a Champion Chase or Fusion event
       lands
 - [ ] **Auto-Equip your basic gear** onto the core five. It is not good gear; it does not need
@@ -73,9 +74,8 @@ afford six simultaneously.** Nothing below rations energy, silver or food — yo
       cooldowns **4 → 3**
 - [ ] **📖 Spend Rare Tomes: Apothecary (10), then Kael (14).** Both full maxes
 
-> **⚠️ 6★ before buying masteries.** Tier 6 (Warmaster / Giant Slayer) is gated behind Rank 6
-> — `unverified (search synthesis, 2026-09-17)`, but cheap to respect and expensive to get
-> wrong.
+> **⚠️ 6★ before buying masteries — ✅ owner-confirmed.** Tier 6 (Warmaster / Giant Slayer)
+> requires a **6★ champion**. Buying a mastery set on a 5★ champion wastes the capstone.
 
 ---
 
@@ -87,6 +87,8 @@ afford six simultaneously.** Nothing below rations energy, silver or food — yo
       everyone's chest**, so clear a lower difficulty rather than scratch a higher one.
       Lead **UDK** for the **+30% DEF aura**
 - [ ] **Push account level 26 → 30.** That unlocks **Faction Wars**, your main **Glyph** source
+- [ ] **Then push 30 → 33 for Chimera.** Weekly chest only — **skip Trials**. Chimera is the
+      only source of **Ocular Masses**, which are the only source of **Relics**
 - [ ] **📖 Epic tomes, in order: Uugo (16) → Tagoar (10) → High Khatun (11).** Full maxes only
 - [ ] **Buy Uugo's masteries (800 gems)** once she is 6★
 - [ ] **Ascend the core five** far enough to equip accessories — you have 200–300 potions per
@@ -136,6 +138,8 @@ have the energy.
       **Orcs** (Artak, Tagoar), **Dwarves** (Hurndig, Morag), **Barbarians** (Turvold, High
       Khatun) and **Sacred Order** (Aniri, Fenax)
 - [ ] **Account level toward 45** — unlocks **Hydra**, where six of your champions rate 9–10
+- [ ] **Run Chimera weekly** once you pass 33 — chest only, no Trials. Bank the **Ocular
+      Masses** toward Relics
 
 ---
 
@@ -198,7 +202,7 @@ not the account.
 | **Use turn-meter tricks at Dragon** | **Dragon is immune to all turn-meter and speed manipulation** |
 | **Spend Legendary tomes on Galathir** | **Impossible** — Mythicals need Mythical Tomes, and you have none |
 | **Feed the day-30 High Khatun duplicate** | Faction Guardians or skill-up material |
-| **Plan around Chimera** | Your clan almost certainly cannot unlock it |
+| **Do Chimera Trials** | They strengthen the Ultimate form and only pay off in competitive Clash, which your clan does not contest. **Run Chimera for the weekly chest, skip the Trials** |
 
 ---
 

@@ -131,7 +131,7 @@ out for the rest of the week** — so you need multiple viable teams, not one go
   Khatun's turn-meter tricks out of this dungeon entirely
 - **Stages 21–25 cap Enemy Max HP damage to 10% per hit**
 
-`unverified (search synthesis, 2026-09-17)`: Dragon stage 25 is **Force** affinity.
+**Dragon stage 25 is Force affinity** — ✅ owner-confirmed in client, 2026-09-17.
 
 ---
 
@@ -175,7 +175,7 @@ shield counters.
 Debuffs** for Decrease ACC and Freeze · a reviver · and ideally **Block Revive so the allies
 stay dead** — HellHades names **Fenax** for exactly this.
 
-`unverified (search synthesis, 2026-09-17)`: Ice Golem stage 25 is **Magic** affinity.
+**Ice Golem stage 25 is Magic affinity** — ✅ owner-confirmed in client, 2026-09-17.
 
 ---
 

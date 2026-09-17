@@ -192,23 +192,18 @@ that is a scheduling problem, not a roster gap.
 
 ---
 
-## 6b. Clan size is a hard gate on one content type
+## 6b. Clan content — all three are open
 
-The owner's clan is a **family clan at level 4** — their own and their dad's multi-accounts,
-played non-competitively.
+The owner's clan is a **family clan at level 4**, played non-competitively — but **the owner
+confirmed Chimera is not locked**.
 
-| Content | Status |
-|---|---|
-| **Demon Lord** | ✅ Works in any clan |
-| **Hydra** | ✅ Level 45; no member-count gate found |
-| **Chimera** | ❌ **Needs 10+ members at level 33+ with 50 weekly activity stars** |
+| Content | Status | Note |
+|---|---|---|
+| **Demon Lord** | ✅ Open | Daily |
+| **Chimera** | ✅ **Open at account level 33** (currently 26) | **Trials skipped** — the clan does not compete, and Trials strengthen the Ultimate form |
+| **Hydra** | ✅ Open at level 45 | Six of your champions rate HellHades 9–10 here |
 
-**Chimera is the sole source of Ocular Masses, which are the sole source of Relic crafting
-materials.** So the family clan costs an entire equipment axis.
-
-**That is a legitimate trade** — joining an active clan is the only fix, and it is a social
-choice, not a mechanical one. The plan assumes you stay. Chimera content is retained as a
-contingency.
+**Relics are therefore reachable** — Chimera's **Ocular Masses** are their only source.
 
 ---
 

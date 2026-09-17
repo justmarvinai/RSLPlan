@@ -158,9 +158,11 @@ account specifically needs:
 |---|---|
 | **Tome planner must model RANDOM upgrades** | The owner cannot target a skill. The planner shows **full-max costs only** and must never suggest a partial spend |
 | **Galathir must be excluded from Legendary tome planning** | Mythicals need Mythical Tomes |
-| **Mark Chimera as clan-blocked** | Family clan cannot meet the 10×level-33 requirement. Show it as a contingency, not a target |
+| **Chimera: show as level-gated, not clan-blocked** | Available to the clan; opens at account level 33. Show **Trials as deliberately skipped**, not missed |
 | **Do not render energy/silver as constraints** | 94,667 and 58M respectively |
 | **Track which masteries are already bought** | Galathir, Artak and Ninja are done; the gem budget depends on it |
+| **Gate mastery purchase on 6★** | Tier 6 requires Rank 6 (owner-confirmed). The build tracker must not suggest buying masteries for a 5★ champion |
+| **Never suggest feeding a duplicate** | Faction Guardian Chambers need two copies of the same champion (owner-confirmed) |
 
 ## Open questions
 

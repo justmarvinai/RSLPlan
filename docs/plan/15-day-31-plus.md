@@ -26,7 +26,7 @@
 
 | Level | Unlocks |
 |---|---|
-| **33** | **Chimera** — ⚠️ **level gate only.** The real gate is **10+ clan members at level 33+**, which a family clan cannot meet |
+| **33** | **Chimera** — ✅ **available to this clan.** Weekly chest and **Ocular Masses → Relics**. Trials skipped |
 | **40** | **Doom Tower** |
 | **45** | **Hydra** |
 | **52** | **Cursed City (Sintranos)** |
@@ -43,7 +43,9 @@
 4. **Fire Knight 20**
 5. **Arbiter missions completed** for the free Legendary
 6. **Hydra Normal chests** once you are level 45 and have six champions worth fielding
-7. **Hard dungeons**, where awakening levels begin to matter
+7. **Relics** — bank Chimera's **Ocular Masses** and craft in the Forge. Relics are a separate
+   equipment slot with their own ability, and Chimera is their only source
+8. **Hard dungeons**, where awakening levels begin to matter
 
 ---
 
@@ -113,8 +115,8 @@ The plan should be **regenerated**, not patched, when:
    **Rathalos**, who wants them to hit his every-fifth-skill trigger
 2. **You reach level 45** — Hydra planning becomes real, and this roster's six best Hydra
    champions all rate 9–10
-3. **You join an active clan** — this is the *only* route to **Chimera**, and therefore to
-   **Relics**. Tell me and I will promote Chimera from contingency to a live target
+3. **Your clan decides to contest Chimera Clash** — Trials become worth doing, and the
+   early-vs-late trial timing question flips
 4. **You get Mythical Tomes** — Galathir's A2
 5. **A patch rebalances one of your champions** — the pack's champion pages carry HellHades
    stamps of **2026-04-06** and Ayumilove stamps of **2026-09-16**, so a refresh may be due

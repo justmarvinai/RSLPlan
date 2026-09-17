@@ -16,6 +16,42 @@ changed in the plan **and, just as importantly, what did not**.
 
 ---
 
+## [0.4.0] — 2026-09-17 — **Five in-game checks answered**
+
+The owner verified all five outstanding claims directly against the live client. **Four confirm
+things this repository had tagged `unverified`; one corrected an assumption.**
+
+| # | Claim | Result |
+|---|---|---|
+| 1 | Tier 6 masteries (Warmaster / Giant Slayer) require a 6★ champion | ✅ **Confirmed** |
+| 2 | Chimera locked for a family clan | ❌ **Wrong — Chimera is available** |
+| 3 | Vault capacity | ✅ **120 Master / 150 Champion / 600 Reserve** |
+| 4 | Dragon 25 is Force · Ice Golem 25 is Magic | ✅ **Confirmed** |
+| 5 | Faction Guardian Chambers need two copies of the same champion | ✅ **Confirmed** |
+
+### ✅ Chimera is available — Relics are back on the table
+The previous entry assumed a family clan could not meet the 10-members-at-level-33 requirement.
+**It can.** Chimera opens for this account at **level 33** (currently 26), which restores access
+to **Ocular Masses** and therefore the whole **Relic** system.
+
+**Trials remain skipped** — not blocked, but declined: they strengthen the Ultimate form and
+only pay off in competitive Clash placement, which this clan does not contest.
+
+### Changed
+- `docs/plan/09-account-state.md` — Chimera finding rewritten; **vault capacities** recorded;
+  new owner-verified table
+- `docs/plan/10`, `12`, `14`, `15` — Chimera promoted from contingency to a live level-33
+  target; Relics added to the mid-term goals; Mystery Shard batching now sized against real
+  vault capacity; the 6★-before-masteries rule upgraded from `unverified` to confirmed
+- `docs/research/03-content-mechanics.md` — dungeon affinities confirmed
+- `docs/research/DATA_CONFLICTS.md` — three claims moved out of "still unverified" into
+  owner-confirmed
+- `data/roster.json` — `vaults`, `ownerVerified` and a corrected `clan` block
+- `docs/website/20-product-spec.md` — Chimera shown as level-gated rather than clan-blocked;
+  mastery purchase must be gated on 6★; never suggest feeding a duplicate
+
+---
+
 ## [0.3.0] — 2026-09-17 — **Account state recorded; plan rebuilt around it**
 
 The owner answered all 18 open questions. Two answers changed the plan structurally, and one
@@ -242,4 +278,5 @@ plan moved.
 |---|---|---|
 | 2026-09-17 | Initial roster recorded: 1 Mythical, 7 Legendary, 8 Epic, 2 Rare | Baseline |
 | 2026-09-17 | **Data source replaced** by the direct-access research pack | Build order rebuilt (Galathir #1, Artak farmer); Legendary tome plan replaced; Fenax researched; all tier-3 regenerated |
-| 2026-09-17 | **Account state recorded** — level 26, banked resources, random tomes, family clan | Tome plan rebuilt on full-maxes; 30-day plan rewritten for parallel building; Chimera marked probably inaccessible |
+| 2026-09-17 | **Account state recorded** — level 26, banked resources, random tomes, family clan | Tome plan rebuilt on full-maxes; 30-day plan rewritten for parallel building |
+| 2026-09-17 | **Five in-game checks verified** by the owner | Chimera confirmed available (Relics reachable); 6★-for-Tier-6, dungeon affinities and Faction Guardian duplicates all confirmed; vault capacities recorded |

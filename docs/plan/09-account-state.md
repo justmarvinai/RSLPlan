@@ -98,28 +98,58 @@ specifically**. That plan is not executable. Per `CLAUDE.md §2.7`, the pack win
 skill you want gets upgraded.** The tome plan in `13-tome-allocation.md` is rebuilt entirely on
 this, and it works out unusually well — see there.
 
-### 2. Chimera is probably inaccessible
+### 2. ✅ Chimera IS available — corrected 2026-09-17
 
-> **Q9 answer:** a **family clan at level 4** — the owner's accounts plus their dad's
-> multi-accounts. Not competitive.
+> **Owner:** *"Chimera is not locked but we don't push it competitively."*
 
-**Chimera requires 10+ clan members at level 33 or higher, with 50 Clan Activity Stars in the
-preceding 7 days.** A family clan of multi-accounts almost certainly cannot field that.
+**An earlier draft of this file said Chimera was probably inaccessible**, reasoning that a
+family clan could not meet the 10-members-at-level-33 requirement. **That was wrong.** The clan
+can run it.
 
-| Content | Available? |
+| Content | Status |
 |---|---|
-| **Demon Lord** | ✅ Yes — any clan |
-| **Hydra** | ✅ Yes at level 45 — no member-count gate found |
-| **Chimera** | ❌ **Probably not** — and **Relics come only from Chimera**, so that entire equipment axis is closed |
+| **Demon Lord** | ✅ Any clan |
+| **Chimera** | ✅ **Available to the clan. Opens for this account at level 33** (currently 26) |
+| **Hydra** | ✅ Level 45 |
 
-**This is a real fork and it is your call.** Options:
-- **Stay in the family clan.** Lose Chimera and Relics. Everything else works. Simplest, and
-  matches "we do not play clan stuff competitively"
-- **Join an active clan.** Unlocks Chimera and Relics, and Demon Lord chests improve when
-  others also damage the boss. Costs nothing but the social change
+**So Relics are reachable** — Chimera drops **Ocular Masses**, the only source of Relic crafting
+materials. That is a whole equipment axis back on the table.
 
-**The plan assumes you stay.** Chimera is kept in the teams document as a contingency, clearly
-marked. **Tell me if you switch and I will promote it.**
+**Trials stay off.** Not because of access, but because the clan does not compete: Trials make
+the Ultimate form significantly stronger and only pay off in competitive Clash placement.
+**Farm the weekly chest.**
+
+---
+
+## Vault capacity
+
+| Vault | Capacity |
+|---|---|
+| Master Vault | **120** |
+| Champion Vault | **150** |
+| Reserve Vault | **600** |
+
+**This is why the 1,500 Mystery Shards cannot be opened in one go.** Open only as many as you
+have free slots, feed immediately, repeat. **Batches of 100–150 are comfortable**; check free
+space before each batch rather than trusting a fixed number.
+
+---
+
+## ✅ Owner-verified in client — 2026-09-17
+
+Five claims checked directly against the live game. **Four confirm things this repository had
+tagged `unverified`; one corrected an assumption.**
+
+| # | Claim | Result |
+|---|---|---|
+| 1 | **Tier 6 masteries (Warmaster / Giant Slayer) require a 6★ champion** | ✅ **Confirmed** — 6★ before buying masteries with gems |
+| 2 | Chimera locked for a family clan | ❌ **Wrong — Chimera is available.** See above |
+| 3 | Vault capacity | ✅ **120 / 150 / 600** — drives Mystery Shard batching |
+| 4 | **Dragon 25 is Force · Ice Golem 25 is Magic** | ✅ **Confirmed** — affinity-aware teams stand |
+| 5 | **Faction Guardian Chambers need two copies of the same champion** | ✅ **Confirmed** — never feed duplicates |
+
+These are now **owner-confirmed**, which outranks both the research pack and search synthesis
+(`CLAUDE.md §2.7`).
 
 ---
 
@@ -135,6 +165,7 @@ instruction from Q4:
 |---|---|---|
 | **Q3** — Legendary tomes | **Spend all 12 on Artak** — an exact full max, zero waste under randomness | `13-tome-allocation.md` |
 | **Q4** — Arena leader | **Skullcrown** (+23% SPD) while climbing; **Hurndig** (+35% ATK) once your damage one-shots | `12-teams-by-content.md` |
+| **Q5** — Chimera | **Run it for the weekly chest from level 33. Skip Trials** — the clan does not compete | `12-teams-by-content.md` |
 | **Q6** — Fire Knight kit timing | **Build it inside 30 days.** Resources allow parallel building that a fresh account could not | `11-build-priority.md` |
 | **Q11** — Gems | **6★ first, then buy masteries** for UDK → Rathalos → Uugo → Apothecary → Alure (5 × 800 = 4,000, leaving 760) | `11-build-priority.md` |
 | **Q15** — Website scope | Roster + build status, teams with readiness, plan checklist, "what now?" dashboard | `docs/website/20-product-spec.md` |

@@ -97,9 +97,9 @@ play the clan stuff."*
 only in competitive Clash placement.
 
 > **But this answer surfaced something bigger.** Chimera requires **10+ clan members at level
-> 33+ with 50 weekly activity stars**. A family clan of multi-accounts almost certainly cannot
-> field that — **so Chimera, and therefore the entire Relic system, is probably inaccessible**.
-> See `docs/plan/09-account-state.md`.
+> 33+ with 50 weekly activity stars**, so I assumed a family clan could not field it.
+> **✅ That assumption was wrong — the owner confirmed Chimera is not locked.** It opens for
+> this account at level 33, and **Relics are reachable**. See `docs/plan/09-account-state.md`.
 
 ---
 
@@ -295,16 +295,25 @@ The pack is silent on these. They are retained with their original source and da
 **tagged `unverified (search synthesis, 2026-09-17)` at the point of use** so they are never
 mistaken for pack data.
 
+### ✅ Now owner-confirmed in client (2026-09-17) — no longer unverified
+
+| Claim | Result |
+|---|---|
+| **Tier 6 masteries require Rank 6** | ✅ Confirmed |
+| **Dragon 25 is Force · Ice Golem 25 is Magic** | ✅ Confirmed |
+| **Faction Guardian Chambers need two copies of the same champion** | ✅ Confirmed |
+| Chimera locked for a family clan | ❌ **Wrong — Chimera is available** |
+
+### Still unverified
+
 | Claim | Where used | Why kept |
 |---|---|---|
 | Minotaur masteries cost **1,650 scrolls** (100 Basic / 600 Advanced / 950 Divine) | Build priority, day-31+ | Sizes the mastery project; the pack confirms Minotaur is the source and that Super Raids are permanent there |
 | **Minotaur 5th-slot mechanic** — maxed champions stop receiving scrolls, so the 5th slot collects everything | Build priority | High-value if true, and cheap to verify |
 | Great Hall priority **ACC → C.DMG → RESIST → DEF → HP → ATK**; C.DMG/RES/ACC give more stat per medal | Plan, teams | Pack confirms Great Hall matters but gives no priority order |
 | Great Hall medal tiers: levels 1–3 any medal, 4–6 Silver/Gold, **7–10 Gold only**; 1 Gold = 2 Silver = 4 Bronze | Plan | — |
-| **Dungeon stage affinities** — Dragon 25 Force, Ice Golem 25 Magic | Teams | Drives affinity-aware team picks; **verify before relying on it** |
 | Shard rates and mercy thresholds | Game state | Not in pack's scope |
 | Faction Guardians need **two copies of the same champion per Chamber** | Plan, "never feed" | Pack lists Faction Guardians as unresearched; the day-30 High Khatun duplicate makes it live |
-| **Masteries require Rank 6** for Tier 6 (Warmaster / Giant Slayer) | Build priority | Load-bearing for "6★ before masteries" |
 | Speed-tune breakers: Rapid Response, Arcane Celerity, Cycle of Magic | Plan | **Pack independently confirms all three**, and adds that **Lasting Gifts can push a buff-heavy team over the 10-buff cap** |
 | Clan Boss: 1 key / 6h, max 2 stored | Plan | Pack confirms 3 Hydra keys/week but not the Demon Lord cadence |
 | Energy: 130 cap, 1 per 3 min, ~2 free refills/day | Plan | Pack gives campaign energy **costs** (4/6/8/16) but not the regen model |

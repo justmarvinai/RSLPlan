@@ -1796,8 +1796,22 @@
       "type": "family clan (owner + dad multi-accounts)",
       "level": 4,
       "competitive": false,
-      "chimeraLikelyBlocked": true,
-      "note": "Chimera needs 10+ members at level 33+ with 50 weekly activity stars; a family clan almost certainly cannot meet it, which closes off Relics."
+      "chimeraAvailable": true,
+      "note": "Owner confirmed Chimera is NOT locked for this clan. It opens for the account at level 33. Trials are skipped by choice (non-competitive), not blocked. Relics are therefore reachable via Chimera's Ocular Masses."
+    },
+    "vaults": {
+      "masterVault": 120,
+      "championVault": 150,
+      "reserveVault": 600,
+      "note": "Drives Mystery Shard batching: open only as many as free slots allow, feed, repeat."
+    },
+    "ownerVerified": {
+      "date": "2026-09-17",
+      "tier6MasteriesRequireRank6": true,
+      "dragon25Affinity": "Force",
+      "iceGolem25Affinity": "Magic",
+      "factionGuardianChamberNeedsTwoCopies": true,
+      "chimeraAvailable": true
     }
   }
 }

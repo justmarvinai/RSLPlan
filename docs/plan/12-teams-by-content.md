@@ -73,16 +73,16 @@ revives with **full cooldown reset**; **Tagoar** and **High Khatun** are the tun
 
 ---
 
-# 3. Chimera (level 33 + clan) — ⚠️ probably inaccessible
+# 3. Chimera (opens at account level 33)
 
-> **🚨 Chimera requires 10+ clan members at level 33+ with 50 Clan Activity Stars in the
-> preceding 7 days.** The owner's clan is a **family clan at level 4** — their own accounts plus
-> their dad's multi-accounts. That almost certainly cannot meet the requirement.
+> **✅ Available.** The owner confirmed Chimera is not locked for their clan. It opens for this
+> account at **level 33** (currently 26).
 >
-> **Consequence: Chimera — and therefore the entire Relic system, which is fed only by Chimera's
-> Ocular Masses — is likely closed.** The team below is kept as a **contingency** for if you
-> ever join an active clan. See `docs/plan/09-account-state.md`.
-
+> **Run it for the weekly chest. Skip Trials** — they make the Ultimate form significantly
+> stronger and only pay off in competitive Clash placement, which this clan does not contest.
+>
+> **Chimera is the only source of Ocular Masses, and therefore of Relics.** That makes the
+> weekly chest worth turning up for even without Trials.
 
 Five champions · **65 turns** · forms cycle **Ultimate → Ram → Ultimate → Lion → Ultimate →
 Viper**, five boss turns each. **Chimera can be hit with Decrease SPD.**
@@ -118,8 +118,8 @@ it to himself.** **Do not use either going into Ram form.**
   after that attack**
 - **Do not stack buffs right before the boss swaps back to Ultimate form**
 
-**Trials: ignore them for now** — they make the Ultimate form significantly stronger. Farm the
-weekly chest.
+**Trials: skip them.** They make the Ultimate form significantly stronger and only pay off in
+competitive Clash placement. Farm the weekly chest — and the **Ocular Masses** that feed Relics.
 
 ---
 
