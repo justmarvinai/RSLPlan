@@ -1,0 +1,137 @@
+{
+  "lastUpdated": "2026-09-17",
+  "accountName": "Fresh Starter Account",
+  "accountNotes": "Fresh account, no content cleared as of 2026-09-17. Unusually strong champion pool for a new account (1 Mythical + 7 Legendary), but zero gear, levels, or mastery scrolls. Bottleneck is resources, not champions.",
+  "resources": {
+    "tomes": { "rare": 26, "epic": 110, "legendary": 12 },
+    "gems": null,
+    "shards": { "ancient": null, "void": null, "sacred": null, "primal": null, "mystery": null },
+    "masteryScrolls": { "basic": null, "advanced": null, "divine": null }
+  },
+  "accountLevel": null,
+  "champions": [
+    {
+      "id": "starsage-galathir", "name": "Starsage Galathir", "rarity": "Mythical",
+      "faction": "High Elves", "affinity": "Force", "type": "Support",
+      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "partial",
+      "notes": "Best champion owned. Deferred to day 45-60: most expensive to level, kit is insurance not acceleration, and data is thin. Build for RESISTANCE not Accuracy - passive converts RES to ACC."
+    },
+    {
+      "id": "ninja", "name": "Ninja", "rarity": "Legendary",
+      "faction": "Shadowkin", "affinity": "Magic", "type": "Attack",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "Tyler 'Ninja' Blevins collab, NOT Nintendo Switch. Self-sufficient boss killer - nearly every skill has a 'vs Boss' clause. Applies HP Burn, so feeds Rathalos's passive."
+    },
+    {
+      "id": "artak", "name": "Artak", "rarity": "Legendary",
+      "faction": "Orcs", "affinity": "Magic", "type": "HP",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "NOT Banner Lords. HP-scaling so forgiving with bad gear. ONLY source of AoE HP Burn - the win condition at Spider 21-25 and the enabler for Rathalos. Solos Ice Golem Hard 5 eventually."
+    },
+    {
+      "id": "turvold", "name": "Turvold", "rarity": "Legendary",
+      "faction": "Barbarians", "affinity": "Void", "type": "Attack",
+      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "complete",
+      "notes": "S-tier Clan Boss but explicitly gated behind having a buff-support team. A3 scales with number of buffs ON him. Defer to endgame CB team. Warmaster vs Giant Slayer UNRESOLVED - test before spending scrolls."
+    },
+    {
+      "id": "rathalos-blademaster", "name": "Rathalos Blademaster", "rarity": "Legendary",
+      "faction": "Banner Lords", "affinity": "Force", "type": "Attack",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "Monster Hunter collab, now unobtainable. A2 ignores 100% of boss DEF; A1 Dec DEF unresistable vs bosses. Needs exactly 12 Legendary Tomes for a clean full max. Pair with Artak for the HP Burn passive."
+    },
+    {
+      "id": "gnishak-verminlord", "name": "Gnishak Verminlord", "rarity": "Legendary",
+      "faction": "Skinwalkers", "affinity": "Force", "type": "Attack",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "Highest solo ceiling on the roster: Dragon 25, Ice Golem 25, Faction Wars, Doom Tower bosses. Bombs double-damage vs 200k+ MAX HP targets. Needs Regeneration/Bolster sustain first. 3-hit A1 = Giant Slayer."
+    },
+    {
+      "id": "ultimate-deathknight", "name": "Ultimate Deathknight", "rarity": "Legendary",
+      "faction": "Undead Hordes", "affinity": "Force", "type": "Defense",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "partial",
+      "notes": "Infrastructure champion. +30% DEF aura, AoE 50% Dec ATK at 80%, Shield + Continuous Heal, redirects a hit off any ally. Later solos Dragon 25 / Ice Golem 25 with Toxic. Skill NAMES are uncertain; effects corroborated."
+    },
+    {
+      "id": "hurndig", "name": "Hurndig", "rarity": "Legendary",
+      "faction": "Dwarves", "affinity": "Magic", "type": "Attack",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "AoE 60% Dec DEF + 50% Dec ACC on A2. Can run as a cheap Perception debuffer long before nuker gear exists. Also a Nightmare campaign solo farmer. PICK A LANE - he cannot do both."
+    },
+    {
+      "id": "godseeker-aniri", "name": "Godseeker Aniri", "rarity": "Epic",
+      "faction": "The Sacred Order", "affinity": "Void", "type": "Defence",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "Revive with FULL cooldown reset - near-unique. Void affinity. 14 books to max but only A2 matters. Permanent endgame value, Hydra staple. Does nothing for early clear speed."
+    },
+    {
+      "id": "skullcrown", "name": "Skullcrown", "rarity": "Epic",
+      "faction": "Knight Revenant", "affinity": "Void", "type": "Attack",
+      "buildPriority": "situational", "buildWave": 3, "researchStatus": "complete",
+      "notes": "AoE A1 (rare and valuable) + free Weaken + self-Unkillable. Good wave clearer and Arena nuker, no boss utility. Reported base SPD 196 is implausible and should be ignored. From Beyond passive needs Sinesha (not owned)."
+    },
+    {
+      "id": "tagoar", "name": "Tagoar", "rarity": "Epic",
+      "faction": "Orcs", "affinity": "Magic", "type": "Support",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "AoE Increase SPD on a 3-turn cooldown - the tool that unlocks 2:1 Clan Boss speed tunes. Plus mass revive, AoE Shield, AoE heal, Increase DEF on A1, +25% HP aura. Long-lived into endgame."
+    },
+    {
+      "id": "uugo", "name": "Uugo", "rarity": "Epic",
+      "faction": "Ogryn Tribes", "affinity": "Magic", "type": "Support",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "Best Epic on the roster. A2 lands 60% AoE Dec DEF AND AoE Block Buffs on one skill. Booked A2 goes to 100% chance / 3-turn cooldown - the #1 Epic Tome target. Needs real ACC to function."
+    },
+    {
+      "id": "alure", "name": "Alure", "rarity": "Epic",
+      "faction": "Demonspawn", "affinity": "Magic", "type": "Attack",
+      "buildPriority": "build-later", "buildWave": 3, "researchStatus": "complete",
+      "notes": "NOT Dark Elves. DO NOT BOOK HER - booking reduces A1 usage and A1 is her entire value. 3 hits x 25% TM strip on crit. 100% C.RATE mandatory. Needs 300+ ACC. Endgame Fire Knight 21-25 speed-run specialist."
+    },
+    {
+      "id": "morag-bronzelock", "name": "Morag Bronzelock", "rarity": "Epic",
+      "faction": "Dwarves", "affinity": "Spirit", "type": "Defence",
+      "buildPriority": "build-soon", "buildWave": 2, "researchStatus": "complete",
+      "notes": "DEF is her attack stat (1.85x and 3.9x DEF multipliers) - one gear pool serves offence and defence, hugely gear-efficient. Team-wide Strengthen is rare. No aura. Spirit affinity = advantaged at Dragon 25."
+    },
+    {
+      "id": "high-khatun", "name": "High Khatun", "rarity": "Epic",
+      "faction": "Barbarians", "affinity": "Spirit", "type": "Support",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "Correct spelling is High Khatun. +19% ally SPD aura in ALL battles - keep her at low level purely as an aura leader even if not built. Engine of the early 2:1 CB tune. Endgame relevance limited."
+    },
+    {
+      "id": "fenax", "name": "Fenax", "rarity": "Epic",
+      "faction": null, "affinity": null, "type": null,
+      "buildPriority": "blocked", "buildWave": null, "researchStatus": "not-researched",
+      "notes": "RESEARCH INCOMPLETE. Known: 60% single-target Dec DEF, 30% Dec SPD, AoE Block Buffs (75% vs 80% conflict), AoE Block Active Skills, Block Revive on A1 that needs NO Accuracy. The no-ACC Block Revive maps directly onto Ice Golem's Frigid Vengeance. Verify in-game before any investment."
+    },
+    {
+      "id": "kael", "name": "Kael", "rarity": "Rare",
+      "faction": "Dark Elves", "affinity": "Magic", "type": "Attack",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "BUILD FIRST. The only champion who generates resources rather than consuming them. Lifesteal set, HP/DEF/SPD/ACC (survivability not damage). 800 Gems for masteries. Permanent niche in Rare-restricted Doom Tower Secret Rooms."
+    },
+    {
+      "id": "apothecary", "name": "Apothecary", "rarity": "Rare",
+      "faction": "High Elves", "affinity": "Magic", "type": "Support",
+      "buildPriority": "build-now", "buildWave": 1, "researchStatus": "complete",
+      "notes": "Cheapest large power gain on the roster: 10 Rare Tomes for a full max. Heal scales off the ALLY's MAX HP so he works while under-geared. GIANT SLAYER not Warmaster (3-hit A1). Triple Speed sets, 100% C.RATE for Critical Heals."
+    }
+  ],
+  "knownGaps": [
+    "No team-wide Unkillable or Block Damage - blocks standard endgame Clan Boss templates",
+    "No team-wide Counterattack",
+    "No team-wide Increase ATK (only Turvold self-buffs) - mitigate with DEF-scaling Ice Golem teams",
+    "Fire Knight multi-hit coverage is tight: Apothecary + Alure + Gnishak + Morag = 11 hits, needs a 5th",
+    "Affinity imbalance: Magic x9, Force x4, Void x3, Spirit x2. Magic is disadvantaged at Dragon 25 (Force)",
+    "Fenax entirely unresearched"
+  ],
+  "chaseList": [
+    "Team-wide Unkillable or Block Damage provider (highest value)",
+    "Team-wide Counterattack provider",
+    "More multi-hit A1 champions (fixes Fire Knight)",
+    "Team-wide Increase ATK buffer",
+    "Spirit and Force champions (rebalance a Magic-heavy roster)"
+  ]
+}

@@ -1,7 +1,7 @@
 # 00 — Research Methodology, Source Quality & Confidence Grading
 
 **Compiled:** 2026-09-17
-**Game version context:** RAID: Shadow Legends, patch line 10.x (10.00 → 10.70+)
+**Game version context:** RAID: Shadow Legends, patch line **11.7x** (11.50 → 11.75, 2026)
 **Account context:** Fresh starter account, zero content cleared
 
 ---
@@ -136,9 +136,14 @@ refine it rather than unlock it.
 
 ## 7. Maintenance
 
-This research is a snapshot dated **2026-09-17**. RAID rebalances champions regularly —
-patch 10.00 and 10.60 both shipped champion re-balancing passes `[CONFIRMED]`. Any champion
-judgement here has a shelf life measured in months, not years.
+This research is a snapshot dated **2026-09-17**. RAID rebalances champions regularly, and
+several patches have shipped champion re-balancing passes `[CONFIRMED]`. Any champion judgement
+here has a shelf life measured in months, not years.
+
+**A warning that applies to your own reading too:** many pages dated 2026 are recycled 2023–2024
+content. A quick filter — a genuinely current guide knows about Mythical rarity, Primal Shards,
+Chimera, Relics and Champion Proving Grounds. If a "2026" tier list does not know Mythical
+champions exist, it is not a 2026 tier list. See `01-game-state-2026.md §1`.
 
 `CHANGELOG.md` tracks every revision to this research. When you report a new champion or a
 patch lands, the affected documents get updated and the change is logged there.

@@ -23,9 +23,9 @@ Initial research and planning pass for a fresh starter account.
 ### Added — Research
 - `docs/research/00-methodology-and-sources.md` — methodology, source-access constraints,
   confidence grading scheme
-- `docs/research/01-game-state-2026.md` — patch line 10.x state: Mythical rarity and
+- `docs/research/01-game-state-2026.md` — patch line 11.7x state: Mythical rarity and
   Metamorph, Primal Shards and published rates, Relics, Hard Mode Dungeons, Super Raids,
-  Live Arena
+  Live Arena, Champion Proving Grounds
 - `docs/research/02-champion-dossiers.md` — dossiers for all 20 roster champions
 - `docs/research/03-content-mechanics.md` — mechanical requirements for all nine requested
   content types, plus Minotaur, Doom Tower and Faction Wars
@@ -53,6 +53,17 @@ Initial research and planning pass for a fresh starter account.
 - `README.md`, `ROADMAP.md`, `CHANGELOG.md`
 - `USER_QUESTION.md` — open questions, each with a stated default assumption
 - `data/roster.json` — machine-readable roster
+
+### Corrected during this pass
+- **Patch line:** an early draft of `01-game-state-2026.md` stated the game was on patch 10.x.
+  It is on **11.7x**; patch 10.00 (Relics + Chimera) shipped **December 2024**. Document
+  rewritten, and a section added on identifying recycled "2026" guide content.
+- **Ninja** is the Tyler "Ninja" Blevins collaboration (Shadowkin · Magic · Attack), not a
+  Nintendo Switch collaboration.
+- **Artak** is Orcs · Magic · HP, not Banner Lords. The Banner Lord on the roster is
+  **Rathalos Blademaster**.
+- **"High Kathun"** is **High Khatun**, faction **Barbarians** (not Undead Hordes).
+- **Alure** is **Demonspawn**, not Dark Elves.
 
 ### Known limitations
 - `hellhades.com` and `ayumilove.net` — the two sources requested — are blocked by network
